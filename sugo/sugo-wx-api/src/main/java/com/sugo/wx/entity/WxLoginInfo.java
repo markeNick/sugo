@@ -1,4 +1,4 @@
-package org.linlinjava.litemall.wx.dto;
+package com.sugo.wx.entity;
 
 public class WxLoginInfo {
     private String code;
