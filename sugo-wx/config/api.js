@@ -1,8 +1,8 @@
 // 以下是业务服务器API地址
 // 本机开发时使用
-// var WxApiRoot = 'http://localhost:8080/wx/';
+var WxApiRoot = 'http://localhost:8080/wx/';
 // 局域网测试使用
-var WxApiRoot = 'http://192.168.1.101:8080/wx/';
+// var WxApiRoot = 'http://192.168.1.101:8080/wx/';
 // 云平台部署时使用
 // var WxApiRoot = 'http://122.51.199.160:8080/wx/';
 // 云平台上线时使用
@@ -16,12 +16,12 @@ module.exports = {
   CatalogCurrent: WxApiRoot + 'catalog/current', //分类目录当前分类数据接口
 
   AuthLoginByWeixin: WxApiRoot + 'auth/login_by_weixin', //微信登录
-  AuthLoginByAccount: WxApiRoot + 'auth/login', //账号登录
-  AuthLogout: WxApiRoot + 'auth/logout', //账号登出
-  AuthRegister: WxApiRoot + 'auth/register', //账号注册
-  AuthReset: WxApiRoot + 'auth/reset', //账号密码重置
-  AuthRegisterCaptcha: WxApiRoot + 'auth/regCaptcha', //验证码
-  AuthBindPhone: WxApiRoot + 'auth/bindPhone', //绑定微信手机号
+  // AuthLoginByAccount: WxApiRoot + 'auth/login', //账号登录
+  // AuthLogout: WxApiRoot + 'auth/logout', //账号登出
+  // AuthRegister: WxApiRoot + 'auth/register', //账号注册
+  // AuthReset: WxApiRoot + 'auth/reset', //账号密码重置
+  // AuthRegisterCaptcha: WxApiRoot + 'auth/regCaptcha', //验证码
+  // AuthBindPhone: WxApiRoot + 'auth/bindPhone', //绑定微信手机号
 
   GoodsCount: WxApiRoot + 'goods/count', //统计商品总数
   GoodsList: WxApiRoot + 'goods/list', //获得商品列表

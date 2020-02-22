@@ -17,6 +17,7 @@ Page({
     channel: [],
     coupon: [],
     goodsCount: 0,
+    // 给定默认当前位置
     currentCity: '广东省 广州市 白云区'
   },
 
