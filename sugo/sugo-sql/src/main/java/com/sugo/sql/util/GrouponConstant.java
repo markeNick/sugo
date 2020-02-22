@@ -1,6 +1,6 @@
-package org.linlinjava.litemall.db.util;
+package com.sugo.sql.util;
 
-import org.linlinjava.litemall.db.domain.LitemallOrder;
+import com.sugo.sql.entity.SugoOrder;
 
 public class GrouponConstant {
     public static final Short RULE_STATUS_ON = 0;

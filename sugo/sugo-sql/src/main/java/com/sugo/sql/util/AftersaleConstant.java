@@ -1,4 +1,4 @@
-package org.linlinjava.litemall.db.util;
+package com.sugo.sql.util;
 
 public class AftersaleConstant {
     public static final Short STATUS_INIT = 0;

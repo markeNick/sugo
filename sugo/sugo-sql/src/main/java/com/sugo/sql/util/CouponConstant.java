@@ -1,4 +1,4 @@
-package org.linlinjava.litemall.db.util;
+package com.sugo.sql.util;
 
 public class CouponConstant {
     public static final Short TYPE_COMMON = 0;

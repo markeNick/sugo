@@ -1,4 +1,4 @@
-package org.linlinjava.litemall.db.util;
+package com.sugo.sql.util;
 
 import java.io.*;
 import java.nio.charset.StandardCharsets;

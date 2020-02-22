@@ -1,4 +1,4 @@
-package org.linlinjava.litemall.wx.annotation.support;
+package com.sugo.wx.annotation.support;
 
 import org.linlinjava.litemall.wx.annotation.LoginUser;
 import org.linlinjava.litemall.wx.service.UserTokenManager;

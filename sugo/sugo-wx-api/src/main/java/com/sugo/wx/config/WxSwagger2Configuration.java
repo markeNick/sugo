@@ -1,4 +1,4 @@
-package org.linlinjava.litemall.wx.config;
+package com.sugo.wx.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

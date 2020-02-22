@@ -1,6 +1,6 @@
-package org.linlinjava.litemall.db.util;
+package com.sugo.sql.util;
 
-import org.linlinjava.litemall.db.domain.LitemallOrder;
+import com.sugo.sql.entity.SugoOrder;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -32,7 +32,7 @@ public class OrderUtil {
     public static final Short STATUS_REFUND_CONFIRM = 203;
     public static final Short STATUS_AUTO_CONFIRM = 402;
 
-    public static String orderStatusText(LitemallOrder order) {
+    public static String orderStatusText(SugoOrder order) {
         int status = order.getOrderStatus().intValue();
 
         if (status == 101) {
@@ -79,7 +79,7 @@ public class OrderUtil {
     }
 
 
-    public static OrderHandleOption build(LitemallOrder order) {
+    public static OrderHandleOption build(SugoOrder order) {
         int status = order.getOrderStatus().intValue();
         OrderHandleOption handleOption = new OrderHandleOption();
 
@@ -145,45 +145,45 @@ public class OrderUtil {
     }
 
 
-    public static boolean isCreateStatus(LitemallOrder litemallOrder) {
-        return OrderUtil.STATUS_CREATE == litemallOrder.getOrderStatus().shortValue();
+    public static boolean isCreateStatus(SugoOrder sugoOrder ) {
+        return OrderUtil.STATUS_CREATE == sugoOrder .getOrderStatus().shortValue();
     }
 
-    public static boolean hasPayed(LitemallOrder order) {
+    public static boolean hasPayed(SugoOrder order) {
         return OrderUtil.STATUS_CREATE != order.getOrderStatus().shortValue()
                 && OrderUtil.STATUS_CANCEL != order.getOrderStatus().shortValue()
                 && OrderUtil.STATUS_AUTO_CANCEL != order.getOrderStatus().shortValue();
     }
 
-    public static boolean isPayStatus(LitemallOrder litemallOrder) {
-        return OrderUtil.STATUS_PAY == litemallOrder.getOrderStatus().shortValue();
+    public static boolean isPayStatus(SugoOrder sugoOrder ) {
+        return OrderUtil.STATUS_PAY == sugoOrder .getOrderStatus().shortValue();
     }
 
-    public static boolean isShipStatus(LitemallOrder litemallOrder) {
-        return OrderUtil.STATUS_SHIP == litemallOrder.getOrderStatus().shortValue();
+    public static boolean isShipStatus(SugoOrder sugoOrder ) {
+        return OrderUtil.STATUS_SHIP == sugoOrder .getOrderStatus().shortValue();
     }
 
-    public static boolean isConfirmStatus(LitemallOrder litemallOrder) {
-        return OrderUtil.STATUS_CONFIRM == litemallOrder.getOrderStatus().shortValue();
+    public static boolean isConfirmStatus(SugoOrder sugoOrder ) {
+        return OrderUtil.STATUS_CONFIRM == sugoOrder .getOrderStatus().shortValue();
     }
 
-    public static boolean isCancelStatus(LitemallOrder litemallOrder) {
-        return OrderUtil.STATUS_CANCEL == litemallOrder.getOrderStatus().shortValue();
+    public static boolean isCancelStatus(SugoOrder sugoOrder ) {
+        return OrderUtil.STATUS_CANCEL == sugoOrder .getOrderStatus().shortValue();
     }
 
-    public static boolean isAutoCancelStatus(LitemallOrder litemallOrder) {
-        return OrderUtil.STATUS_AUTO_CANCEL == litemallOrder.getOrderStatus().shortValue();
+    public static boolean isAutoCancelStatus(SugoOrder sugoOrder ) {
+        return OrderUtil.STATUS_AUTO_CANCEL == sugoOrder .getOrderStatus().shortValue();
     }
 
-    public static boolean isRefundStatus(LitemallOrder litemallOrder) {
-        return OrderUtil.STATUS_REFUND == litemallOrder.getOrderStatus().shortValue();
+    public static boolean isRefundStatus(SugoOrder sugoOrder ) {
+        return OrderUtil.STATUS_REFUND == sugoOrder .getOrderStatus().shortValue();
     }
 
-    public static boolean isRefundConfirmStatus(LitemallOrder litemallOrder) {
-        return OrderUtil.STATUS_REFUND_CONFIRM == litemallOrder.getOrderStatus().shortValue();
+    public static boolean isRefundConfirmStatus(SugoOrder sugoOrder ) {
+        return OrderUtil.STATUS_REFUND_CONFIRM == sugoOrder .getOrderStatus().shortValue();
     }
 
-    public static boolean isAutoConfirmStatus(LitemallOrder litemallOrder) {
-        return OrderUtil.STATUS_AUTO_CONFIRM == litemallOrder.getOrderStatus().shortValue();
+    public static boolean isAutoConfirmStatus(SugoOrder sugoOrder ) {
+        return OrderUtil.STATUS_AUTO_CONFIRM == sugoOrder .getOrderStatus().shortValue();
     }
 }

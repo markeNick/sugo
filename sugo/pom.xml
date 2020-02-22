@@ -20,11 +20,11 @@
     </properties>
 
     <modules>
-        <module>sugo-public</module>
+        <module>sugo-common</module>
         <module>sugo-sql</module>
         <module>sugo-wx-api</module>
         <module>sugo-admin-api</module>
-        <module>sugo-dependencies</module>
+        <module>sugo-main</module>
     </modules>
 
     <dependencyManagement>

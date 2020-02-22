@@ -1,8 +1,8 @@
-litemall:
+sugo:
   # 开发者应该设置成自己的wx相关信息
   wx:
-    app-id: wxa5b486c6b918ecfb
-    app-secret: e04004829d4c383b4db7769d88dfbca1
+    app-id: wx23984893846df2aa
+    app-secret: d4c033537d50e88f16e77bfd0a417f36
     mch-id: 111111
     mch-key: xxxxxx
     notify-url: http://www.example.com/wx/order/pay-notify

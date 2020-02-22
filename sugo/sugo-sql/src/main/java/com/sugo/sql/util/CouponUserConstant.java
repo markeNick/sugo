@@ -1,4 +1,4 @@
-package org.linlinjava.litemall.db.util;
+package com.sugo.sql.util;
 
 public class CouponUserConstant {
     public static final Short STATUS_USABLE = 0;

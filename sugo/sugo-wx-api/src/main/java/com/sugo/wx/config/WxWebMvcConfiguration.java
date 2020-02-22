@@ -1,6 +1,6 @@
-package org.linlinjava.litemall.wx.config;
+package com.sugo.wx.config;
 
-import org.linlinjava.litemall.wx.annotation.support.LoginUserHandlerMethodArgumentResolver;
+import com.sugo.wx.annotation.support.LoginUserHandlerMethodArgumentResolver;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.method.support.HandlerMethodArgumentResolver;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;

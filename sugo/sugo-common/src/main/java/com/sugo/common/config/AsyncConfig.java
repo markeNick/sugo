@@ -1,4 +1,4 @@
-package org.linlinjava.litemall.core.config;
+package com.sugo.common.config;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.scheduling.annotation.EnableAsync;

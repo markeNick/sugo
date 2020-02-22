@@ -4,8 +4,8 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/sugo.iml" filepath="$PROJECT_DIR$/sugo.iml" />
       <module fileurl="file://$PROJECT_DIR$/sugo-admin-api/sugo-admin-api.iml" filepath="$PROJECT_DIR$/sugo-admin-api/sugo-admin-api.iml" />
-      <module fileurl="file://$PROJECT_DIR$/sugo-dependencies/sugo-dependencies.iml" filepath="$PROJECT_DIR$/sugo-dependencies/sugo-dependencies.iml" />
-      <module fileurl="file://$PROJECT_DIR$/sugo-public/sugo-public.iml" filepath="$PROJECT_DIR$/sugo-public/sugo-public.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sugo-common/sugo-common.iml" filepath="$PROJECT_DIR$/sugo-common/sugo-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sugo-main/sugo-main.iml" filepath="$PROJECT_DIR$/sugo-main/sugo-main.iml" />
       <module fileurl="file://$PROJECT_DIR$/sugo-sql/sugo-sql.iml" filepath="$PROJECT_DIR$/sugo-sql/sugo-sql.iml" />
       <module fileurl="file://$PROJECT_DIR$/sugo-wx-api/sugo-wx-api.iml" filepath="$PROJECT_DIR$/sugo-wx-api/sugo-wx-api.iml" />
     </modules>
