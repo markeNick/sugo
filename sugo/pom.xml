@@ -31,27 +31,27 @@
         <dependencies>
             <dependency>
                 <groupId>com.sugo</groupId>
-                <artifactId>litemall-core</artifactId>
+                <artifactId>sugo-common</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.sugo</groupId>
-                <artifactId>litemall-db</artifactId>
+                <artifactId>sugo-sql</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.sugo</groupId>
-                <artifactId>litemall-wx-api</artifactId>
+                <artifactId>sugo-wx-api</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.sugo</groupId>
-                <artifactId>litemall-admin-api</artifactId>
+                <artifactId>sugo-admin-api</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.sugo</groupId>
-                <artifactId>litemall-all</artifactId>
+                <artifactId>sugo-main</artifactId>
                 <version>${project.version}</version>
             </dependency>
 

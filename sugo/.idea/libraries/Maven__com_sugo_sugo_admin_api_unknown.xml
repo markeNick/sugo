@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.sugo:sugo-admin-api:unknown">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/sugo/sugo-admin-api/unknown/sugo-admin-api-unknown.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/sugo/sugo-admin-api/unknown/sugo-admin-api-unknown-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/sugo/sugo-admin-api/unknown/sugo-admin-api-unknown-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

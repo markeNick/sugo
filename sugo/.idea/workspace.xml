@@ -2,14 +2,628 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8c1edc3f-f626-4e1d-9ac5-dfacb8436d1e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/sugo-wx-api/src/main/java/com/sugo/wx/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sugo-wx-api/src/main/java/com/sugo/wx/entity/CaptchaItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sugo-wx-api/src/main/java/com/sugo/wx/entity/UserInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sugo-wx-api/src/main/java/com/sugo/wx/entity/UserToken.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sugo-wx-api/src/main/java/com/sugo/wx/entity/WxLoginInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sugo-wx-api/src/main/java/com/sugo/wx/service/GetRegionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sugo_sugo_admin_api_unknown.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-common/src/main/java/com/sugo/common/annotator/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-common/src/main/java/com/sugo/common/annotator/Sort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-common/src/main/java/com/sugo/common/annotator/Validator/OrderValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-common/src/main/java/com/sugo/common/annotator/Validator/SortValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-common/src/main/java/com/sugo/common/config/CorsConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-common/src/main/java/com/sugo/common/config/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-common/src/main/java/com/sugo/common/config/JacksonConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-common/src/main/java/com/sugo/common/config/ValidatorConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-common/src/main/java/com/sugo/common/config/WxConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-common/src/main/java/com/sugo/common/config/WxDetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-common/src/main/java/com/sugo/common/express/ExpressService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-common/src/main/java/com/sugo/common/express/config/ExpressAutoConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-common/src/main/java/com/sugo/common/express/config/ExpressProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-common/src/main/java/com/sugo/common/express/dao/ExpressInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-common/src/main/java/com/sugo/common/express/dao/Traces.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-common/src/main/java/com/sugo/common/notify/AliyunSmsSender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-common/src/main/java/com/sugo/common/notify/NotifyService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-common/src/main/java/com/sugo/common/notify/NotifyType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-common/src/main/java/com/sugo/common/notify/SmsResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-common/src/main/java/com/sugo/common/notify/SmsSender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-common/src/main/java/com/sugo/common/notify/TencentSmsSender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-common/src/main/java/com/sugo/common/notify/config/NotifyAutoConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-common/src/main/java/com/sugo/common/notify/config/NotifyProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-common/src/main/java/com/sugo/common/qcode/QCodeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-common/src/main/java/com/sugo/common/storage/AliyunStorage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-common/src/main/java/com/sugo/common/storage/LocalStorage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-common/src/main/java/com/sugo/common/storage/QiniuStorage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-common/src/main/java/com/sugo/common/storage/Storage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-common/src/main/java/com/sugo/common/storage/StorageService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-common/src/main/java/com/sugo/common/storage/TencentStorage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-common/src/main/java/com/sugo/common/storage/config/StorageAutoConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-common/src/main/java/com/sugo/common/storage/config/StorageProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-common/src/main/java/com/sugo/common/system/SystemConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-common/src/main/java/com/sugo/common/system/SystemInistService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-common/src/main/java/com/sugo/common/task/Task.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-common/src/main/java/com/sugo/common/task/TaskService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-common/src/main/java/com/sugo/common/util/BeanUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-common/src/main/java/com/sugo/common/util/CharUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-common/src/main/java/com/sugo/common/util/DateTimeUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-common/src/main/java/com/sugo/common/util/HttpUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-common/src/main/java/com/sugo/common/util/IpUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-common/src/main/java/com/sugo/common/util/JacksonUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-common/src/main/java/com/sugo/common/util/RegexUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-common/src/main/java/com/sugo/common/util/ResponseUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-common/src/main/java/com/sugo/common/util/SystemInfoPrinter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-common/src/main/java/com/sugo/common/util/bcypt/BCrypt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-common/src/main/java/com/sugo/common/util/bcypt/BCryptPasswordEncoder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-common/target/classes/application-common.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-common/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-common/target/classes/back.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-common/target/classes/back_groupon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-main/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-main/target/classes/logback-spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/dao/GoodsProductMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/dao/SugoAdMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/dao/SugoAddressMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/dao/SugoAdminMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/dao/SugoAftersaleMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/dao/SugoBrandMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/dao/SugoCartMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/dao/SugoCategoryMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/dao/SugoCollectMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/dao/SugoCommentMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/dao/SugoCouponMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/dao/SugoCouponUserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/dao/SugoFeedbackMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/dao/SugoFootprintMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/dao/SugoGoodsAttributeMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/dao/SugoGoodsMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/dao/SugoGoodsProductMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/dao/SugoGoodsSpecificationMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/dao/SugoGrouponMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/dao/SugoGrouponRulesMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/dao/SugoIssueMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/dao/SugoKeywordMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/dao/SugoLogMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/dao/SugoNoticeAdminMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/dao/SugoNoticeMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/dao/SugoOrderGoodsMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/dao/SugoOrderMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/dao/SugoPermissionMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/dao/SugoRegionMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/dao/SugoRoleMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/dao/SugoSearchHistoryMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/dao/SugoStorageMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/dao/SugoSystemMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/dao/SugoTopicMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/dao/SugoUserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/dao/mapper/GoodsProductMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/dao/mapper/SugoAdMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/dao/mapper/SugoAddressMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/dao/mapper/SugoAdminMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/dao/mapper/SugoAftersaleMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/dao/mapper/SugoBrandMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/dao/mapper/SugoCartMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/dao/mapper/SugoCategoryMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/dao/mapper/SugoCollectMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/dao/mapper/SugoCommentMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/dao/mapper/SugoCouponMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/dao/mapper/SugoCouponUserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/dao/mapper/SugoFeedbackMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/dao/mapper/SugoFootprintMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/dao/mapper/SugoGoodsAttributeMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/dao/mapper/SugoGoodsMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/dao/mapper/SugoGoodsProductMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/dao/mapper/SugoGoodsSpecificationMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/dao/mapper/SugoGrouponMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/dao/mapper/SugoGrouponRulesMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/dao/mapper/SugoIssueMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/dao/mapper/SugoKeywordMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/dao/mapper/SugoLogMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/dao/mapper/SugoNoticeAdminMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/dao/mapper/SugoNoticeMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/dao/mapper/SugoOrderGoodsMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/dao/mapper/SugoOrderMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/dao/mapper/SugoPermissionMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/dao/mapper/SugoRegionMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/dao/mapper/SugoRoleMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/dao/mapper/SugoSearchHistoryMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/dao/mapper/SugoStorageMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/dao/mapper/SugoSystemMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/dao/mapper/SugoTopicMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/dao/mapper/SugoUserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/entity/SugoAd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/entity/SugoAdExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/entity/SugoAddress.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/entity/SugoAddressExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/entity/SugoAdmin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/entity/SugoAdminExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/entity/SugoAftersale.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/entity/SugoAftersaleExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/entity/SugoBrand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/entity/SugoBrandExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/entity/SugoCart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/entity/SugoCartExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/entity/SugoCategory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/entity/SugoCategoryExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/entity/SugoCollect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/entity/SugoCollectExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/entity/SugoComment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/entity/SugoCommentExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/entity/SugoCoupon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/entity/SugoCouponExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/entity/SugoCouponUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/entity/SugoCouponUserExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/entity/SugoFeedback.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/entity/SugoFeedbackExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/entity/SugoFootprint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/entity/SugoFootprintExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/entity/SugoGoods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/entity/SugoGoodsAttribute.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/entity/SugoGoodsAttributeExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/entity/SugoGoodsExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/entity/SugoGoodsProduct.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/entity/SugoGoodsProductExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/entity/SugoGoodsSpecification.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/entity/SugoGoodsSpecificationExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/entity/SugoGroupon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/entity/SugoGrouponExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/entity/SugoGrouponRules.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/entity/SugoGrouponRulesExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/entity/SugoIssue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/entity/SugoIssueExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/entity/SugoKeyword.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/entity/SugoKeywordExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/entity/SugoLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/entity/SugoLogExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/entity/SugoNotice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/entity/SugoNoticeAdmin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/entity/SugoNoticeAdminExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/entity/SugoNoticeExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/entity/SugoOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/entity/SugoOrderExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/entity/SugoOrderGoods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/entity/SugoOrderGoodsExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/entity/SugoPermission.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/entity/SugoPermissionExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/entity/SugoRegion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/entity/SugoRegionExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/entity/SugoRole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/entity/SugoRoleExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/entity/SugoSearchHistory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/entity/SugoSearchHistoryExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/entity/SugoStorage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/entity/SugoStorageExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/entity/SugoSystem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/entity/SugoSystemExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/entity/SugoTopic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/entity/SugoTopicExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/entity/SugoUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/entity/SugoUserExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/service/AdminService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/service/AftersaleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/service/CartService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/service/CategoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/service/CollectService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/service/CommentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/service/CouponAssignService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/service/CouponService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/service/CouponUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/service/FeedbackService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/service/FootprintService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/service/GoodsAttributeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/service/GoodsProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/service/GoodsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/service/GoodsSpecificationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/application-sql.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/dao/SugoAdMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/dao/SugoAddressMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/dao/SugoAdminMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/dao/SugoAftersaleMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/dao/SugoBrandMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/dao/SugoCartMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/dao/SugoCategoryMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/dao/SugoCollectMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/dao/SugoCommentMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/dao/SugoCouponMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/dao/SugoCouponUserMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/dao/SugoFeedbackMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/dao/SugoFootprintMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/dao/SugoGoodsAttributeMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/dao/SugoGoodsMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/dao/SugoGoodsProductMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/dao/SugoGoodsSpecificationMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/dao/SugoGrouponMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/dao/SugoGrouponRulesMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/dao/SugoIssueMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/dao/SugoKeywordMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/dao/SugoLogMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/dao/SugoNoticeAdminMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/dao/SugoNoticeMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/dao/SugoOrderGoodsMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/dao/SugoOrderMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/dao/SugoPermissionMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/dao/SugoRegionMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/dao/SugoRoleMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/dao/SugoSearchHistoryMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/dao/SugoStorageMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/dao/SugoSystemMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/dao/SugoTopicMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/dao/SugoUserMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoAd$Column.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoAd$Deleted.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoAd.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoAdExample$Criteria$ICriteriaAdd.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoAdExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoAdExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoAdExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoAdExample$ICriteriaWhen.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoAdExample$IExampleWhen.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoAdExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoAddress$Column.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoAddress$Deleted.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoAddress.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoAddressExample$Criteria$ICriteriaAdd.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoAddressExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoAddressExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoAddressExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoAddressExample$ICriteriaWhen.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoAddressExample$IExampleWhen.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoAddressExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoAdmin$Column.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoAdmin$Deleted.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoAdmin.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoAdminExample$Criteria$ICriteriaAdd.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoAdminExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoAdminExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoAdminExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoAdminExample$ICriteriaWhen.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoAdminExample$IExampleWhen.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoAdminExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoAftersale$Column.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoAftersale$Deleted.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoAftersale.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoAftersaleExample$Criteria$ICriteriaAdd.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoAftersaleExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoAftersaleExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoAftersaleExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoAftersaleExample$ICriteriaWhen.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoAftersaleExample$IExampleWhen.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoAftersaleExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoBrand$Column.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoBrand$Deleted.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoBrand.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoBrandExample$Criteria$ICriteriaAdd.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoBrandExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoBrandExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoBrandExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoBrandExample$ICriteriaWhen.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoBrandExample$IExampleWhen.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoBrandExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoCart$Column.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoCart$Deleted.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoCart.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoCartExample$Criteria$ICriteriaAdd.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoCartExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoCartExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoCartExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoCartExample$ICriteriaWhen.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoCartExample$IExampleWhen.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoCartExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoCategory$Column.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoCategory$Deleted.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoCategory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoCategoryExample$Criteria$ICriteriaAdd.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoCategoryExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoCategoryExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoCategoryExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoCategoryExample$ICriteriaWhen.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoCategoryExample$IExampleWhen.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoCategoryExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoCollect$Column.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoCollect$Deleted.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoCollect.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoCollectExample$Criteria$ICriteriaAdd.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoCollectExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoCollectExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoCollectExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoCollectExample$ICriteriaWhen.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoCollectExample$IExampleWhen.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoCollectExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoComment$Column.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoComment$Deleted.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoComment.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoCommentExample$Criteria$ICriteriaAdd.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoCommentExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoCommentExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoCommentExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoCommentExample$ICriteriaWhen.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoCommentExample$IExampleWhen.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoCommentExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoCoupon$Column.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoCoupon$Deleted.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoCoupon.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoCouponExample$Criteria$ICriteriaAdd.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoCouponExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoCouponExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoCouponExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoCouponExample$ICriteriaWhen.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoCouponExample$IExampleWhen.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoCouponExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoCouponUser$Column.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoCouponUser$Deleted.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoCouponUser.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoCouponUserExample$Criteria$ICriteriaAdd.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoCouponUserExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoCouponUserExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoCouponUserExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoCouponUserExample$ICriteriaWhen.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoCouponUserExample$IExampleWhen.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoCouponUserExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoFeedback$Column.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoFeedback$Deleted.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoFeedback.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoFeedbackExample$Criteria$ICriteriaAdd.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoFeedbackExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoFeedbackExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoFeedbackExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoFeedbackExample$ICriteriaWhen.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoFeedbackExample$IExampleWhen.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoFeedbackExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoFootprint$Column.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoFootprint$Deleted.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoFootprint.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoFootprintExample$Criteria$ICriteriaAdd.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoFootprintExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoFootprintExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoFootprintExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoFootprintExample$ICriteriaWhen.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoFootprintExample$IExampleWhen.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoFootprintExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoGoods$Column.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoGoods$Deleted.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoGoods.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoGoodsAttribute$Column.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoGoodsAttribute$Deleted.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoGoodsAttribute.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoGoodsAttributeExample$Criteria$ICriteriaAdd.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoGoodsAttributeExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoGoodsAttributeExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoGoodsAttributeExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoGoodsAttributeExample$ICriteriaWhen.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoGoodsAttributeExample$IExampleWhen.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoGoodsAttributeExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoGoodsExample$Criteria$ICriteriaAdd.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoGoodsExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoGoodsExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoGoodsExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoGoodsExample$ICriteriaWhen.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoGoodsExample$IExampleWhen.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoGoodsExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoGoodsProduct$Column.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoGoodsProduct$Deleted.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoGoodsProduct.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoGoodsProductExample$Criteria$ICriteriaAdd.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoGoodsProductExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoGoodsProductExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoGoodsProductExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoGoodsProductExample$ICriteriaWhen.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoGoodsProductExample$IExampleWhen.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoGoodsProductExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoGoodsSpecification$Column.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoGoodsSpecification$Deleted.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoGoodsSpecification.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoGoodsSpecificationExample$Criteria$ICriteriaAdd.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoGoodsSpecificationExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoGoodsSpecificationExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoGoodsSpecificationExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoGoodsSpecificationExample$ICriteriaWhen.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoGoodsSpecificationExample$IExampleWhen.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoGoodsSpecificationExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoGroupon$Column.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoGroupon$Deleted.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoGroupon.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoGrouponExample$Criteria$ICriteriaAdd.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoGrouponExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoGrouponExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoGrouponExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoGrouponExample$ICriteriaWhen.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoGrouponExample$IExampleWhen.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoGrouponExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoGrouponRules$Column.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoGrouponRules$Deleted.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoGrouponRules.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoGrouponRulesExample$Criteria$ICriteriaAdd.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoGrouponRulesExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoGrouponRulesExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoGrouponRulesExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoGrouponRulesExample$ICriteriaWhen.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoGrouponRulesExample$IExampleWhen.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoGrouponRulesExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoIssue$Column.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoIssue$Deleted.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoIssue.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoIssueExample$Criteria$ICriteriaAdd.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoIssueExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoIssueExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoIssueExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoIssueExample$ICriteriaWhen.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoIssueExample$IExampleWhen.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoIssueExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoKeyword$Column.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoKeyword$Deleted.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoKeyword.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoKeywordExample$Criteria$ICriteriaAdd.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoKeywordExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoKeywordExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoKeywordExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoKeywordExample$ICriteriaWhen.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoKeywordExample$IExampleWhen.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoKeywordExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoLog$Column.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoLog$Deleted.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoLog.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoLogExample$Criteria$ICriteriaAdd.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoLogExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoLogExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoLogExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoLogExample$ICriteriaWhen.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoLogExample$IExampleWhen.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoLogExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoNotice$Column.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoNotice$Deleted.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoNotice.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoNoticeAdmin$Column.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoNoticeAdmin$Deleted.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoNoticeAdmin.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoNoticeAdminExample$Criteria$ICriteriaAdd.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoNoticeAdminExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoNoticeAdminExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoNoticeAdminExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoNoticeAdminExample$ICriteriaWhen.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoNoticeAdminExample$IExampleWhen.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoNoticeAdminExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoNoticeExample$Criteria$ICriteriaAdd.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoNoticeExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoNoticeExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoNoticeExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoNoticeExample$ICriteriaWhen.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoNoticeExample$IExampleWhen.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoNoticeExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoOrder$Column.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoOrder$Deleted.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoOrder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoOrderExample$Criteria$ICriteriaAdd.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoOrderExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoOrderExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoOrderExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoOrderExample$ICriteriaWhen.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoOrderExample$IExampleWhen.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoOrderExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoOrderGoods$Column.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoOrderGoods$Deleted.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoOrderGoods.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoOrderGoodsExample$Criteria$ICriteriaAdd.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoOrderGoodsExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoOrderGoodsExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoOrderGoodsExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoOrderGoodsExample$ICriteriaWhen.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoOrderGoodsExample$IExampleWhen.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoOrderGoodsExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoPermission$Column.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoPermission$Deleted.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoPermission.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoPermissionExample$Criteria$ICriteriaAdd.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoPermissionExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoPermissionExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoPermissionExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoPermissionExample$ICriteriaWhen.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoPermissionExample$IExampleWhen.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoPermissionExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoRegion$Column.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoRegion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoRegionExample$Criteria$ICriteriaAdd.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoRegionExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoRegionExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoRegionExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoRegionExample$ICriteriaWhen.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoRegionExample$IExampleWhen.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoRegionExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoRole$Column.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoRole$Deleted.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoRole.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoRoleExample$Criteria$ICriteriaAdd.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoRoleExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoRoleExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoRoleExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoRoleExample$ICriteriaWhen.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoRoleExample$IExampleWhen.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoRoleExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoSearchHistory$Column.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoSearchHistory$Deleted.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoSearchHistory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoSearchHistoryExample$Criteria$ICriteriaAdd.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoSearchHistoryExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoSearchHistoryExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoSearchHistoryExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoSearchHistoryExample$ICriteriaWhen.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoSearchHistoryExample$IExampleWhen.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoSearchHistoryExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoStorage$Column.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoStorage$Deleted.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoStorage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoStorageExample$Criteria$ICriteriaAdd.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoStorageExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoStorageExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoStorageExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoStorageExample$ICriteriaWhen.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoStorageExample$IExampleWhen.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoStorageExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoSystem$Column.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoSystem$Deleted.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoSystem.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoSystemExample$Criteria$ICriteriaAdd.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoSystemExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoSystemExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoSystemExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoSystemExample$ICriteriaWhen.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoSystemExample$IExampleWhen.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoSystemExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoTopic$Column.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoTopic$Deleted.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoTopic.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoTopicExample$Criteria$ICriteriaAdd.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoTopicExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoTopicExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoTopicExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoTopicExample$ICriteriaWhen.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoTopicExample$IExampleWhen.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoTopicExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoUser$Column.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoUser$Deleted.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoUser.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoUserExample$Criteria$ICriteriaAdd.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoUserExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoUserExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoUserExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoUserExample$ICriteriaWhen.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoUserExample$IExampleWhen.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoUserExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/mybatis/JsonIntegerArrayTypeHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/mybatis/JsonNodeTypeHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/mybatis/JsonStringArrayTypeHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/service/AdService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/service/AdminService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/service/AdressService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/service/AftersaleService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/service/CartService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/service/CategoryService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/service/CollectService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/service/CommentService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/service/CouponAssignService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/service/SystemConfigService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/util/AftersaleConstant.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/util/CouponConstant.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/util/CouponUserConstant.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/util/DbUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/util/GrouponConstant.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/util/OrderHandleOption.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/util/OrderUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/classes/mybatis-generator/generatorConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/target/sugo-sql-1.0.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-wx-api/src/main/java/com/sugo/wx/controller/AddressController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sugo_sugo_public_1_0_0.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-admin-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-admin-api/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-common/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-main/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-main/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-main/sugo-main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-main/sugo-main.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/service/AdService.java" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/service/AdService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/service/AdressService.java" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/service/AdressService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-wx-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-wx-api/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-wx-api/src/main/java/com/sugo/wx/annotation/support/LoginUserHandlerMethodArgumentResolver.java" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-wx-api/src/main/java/com/sugo/wx/annotation/support/LoginUserHandlerMethodArgumentResolver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-wx-api/src/main/java/com/sugo/wx/service/GetRegionService.java" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-wx-api/src/main/java/com/sugo/wx/service/GetRegionService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-wx-api/sugo-wx-api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-wx-api/sugo-wx-api.iml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -44,12 +658,14 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/sugo-wx-api/src/main/java/com/sugo/wx/service/GetRegionService.java">
+        <entry file="file://$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/service/GoodsSpecificationService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+            <state relative-caret-position="321">
+              <caret line="68" column="36" lean-forward="true" selection-start-line="68" selection-start-column="36" selection-end-line="68" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#786#787#0" expanded="true" />
+                <element signature="e#855#856#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -60,6 +676,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
+        <option value="mapper" />
         <option value="Class" />
       </list>
     </option>
@@ -70,12 +688,38 @@
       <find>org.linlinjava.litemall.db.</find>
       <find>LitemallSystem</find>
       <find>org.linlinjava.litemall.core</find>
+      <find>org.linlinjava.litemall.db.domain.</find>
+      <find>LitemallAdmin</find>
+      <find>LitemallAftersale</find>
+      <find>LitemallCart</find>
+      <find>LitemallCollect</find>
+      <find>LitemallComment</find>
+      <find>LitemallCoupon</find>
+      <find>LitemallCouponUser</find>
+      <find>LitemallFootprint</find>
+      <find>LitemallGoodsProduct</find>
+      <find>LitemallGoodsExample</find>
+      <find>LitemallGoods</find>
+      <find>LitemallGoodsSpecification</find>
     </findStrings>
     <replaceStrings>
       <replace>sugoOrder</replace>
       <replace>com.sugo.sql</replace>
       <replace>SugoSystem</replace>
       <replace>com.sugo.common</replace>
+      <replace>com.sugo.sql.entity</replace>
+      <replace>SugoAdmin</replace>
+      <replace>SugoAftersale</replace>
+      <replace>SugoCart</replace>
+      <replace>SugoCollect</replace>
+      <replace>SugoComment</replace>
+      <replace>SugoCoupon</replace>
+      <replace>SugoCouponUser</replace>
+      <replace>SugoFootprint</replace>
+      <replace>SugoGoodsProduct</replace>
+      <replace>SugoGoodsExample</replace>
+      <replace>SugoGoods</replace>
+      <replace>SugoGoodsSpecification</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -88,12 +732,10 @@
         <option value="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/util/GrouponConstant.java" />
         <option value="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/util/OrderHandleOption.java" />
         <option value="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/util/OrderUtil.java" />
-        <option value="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/service/AdressService.java" />
         <option value="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/service/SystemConfigService.java" />
         <option value="$PROJECT_DIR$/sugo-common/src/main/java/com/sugo/common/system/SystemInistService.java" />
         <option value="$PROJECT_DIR$/sugo-common/src/main/java/com/sugo/common/notify/AliyunSmsSender.java" />
         <option value="$PROJECT_DIR$/sugo-common/src/main/java/com/sugo/common/notify/config/NotifyAutoConfiguration.java" />
-        <option value="$PROJECT_DIR$/sugo-common/src/main/java/com/sugo/common/storage/StorageService.java" />
         <option value="$PROJECT_DIR$/sugo-common/src/main/resources/application-common.yml" />
         <option value="$PROJECT_DIR$/sugo-common/src/main/java/com/sugo/common/config/AsyncConfig.java" />
         <option value="$PROJECT_DIR$/sugo-common/src/main/java/com/sugo/common/express/config/ExpressProperties.java" />
@@ -101,12 +743,38 @@
         <option value="$PROJECT_DIR$/sugo-common/src/main/java/com/sugo/common/express/dao/Traces.java" />
         <option value="$PROJECT_DIR$/sugo-common/src/main/java/com/sugo/common/notify/config/NotifyProperties.java" />
         <option value="$PROJECT_DIR$/sugo-sql/src/main/resources/mybatis-generator/generatorConfig.xml" />
-        <option value="$PROJECT_DIR$/sugo-wx-api/src/main/java/com/sugo/wx/annotation/support/LoginUserHandlerMethodArgumentResolver.java" />
         <option value="$PROJECT_DIR$/sugo-wx-api/src/main/java/com/sugo/wx/config/WxWebMvcConfiguration.java" />
         <option value="$PROJECT_DIR$/sugo-wx-api/src/main/java/com/sugo/wx/entity/UserInfo.java" />
         <option value="$PROJECT_DIR$/sugo-wx-api/src/main/java/com/sugo/wx/Application.java" />
         <option value="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/service/AdService.java" />
+        <option value="$PROJECT_DIR$/sugo-wx-api/src/main/java/com/sugo/wx/annotation/support/LoginUserHandlerMethodArgumentResolver.java" />
         <option value="$PROJECT_DIR$/sugo-wx-api/src/main/java/com/sugo/wx/service/GetRegionService.java" />
+        <option value="$PROJECT_DIR$/sugo-wx-api/src/main/java/com/sugo/wx/controller/AddressController.java" />
+        <option value="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/service/AdressService.java" />
+        <option value="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/service/AdminService.java" />
+        <option value="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/service/AftersaleService.java" />
+        <option value="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/service/CartService.java" />
+        <option value="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/service/CategoryService.java" />
+        <option value="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/service/CollectService.java" />
+        <option value="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/service/CommentService.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/sugo-wx-api/pom.xml" />
+        <option value="$PROJECT_DIR$/sugo-common/pom.xml" />
+        <option value="$PROJECT_DIR$/sugo-admin-api/pom.xml" />
+        <option value="$PROJECT_DIR$/sugo-main/pom.xml" />
+        <option value="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/service/CouponAssignService.java" />
+        <option value="$PROJECT_DIR$/sugo-common/src/main/java/com/sugo/common/storage/config/StorageAutoConfiguration.java" />
+        <option value="$PROJECT_DIR$/sugo-common/src/main/java/com/sugo/common/storage/StorageService.java" />
+        <option value="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/service/CouponService.java" />
+        <option value="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/service/CouponUserService.java" />
+        <option value="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/service/FeedbackService.java" />
+        <option value="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/service/FootprintService.java" />
+        <option value="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/service/GoodsAttributeService.java" />
+        <option value="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/dao/GoodsProductMapper.java" />
+        <option value="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/dao/mapper/GoodsProductMapper.xml" />
+        <option value="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/service/GoodsProductService.java" />
+        <option value="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/service/GoodsService.java" />
+        <option value="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/service/GoodsSpecificationService.java" />
       </list>
     </option>
   </component>
@@ -118,10 +786,33 @@
         <option name="userSettingsFile" value="E:\Java\Maven\apache-maven-3.6.1\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
       <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="sugo-admin-api" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="sugo-admin-api" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="sugo-main" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="sugo-main" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="sugo-sql" type="9519ce18:MavenProjectsStructure$ProjectNode" />
@@ -159,12 +850,66 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="sugo" type="b2602c69:ProjectViewProjectNode" />
               <item name="sugo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sugo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sugo" type="462c0819:PsiDirectoryNode" />
+              <item name="sugo-admin-api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sugo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sugo" type="462c0819:PsiDirectoryNode" />
+              <item name="sugo-common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sugo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sugo" type="462c0819:PsiDirectoryNode" />
+              <item name="sugo-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sugo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sugo" type="462c0819:PsiDirectoryNode" />
+              <item name="sugo-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sugo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sugo" type="462c0819:PsiDirectoryNode" />
+              <item name="sugo-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sugo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sugo" type="462c0819:PsiDirectoryNode" />
+              <item name="sugo-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sugo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sugo" type="462c0819:PsiDirectoryNode" />
+              <item name="sugo-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sugo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sugo" type="462c0819:PsiDirectoryNode" />
+              <item name="sugo-main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="sugo" type="b2602c69:ProjectViewProjectNode" />
@@ -204,69 +949,25 @@
             <path>
               <item name="sugo" type="b2602c69:ProjectViewProjectNode" />
               <item name="sugo" type="462c0819:PsiDirectoryNode" />
-              <item name="sugo-wx-api" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sugo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sugo" type="462c0819:PsiDirectoryNode" />
-              <item name="sugo-wx-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sugo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sugo" type="462c0819:PsiDirectoryNode" />
-              <item name="sugo-wx-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sugo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sugo" type="462c0819:PsiDirectoryNode" />
-              <item name="sugo-wx-api" type="462c0819:PsiDirectoryNode" />
+              <item name="sugo-sql" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sugo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sugo" type="462c0819:PsiDirectoryNode" />
-              <item name="sugo-wx-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="wx" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sugo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sugo" type="462c0819:PsiDirectoryNode" />
-              <item name="sugo-wx-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="wx" type="462c0819:PsiDirectoryNode" />
+              <item name="sql" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sugo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sugo" type="462c0819:PsiDirectoryNode" />
-              <item name="sugo-wx-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/sugo-wx-api/src/main/java/com/sugo/wx/entity" />
+    <property name="last_opened_file_path" value="F:/桌面/litemall" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -282,12 +983,18 @@
       <recent name="com.sugo.common.config" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\sugo\sugo\sugo-sql\src\main\java\com\sugo\sql\service" />
       <recent name="E:\sugo\sugo\sugo-wx-api\src\main\java\com\sugo\wx\entity" />
       <recent name="E:\sugo\sugo\sugo-wx-api\src\main\java\com\sugo\wx" />
       <recent name="E:\sugo\sugo\sugo-sql\src\main\java\com\sugo\sql\util" />
     </key>
   </component>
   <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
     <option name="ruleStates">
       <list>
         <RuleState>
@@ -299,7 +1006,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Spring Boot.Application">
+    <configuration name="Application (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="sugo-wx-api" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sugo.wx.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="sugo-main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.sugo.Application" />
@@ -320,17 +1034,57 @@
       <updated>1582290520519</updated>
       <workItem from="1582290525832" duration="3271000" />
       <workItem from="1582379570491" duration="3660000" />
+      <workItem from="1582438977986" duration="5974000" />
+      <workItem from="1582514090510" duration="13703000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6931000" />
+    <option name="totallyTimeSpent" value="26608000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="916" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25358167" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23352435" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.11381074" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32992327" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32992327" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="bottom" id="Version Control" order="14" weight="0.32992327" />
+      <window_info anchor="bottom" id="MyBatis Log" order="15" />
+      <window_info anchor="bottom" id="Run Dashboard" order="16" weight="0.32992327" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.27005732" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Mybatis datasource" order="6" side_tool="true" />
+      <window_info anchor="right" id="Database" order="7" weight="0.3295129" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info anchor="right" id="Bean Validation" order="10" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.260745" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -354,6 +1108,7 @@
       <window_info anchor="bottom" id="Database Changes" order="13" />
       <window_info anchor="bottom" id="Version Control" order="14" />
       <window_info anchor="bottom" id="MyBatis Log" order="15" />
+      <window_info anchor="bottom" id="Run Dashboard" order="16" weight="0.32992327" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -365,345 +1120,13 @@
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Theme Preview" order="9" />
       <window_info anchor="right" id="Bean Validation" order="10" />
-    </layout>
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/service/AdressService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="39" column="7" lean-forward="true" selection-start-line="39" selection-start-column="7" selection-end-line="39" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1694#1695#0" expanded="true" />
-            <element signature="e#1753#1754#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/service/SystemConfigService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sugo-common/src/main/java/com/sugo/common/storage/AliyunStorage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sugo-common/src/main/java/com/sugo/common/storage/LocalStorage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sugo-common/src/main/java/com/sugo/common/storage/QiniuStorage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sugo-common/src/main/java/com/sugo/common/storage/Storage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sugo-common/src/main/java/com/sugo/common/storage/StorageService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sugo-sql/src/test/java/com/sugo/sql/DBTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="20" column="14" lean-forward="true" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sugo-common/src/main/java/com/sugo/common/system/SystemInistService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" column="11" lean-forward="true" selection-start-line="28" selection-start-column="11" selection-end-line="28" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sugo-common/src/main/java/com/sugo/common/system/SystemConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-492">
-          <caret line="13" column="71" lean-forward="true" selection-start-line="13" selection-start-column="71" selection-end-line="13" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sugo-common/src/main/java/com/sugo/common/config/AsyncConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sugo-common/src/main/java/com/sugo/common/config/GlobalExceptionHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sugo-common/src/main/java/com/sugo/common/config/CorsConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sugo-common/src/main/java/com/sugo/common/config/JacksonConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sugo-common/src/main/java/com/sugo/common/config/ValidatorConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="16" column="40" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sugo-common/src/main/java/com/sugo/common/config/WxConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sugo-common/src/main/java/com/sugo/common/config/WxDetails.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="19" column="27" lean-forward="true" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sugo-common/src/main/java/com/sugo/common/express/config/ExpressProperties.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="8" column="23" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sugo-common/src/main/java/com/sugo/common/express/dao/ExpressInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sugo-common/src/main/java/com/sugo/common/express/dao/Traces.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sugo-common/src/main/java/com/sugo/common/express/ExpressService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1462">
-          <caret line="19" column="36" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sugo-common/src/main/java/com/sugo/common/notify/config/NotifyAutoConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sugo-common/src/main/resources/application-common.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-680">
-          <caret line="27" column="17" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sugo-common/src/main/java/com/sugo/common/notify/config/NotifyProperties.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1370">
-          <caret line="8" column="39" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sugo-common/src/main/java/com/sugo/common/notify/AliyunSmsSender.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="93" column="28" selection-start-line="93" selection-start-column="28" selection-end-line="93" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sugo-common/src/main/java/com/sugo/common/storage/config/StorageAutoConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sugo-main/src/main/java/com/sugo/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/util/AftersaleConstant.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="25" lean-forward="true" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/util/CouponConstant.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/util/CouponUserConstant.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/util/DbUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="21" column="22" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/util/GrouponConstant.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="35" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/util/OrderHandleOption.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="54" selection-start-line="10" selection-start-column="54" selection-end-line="10" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/util/OrderUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2059">
-          <caret line="19" column="32" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sugo-sql/src/main/resources/application-sql.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/dao/SugoStorageMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sugo-sql/src/main/resources/mybatis-generator/generatorConfig.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="98">
-          <caret line="54" column="93" selection-start-line="54" selection-start-column="93" selection-end-line="54" selection-end-column="93" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sugo-wx-api/src/main/java/com/sugo/wx/annotation/support/LoginUserHandlerMethodArgumentResolver.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sugo-wx-api/src/main/java/com/sugo/wx/annotation/LoginUser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sugo-wx-api/src/main/java/com/sugo/wx/config/WxWebMvcConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="28" lean-forward="true" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sugo-wx-api/src/main/java/com/sugo/wx/config/WxSwagger2Configuration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sugo-wx-api/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sugo-wx-api/src/main/java/com/sugo/wx/entity/WxLoginInfo.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sugo-wx-api/src/main/java/com/sugo/wx/entity/CaptchaItem.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sugo-wx-api/src/main/java/com/sugo/wx/entity/UserToken.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sugo-wx-api/src/main/java/com/sugo/wx/entity/UserInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sugo-wx-api/src/main/java/com/sugo/wx/util.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/sugo-wx-api/src/main/java/com/sugo/wx/util.java" />
     <entry file="file://$PROJECT_DIR$/sugo-wx-api/src/main/java/com/sugo/wx/Application.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -723,19 +1146,441 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/service/AdService.java">
+    <entry file="file://$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/dao/SugoAdMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        <state relative-caret-position="596">
+          <caret line="150" column="26" selection-start-line="150" selection-start-column="26" selection-end-line="150" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/dao/mapper/SugoAdMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="491" column="17" selection-start-line="491" selection-start-column="17" selection-end-line="491" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sugo-wx-api/src/main/java/com/sugo/wx/annotation/support/LoginUserHandlerMethodArgumentResolver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="32" lean-forward="true" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sugo-wx-api/src/main/java/com/sugo/wx/service/GetRegionService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+        <state relative-caret-position="136">
+          <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/dao/mapper/SugoAdminMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="421">
+          <caret line="186" column="27" selection-start-line="186" selection-start-column="27" selection-end-line="186" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/dao/SugoAdminMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="94" column="14" selection-start-line="94" selection-start-column="14" selection-end-line="94" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/service/AdminService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="974">
+          <caret line="112" column="16" selection-start-line="112" selection-start-column="16" selection-end-line="112" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/service/AftersaleService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="181" column="19" selection-start-line="181" selection-start-column="19" selection-end-line="181" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#356#357#0" expanded="true" />
+            <element signature="e#416#417#0" expanded="true" />
+            <element signature="e#4695#4696#0" expanded="true" />
+            <element signature="e#4756#4757#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/service/CartService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="596">
+          <caret line="51" column="22" lean-forward="true" selection-start-line="51" selection-start-column="22" selection-end-line="51" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/github/pagehelper/pagehelper/5.1.4/pagehelper-5.1.4.jar!/com/github/pagehelper/PageHelper.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-459">
+          <caret line="31" column="31" lean-forward="true" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#3774#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/github/pagehelper/pagehelper/5.1.4/pagehelper-5.1.4.jar!/com/github/pagehelper/page/PageMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="63" column="16" selection-start-line="63" selection-start-column="16" selection-end-line="63" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/entity/SugoCategoryExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="47" column="16" selection-start-line="47" selection-start-column="16" selection-end-line="47" selection-end-column="16" />
+          <folding>
+            <element signature="e#1239#1240#0" expanded="true" />
+            <element signature="e#1289#1290#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/dao/mapper/SugoCategoryMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="421">
+          <caret line="423" column="10" lean-forward="true" selection-start-line="423" selection-start-column="10" selection-end-line="423" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/dao/SugoCategoryMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="121" column="22" selection-start-line="121" selection-start-column="22" selection-end-line="121" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/service/CategoryService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/service/CollectService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="65" column="40" selection-start-line="65" selection-start-column="40" selection-end-line="65" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2136#2137#0" expanded="true" />
+            <element signature="e#2195#2196#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sugo-wx-api/src/main/java/com/sugo/wx/controller/AddressController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sugo-wx-api/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-119">
+          <caret line="35" column="21" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sugo-common/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="84" column="21" selection-start-line="84" selection-start-column="21" selection-end-line="84" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sugo-admin-api/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="28" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sugo-sql/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sugo-main/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="37" column="21" selection-start-line="37" selection-start-column="21" selection-end-line="37" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/service/CouponAssignService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sugo-common/src/main/java/com/sugo/common/storage/config/StorageAutoConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-465">
+          <caret line="20" column="26" lean-forward="true" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sugo-common/src/main/java/com/sugo/common/storage/AliyunStorage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sugo-common/src/main/java/com/sugo/common/storage/QiniuStorage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sugo-common/src/main/java/com/sugo/common/storage/Storage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sugo-common/src/main/java/com/sugo/common/storage/TencentStorage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sugo-common/src/main/java/com/sugo/common/storage/StorageService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-85">
+          <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/service/CommentService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="65" column="24" selection-start-line="65" selection-start-column="24" selection-end-line="65" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/service/CouponService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1410">
+          <caret line="49" column="44" lean-forward="true" selection-start-line="49" selection-start-column="44" selection-end-line="49" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2150#2151#0" expanded="true" />
+            <element signature="e#2217#2218#0" expanded="true" />
+            <element signature="e#2263#2264#0" expanded="true" />
+            <element signature="e#2321#2322#0" expanded="true" />
+            <element signature="e#4504#4505#0" expanded="true" />
+            <element signature="e#4562#4563#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/entity/SugoCouponUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-340">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/service/CouponUserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="545">
+          <caret line="105" column="17" selection-start-line="105" selection-start-column="17" selection-end-line="105" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3470#3471#0" expanded="true" />
+            <element signature="e#3532#3533#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/service/FeedbackService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="358">
+          <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/service/FootprintService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="397">
+          <caret line="70" column="23" lean-forward="true" selection-start-line="70" selection-start-column="23" selection-end-line="70" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1030#1031#0" expanded="true" />
+            <element signature="e#1091#1092#0" expanded="true" />
+            <element signature="e#1500#1501#0" expanded="true" />
+            <element signature="e#1561#1562#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/entity/SugoGoodsAttribute.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-85">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/service/GoodsAttributeService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="508">
+          <caret line="65" column="9" selection-start-line="65" selection-start-column="9" selection-end-line="65" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1194#1195#0" expanded="true" />
+            <element signature="e#1260#1261#0" expanded="true" />
+            <element signature="e#1641#1642#0" expanded="true" />
+            <element signature="e#1707#1708#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/dao/mapper/GoodsProductMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="37" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/dao/GoodsProductMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="35" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/service/GoodsProductService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#712#713#0" expanded="true" />
+            <element signature="e#780#781#0" expanded="true" />
+            <element signature="e#822#823#0" expanded="true" />
+            <element signature="e#890#891#0" expanded="true" />
+            <element signature="e#1625#1626#0" expanded="true" />
+            <element signature="e#1684#1685#0" expanded="true" />
+            <element signature="e#1736#1737#0" expanded="true" />
+            <element signature="e#1798#1799#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/dao/SugoGoodsMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="46" column="8" selection-start-line="46" selection-start-column="8" selection-end-line="46" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/dao/mapper/SugoGoodsMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1636">
+          <caret line="318" column="10" selection-start-line="318" selection-start-column="10" selection-end-line="318" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/service/GoodsService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="436">
+          <caret line="248" column="43" selection-start-line="248" selection-start-column="43" selection-end-line="248" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2955#3068#1" />
+            <element signature="method#querySelective#1;class#GoodsService#0" />
+            <element signature="e#6245#6246#0" expanded="true" />
+            <element signature="e#6302#6303#0" expanded="true" />
+            <element signature="method#getCatIds#0;class#GoodsService#0" />
+            <element signature="e#8027#8036#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sugo-common/src/main/resources/application-common.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-969" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/service/AdService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="57" column="51" selection-start-line="57" selection-start-column="51" selection-end-line="57" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/service/AdressService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/service/GoodsSpecificationService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="68" column="36" lean-forward="true" selection-start-line="68" selection-start-column="36" selection-end-line="68" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#786#787#0" expanded="true" />
+            <element signature="e#855#856#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -756,5 +1601,9 @@
         </settings>
       </state>
     </states>
+  </component>
+  <component name="mavenExecuteGoalHistory">
+    <option value="$PROJECT_DIR$" />
+    <option value="clean install" />
   </component>
 </project>

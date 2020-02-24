@@ -6,5 +6,7 @@ import org.springframework.stereotype.Component;
 @Component
 public class GetRegionService {
 //    @Autowired
-//    private SugoRe
+//    private SugoRegionService regionService;
+
+
 }

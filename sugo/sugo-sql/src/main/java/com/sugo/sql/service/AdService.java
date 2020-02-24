@@ -9,6 +9,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.util.StringUtils;
 
 import javax.annotation.Resource;
+import java.time.LocalDateTime;
 import java.util.List;
 
 @Service
@@ -44,5 +45,17 @@ public class AdService {
         return sugoAdMapper.selectByExample(example);
     }
 
+    public int updateById(SugoAd ad) {
+        ad.setUpdateTime(LocalDateTime.now());
+        return sugoAdMapper.updateByPrimaryKeySelective(ad);
+    }
+
+    public void deleteById(Integer id) {
+        sugoAdMapper.logicalDeleteByPrimaryKey(id);
+    }
+
+    public SugoAd findById(Integer id) {
+        return sugoAdMapper.selectByPrimaryKey(id);
+    }
 
 }

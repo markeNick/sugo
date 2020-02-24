@@ -1,7 +1,7 @@
 package com.sugo.wx.annotation.support;
 
-import org.linlinjava.litemall.wx.annotation.LoginUser;
-import org.linlinjava.litemall.wx.service.UserTokenManager;
+import com.sugo.wx.annotation.LoginUser;
+import com.sugo.wx.service.UserTokenManager;
 import org.springframework.core.MethodParameter;
 import org.springframework.web.bind.support.WebDataBinderFactory;
 import org.springframework.web.context.request.NativeWebRequest;

@@ -19,8 +19,8 @@
 
         <dependency>
             <groupId>com.sugo</groupId>
-            <artifactId>sugo-public</artifactId>
-            <version>1.0.0</version>
+            <artifactId>sugo-common</artifactId>
+<!--            <version>1.0.0</version>-->
             <exclusions>
                 <exclusion>
                     <artifactId>commons-lang</artifactId>
@@ -32,7 +32,7 @@
         <dependency>
             <groupId>com.sugo</groupId>
             <artifactId>sugo-sql</artifactId>
-            <version>1.0.0</version>
+<!--            <version>1.0.0</version>-->
         </dependency>
 
         <dependency>

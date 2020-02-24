@@ -2,7 +2,6 @@ package com.sugo.sql.service;
 
 import com.github.pagehelper.PageHelper;
 import com.sugo.sql.dao.SugoAddressMapper;
-import com.sugo.sql.entity.SugoAd;
 import com.sugo.sql.entity.SugoAddress;
 import com.sugo.sql.entity.SugoAddressExample;
 import org.springframework.stereotype.Service;

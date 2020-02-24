@@ -16,13 +16,13 @@
         <dependency>
             <groupId>com.sugo</groupId>
             <artifactId>sugo-common</artifactId>
-            <version>1.0.0</version>
+<!--            <version>1.0.0</version>-->
         </dependency>
 
         <dependency>
             <groupId>com.sugo</groupId>
             <artifactId>sugo-sql</artifactId>
-            <version>1.0.0</version>
+<!--            <version>1.0.0</version>-->
         </dependency>
 
         <dependency>
@@ -34,7 +34,7 @@
         <dependency>
             <groupId>com.sugo</groupId>
             <artifactId>sugo-admin-api</artifactId>
-            <version>1.0.0</version>
+<!--            <version>1.0.0</version>-->
         </dependency>
 
     </dependencies>
