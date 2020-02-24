@@ -1,6 +1,6 @@
 package com.sugo.common.express.config;
 
-import org.linlinjava.litemall.core.express.ExpressService;
+import com.sugo.common.express.ExpressService;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

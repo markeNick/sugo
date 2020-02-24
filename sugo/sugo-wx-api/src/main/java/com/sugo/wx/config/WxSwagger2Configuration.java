@@ -28,17 +28,17 @@ public class WxSwagger2Configuration {
                 .groupName("wx")
                 .apiInfo(wxApiInfo())
                 .select()
-                .apis(RequestHandlerSelectors.basePackage("org.linlinjava.litemall.wx.web"))
+                .apis(RequestHandlerSelectors.basePackage("com.sugo.wx.controller"))
                 .paths(PathSelectors.any())
                 .build();
     }
 
     private ApiInfo wxApiInfo() {
         return new ApiInfoBuilder()
-                .title("litemall-wx API")
-                .description("litemall小商场API")
-                .termsOfServiceUrl("https://github.com/linlinjava/litemall")
-                .contact("https://github.com/linlinjava/litemall")
+                .title("sugo-wx API")
+                .description("速购商城API")
+                .termsOfServiceUrl("https://github.com/markeNick/sugo")
+                .contact("https://github.com/markeNick/sugo")
                 .version("1.0")
                 .build();
     }

@@ -11,6 +11,6 @@ import java.util.List;
 public class WxWebMvcConfiguration implements WebMvcConfigurer {
     @Override
     public void addArgumentResolvers(List<HandlerMethodArgumentResolver> argumentResolvers) {
-        argumentResolvers.add(new LoginUserHandlerMethodArgumentResolver());
+//        argumentResolvers.add(new LoginUserHandlerMethodArgumentResolver());
     }
 }

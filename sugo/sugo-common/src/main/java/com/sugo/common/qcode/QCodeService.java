@@ -6,8 +6,8 @@ import com.sugo.common.system.SystemConfig;
 import me.chanjar.weixin.common.error.WxErrorException;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
-import com.sugo.sql.domain.sugoGroupon;
-import com.sugo.sql.domain.sugoStorage;
+import com.sugo.sql.entity.*;
+import com.sugo.sql.entity.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.io.ClassPathResource;
 import org.springframework.stereotype.Service;
@@ -28,7 +28,7 @@ public class QCodeService {
     private StorageService storageService;
 
 
-    public String createGrouponShareImage(String goodName, String goodPicUrl, sugoGroupon groupon) {
+    public String createGrouponShareImage(String goodName, String goodPicUrl, SugoGroupon groupon) {
         try {
             //创建该商品的二维码
             File file = wxMaService.getQrcodeService().createWxaCodeUnlimit("groupon," + groupon.getId(), "pages" +
@@ -38,7 +38,7 @@ public class QCodeService {
             byte[] imageData = drawPicture(inputStream, goodPicUrl, goodName);
             ByteArrayInputStream inputStream2 = new ByteArrayInputStream(imageData);
             //存储分享图
-            sugoStorage storageInfo = storageService.store(inputStream2, imageData.length, "image/jpeg",
+            SugoStorage storageInfo = storageService.store(inputStream2, imageData.length, "image/jpeg",
                     getKeyName(groupon.getId().toString()));
 
             return storageInfo.getUrl();
@@ -73,7 +73,7 @@ public class QCodeService {
             byte[] imageData = drawPicture(inputStream, goodPicUrl, goodName);
             ByteArrayInputStream inputStream2 = new ByteArrayInputStream(imageData);
             //存储分享图
-            sugoStorage sugoStorage = storageService.store(inputStream2, imageData.length, "image/jpeg",
+            SugoStorage sugoStorage = storageService.store(inputStream2, imageData.length, "image/jpeg",
                     getKeyName(goodId));
 
             return sugoStorage.getUrl();
