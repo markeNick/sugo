@@ -1,4 +1,4 @@
-package com.sugo.sql.service.other;
+package com.sugo.sql.service.coupon;
 
 import com.github.pagehelper.PageHelper;
 import com.sugo.sql.dao.SugoCouponUserMapper;
@@ -89,7 +89,7 @@ public class CouponUserService {
     }
 
     /**
-     * 查询用户的某一id的优惠券
+     * 通过用户id和优惠券id查询用户的优惠券
      * @param userId
      * @param couponId
      * @return
@@ -103,7 +103,7 @@ public class CouponUserService {
     }
 
     /**
-     * 通过id查找用户拥有优惠券
+     * 通过id查找用户拥有的优惠券
      * @param id
      * @return
      */

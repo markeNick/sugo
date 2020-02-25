@@ -1,4 +1,4 @@
-package com.sugo.sql.service.other;
+package com.sugo.sql.service.coupon;
 
 import com.github.pagehelper.PageHelper;
 import com.sugo.sql.dao.SugoCouponMapper;

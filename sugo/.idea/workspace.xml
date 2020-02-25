@@ -2,86 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8c1edc3f-f626-4e1d-9ac5-dfacb8436d1e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/dao/OrderMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/dao/StatMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/dao/mapper/OrderMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/dao/mapper/StatMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/entity/UserVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/service/admin/NoticeAdminService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/service/admin/NoticeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/service/admin/PermissionService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/service/admin/RegionService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/service/admin/RoleService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/service/order/OrderGoodsService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/service/order/OrderService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/service/other/KeywordService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/service/other/LogService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/service/other/StatService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/service/other/SugoStorageService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/service/other/TopicService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/service/user/IssueService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/service/user/SearchHistoryService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/service/user/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/util/MyRandom.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sugo-wx-api/src/main/java/com/sugo/wx/task/OrderUnpaidTask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sugo-wx-api/src/main/java/com/sugo/wx/task/TaskStartupRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sugo-wx-api/src/main/java/com/sugo/wx/util/JwtHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sugo-wx-api/src/main/java/com/sugo/wx/util/WxResponseCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sugo-wx-api/src/main/resources/application-wx.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sugo_sugo_admin_api_unknown.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-common/src/main/java/com/sugo/common/annotator/Validator/AddressVaildator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/service/coupon/CouponVerifyService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-wx-api/src/main/java/com/sugo/wx/controller/CartController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-wx-api/src/main/java/com/sugo/wx/service/HomeCacheManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-wx-api/src/main/java/com/sugo/wx/service/UserInfoService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sugo-common/src/main/java/com/sugo/common/express/config/ExpressAutoConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-common/src/main/java/com/sugo/common/express/config/ExpressAutoConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sugo-common/src/main/java/com/sugo/common/qcode/QCodeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-common/src/main/java/com/sugo/common/qcode/QCodeService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sugo-common/src/main/java/com/sugo/common/storage/StorageService.java" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-common/src/main/java/com/sugo/common/storage/StorageService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sugo-common/src/main/java/com/sugo/common/storage/config/StorageAutoConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-common/src/main/java/com/sugo/common/storage/config/StorageAutoConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sugo-common/src/main/java/com/sugo/common/system/SystemConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-common/src/main/java/com/sugo/common/system/SystemConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sugo-common/src/main/java/com/sugo/common/system/SystemInistService.java" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-common/src/main/java/com/sugo/common/system/SystemInistService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sugo-common/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-common/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sugo-common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sugo-main/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-main/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sugo-main/src/main/java/com/sugo/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-main/src/main/java/com/sugo/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sugo-main/sugo-main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-main/sugo-main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/service/AdService.java" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/service/other/AdService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/service/AdminService.java" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/service/admin/AdminService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/service/AdressService.java" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/service/user/AdressService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/service/AftersaleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/service/user/AftersaleService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/service/CartService.java" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/service/user/CartService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/service/CategoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/service/other/CategoryService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/service/CollectService.java" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/service/user/CollectService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/service/CommentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/service/user/CommentService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/service/CouponAssignService.java" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/service/other/CouponAssignService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/service/CouponService.java" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/service/other/CouponService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/service/CouponUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/service/other/CouponUserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/service/FeedbackService.java" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/service/user/FeedbackService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/service/FootprintService.java" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/service/user/FootprintService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/service/GoodsAttributeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/service/goods/GoodsAttributeService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/service/GoodsProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/service/goods/GoodsProductService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/service/GoodsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/service/goods/GoodsService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/service/GoodsSpecificationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/service/goods/GoodsSpecificationService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/service/SystemConfigService.java" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/service/admin/SystemConfigService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/service/AdService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/service/AdminService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/service/AdressService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/service/AftersaleService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/service/CartService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/service/CategoryService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/service/CollectService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/service/CommentService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/service/CouponAssignService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/service/SystemConfigService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sugo-sql/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sugo-sql/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sugo-sql/target/sugo-sql-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/sugo-sql-1.0.0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sugo-wx-api/src/main/java/com/sugo/wx/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-wx-api/src/main/java/com/sugo/wx/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sugo-wx-api/src/main/java/com/sugo/wx/config/WxSwagger2Configuration.java" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-wx-api/src/main/java/com/sugo/wx/config/WxSwagger2Configuration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sugo-wx-api/src/main/java/com/sugo/wx/config/WxWebMvcConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-wx-api/src/main/java/com/sugo/wx/config/WxWebMvcConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-common/src/main/java/com/sugo/common/util/ResponseUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-common/src/main/java/com/sugo/common/util/ResponseUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/service/other/CouponAssignService.java" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/service/coupon/CouponAssignService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/service/other/CouponService.java" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/service/coupon/CouponService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/service/other/CouponUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/service/coupon/CouponUserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/service/user/AdressService.java" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/service/user/AddressService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sugo-wx-api/src/main/java/com/sugo/wx/controller/AddressController.java" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-wx-api/src/main/java/com/sugo/wx/controller/AddressController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sugo-wx-api/src/main/java/com/sugo/wx/service/GetRegionService.java" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-wx-api/src/main/java/com/sugo/wx/service/GetRegionService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sugo-wx-api/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-wx-api/src/main/resources/application.yml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -114,21 +47,30 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/sugo-wx-api/src/main/java/com/sugo/wx/annotation/support/LoginUserHandlerMethodArgumentResolver.java">
+        <entry file="file://$PROJECT_DIR$/sugo-wx-api/src/main/java/com/sugo/wx/controller/CartController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
+            <state relative-caret-position="-311">
+              <caret line="454" column="38" lean-forward="true" selection-start-line="454" selection-start-column="38" selection-end-line="454" selection-end-column="38" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="docComment;method#add#0;class#CartController#0" />
+                <element signature="docComment;method#fastadd#0;class#CartController#0" />
+                <element signature="docComment;method#update#0;class#CartController#0" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sugo-wx-api/src/main/java/com/sugo/wx/annotation/LoginUser.java">
+        <entry file="file://$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/service/coupon/CouponVerifyService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+            <state relative-caret-position="243">
+              <caret line="25" column="22" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -146,10 +88,8 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>LitemallFootprint</find>
       <find>LitemallGoodsProduct</find>
       <find>LitemallGoodsExample</find>
-      <find>LitemallGoods</find>
       <find>LitemallGoodsSpecification</find>
       <find>LitemallIssue</find>
       <find>LitemallKeyword</find>
@@ -176,15 +116,15 @@
       <find>(sugo_</find>
       <find>LITEMALL_</find>
       <find>litemall.</find>
+      <find>LitemallCart</find>
+      <find>LitemallGoods</find>
     </findStrings>
     <replaceStrings>
-      <replace>SugoComment</replace>
       <replace>SugoCoupon</replace>
       <replace>SugoCouponUser</replace>
       <replace>SugoFootprint</replace>
       <replace>SugoGoodsProduct</replace>
       <replace>SugoGoodsExample</replace>
-      <replace>SugoGoods</replace>
       <replace>SugoGoodsSpecification</replace>
       <replace>SugoIssue</replace>
       <replace>SugoKeyword</replace>
@@ -208,6 +148,8 @@
       <replace>(SUGO_</replace>
       <replace>SUGO_</replace>
       <replace>sugo.</replace>
+      <replace>SugoCart</replace>
+      <replace>SugoGoods</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -216,16 +158,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/service/FootprintService.java" />
-        <option value="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/service/GoodsAttributeService.java" />
-        <option value="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/dao/GoodsProductMapper.java" />
-        <option value="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/dao/mapper/GoodsProductMapper.xml" />
-        <option value="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/service/GoodsProductService.java" />
-        <option value="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/service/GoodsService.java" />
-        <option value="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/service/GoodsSpecificationService.java" />
-        <option value="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/service/IssueService.java" />
-        <option value="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/service/KeywordService.java" />
-        <option value="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/service/LogService.java" />
         <option value="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/service/NoticeAdminService.java" />
         <option value="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/service/NoticeService.java" />
         <option value="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/dao/OrderMapper.java" />
@@ -245,7 +177,6 @@
         <option value="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/dao/mapper/StatMapper.xml" />
         <option value="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/dao/mapper/OrderMapper.xml" />
         <option value="$PROJECT_DIR$/sugo-wx-api/src/main/java/com/sugo/wx/config/WxSwagger2Configuration.java" />
-        <option value="$PROJECT_DIR$/sugo-wx-api/src/main/java/com/sugo/wx/controller/AddressController.java" />
         <option value="$PROJECT_DIR$/sugo-common/src/main/java/com/sugo/common/express/config/ExpressAutoConfiguration.java" />
         <option value="$PROJECT_DIR$/sugo-common/src/main/java/com/sugo/common/storage/config/StorageAutoConfiguration.java" />
         <option value="$PROJECT_DIR$/sugo-wx-api/src/main/java/com/sugo/wx/config/WxWebMvcConfiguration.java" />
@@ -256,7 +187,6 @@
         <option value="$PROJECT_DIR$/sugo-wx-api/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/sugo-wx-api/pom.xml" />
         <option value="$PROJECT_DIR$/sugo-main/src/main/java/com/sugo/Application.java" />
-        <option value="$PROJECT_DIR$/sugo-wx-api/src/main/java/com/sugo/wx/service/GetRegionService.java" />
         <option value="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/service/order/OrderGoodsService.java" />
         <option value="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/util/OrderUtil.java" />
         <option value="$PROJECT_DIR$/sugo-wx-api/src/main/java/com/sugo/wx/task/OrderUnpaidTask.java" />
@@ -266,7 +196,19 @@
         <option value="$PROJECT_DIR$/sugo-common/src/main/java/com/sugo/common/storage/StorageService.java" />
         <option value="$PROJECT_DIR$/sugo-common/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/sugo-common/src/main/java/com/sugo/common/system/SystemInistService.java" />
+        <option value="$PROJECT_DIR$/sugo-wx-api/src/main/java/com/sugo/wx/service/UserTokenManager.java" />
         <option value="$PROJECT_DIR$/sugo-wx-api/src/main/java/com/sugo/wx/annotation/support/LoginUserHandlerMethodArgumentResolver.java" />
+        <option value="$PROJECT_DIR$/sugo-wx-api/src/main/java/com/sugo/wx/service/GetRegionService.java" />
+        <option value="$PROJECT_DIR$/sugo-wx-api/src/main/java/com/sugo/wx/service/HomeCacheManager.java" />
+        <option value="$PROJECT_DIR$/sugo-wx-api/src/main/java/com/sugo/wx/service/UserInfoService.java" />
+        <option value="$PROJECT_DIR$/sugo-common/src/main/java/com/sugo/common/util/ResponseUtil.java" />
+        <option value="$PROJECT_DIR$/sugo-common/src/main/java/com/sugo/common/annotator/Validator/AddressVaildator.java" />
+        <option value="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/service/user/AdressService.java" />
+        <option value="$PROJECT_DIR$/sugo-wx-api/src/main/java/com/sugo/wx/controller/AddressController.java" />
+        <option value="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/service/coupon/CouponUserService.java" />
+        <option value="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/service/coupon/CouponVerifyService.java" />
+        <option value="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/service/coupon/CouponAssignService.java" />
+        <option value="$PROJECT_DIR$/sugo-wx-api/src/main/java/com/sugo/wx/controller/CartController.java" />
       </list>
     </option>
   </component>
@@ -328,6 +270,62 @@
             <path>
               <item name="sugo" type="b2602c69:ProjectViewProjectNode" />
               <item name="sugo" type="462c0819:PsiDirectoryNode" />
+              <item name="sugo-sql" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sugo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sugo" type="462c0819:PsiDirectoryNode" />
+              <item name="sugo-sql" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sugo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sugo" type="462c0819:PsiDirectoryNode" />
+              <item name="sugo-sql" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sugo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sugo" type="462c0819:PsiDirectoryNode" />
+              <item name="sugo-sql" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sugo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sugo" type="462c0819:PsiDirectoryNode" />
+              <item name="sugo-sql" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="sql" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sugo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sugo" type="462c0819:PsiDirectoryNode" />
+              <item name="sugo-sql" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="sql" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sugo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sugo" type="462c0819:PsiDirectoryNode" />
+              <item name="sugo-sql" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="sql" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="coupon" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sugo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sugo" type="462c0819:PsiDirectoryNode" />
               <item name="sugo-wx-api" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -378,8 +376,17 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="wx" type="462c0819:PsiDirectoryNode" />
-              <item name="annotation" type="462c0819:PsiDirectoryNode" />
-              <item name="support" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sugo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sugo" type="462c0819:PsiDirectoryNode" />
+              <item name="sugo-wx-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="wx" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="sugo" type="b2602c69:ProjectViewProjectNode" />
@@ -390,16 +397,6 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="wx" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sugo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sugo" type="462c0819:PsiDirectoryNode" />
-              <item name="sugo-wx-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="wx" type="462c0819:PsiDirectoryNode" />
-              <item name="task" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="sugo" type="b2602c69:ProjectViewProjectNode" />
@@ -440,6 +437,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
@@ -499,18 +497,19 @@
       <workItem from="1582290525832" duration="3271000" />
       <workItem from="1582379570491" duration="3660000" />
       <workItem from="1582438977986" duration="5974000" />
-      <workItem from="1582514090510" duration="29383000" />
+      <workItem from="1582514090510" duration="29804000" />
+      <workItem from="1582602803713" duration="17739000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42288000" />
+    <option name="totallyTimeSpent" value="60448000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="916" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23352435" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23710601" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -520,7 +519,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.120204605" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.120204605" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -548,7 +547,7 @@
       <window_info anchor="right" id="Bean Validation" order="10" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.260745" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23710601" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -558,7 +557,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.17519182" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.120204605" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -566,21 +565,21 @@
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32992327" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32992327" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
-      <window_info anchor="bottom" id="Version Control" order="14" />
+      <window_info anchor="bottom" id="Version Control" order="14" weight="0.32992327" />
       <window_info anchor="bottom" id="MyBatis Log" order="15" />
       <window_info anchor="bottom" id="Run Dashboard" order="16" weight="0.32992327" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" weight="0.1790831" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.09670487" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Mybatis datasource" order="6" side_tool="true" />
-      <window_info anchor="right" id="Database" order="7" weight="0.3295129" />
+      <window_info anchor="right" id="Database" order="7" weight="0.06303725" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Theme Preview" order="9" />
       <window_info anchor="right" id="Bean Validation" order="10" />
@@ -590,265 +589,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/sugo-common/src/main/java/com/sugo/common/config/WxConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sugo-common/src/main/java/com/sugo/common/config/WxDetails.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sugo-common/src/main/java/com/sugo/common/express/ExpressService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sugo-common/src/main/java/com/sugo/common/express/dao/ExpressInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sugo-common/src/main/java/com/sugo/common/express/dao/Traces.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sugo-common/src/main/java/com/sugo/common/express/config/ExpressAutoConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="21" column="30" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sugo-common/src/main/java/com/sugo/common/express/config/ExpressProperties.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sugo-common/src/main/java/com/sugo/common/notify/AliyunSmsSender.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sugo-common/src/main/java/com/sugo/common/notify/config/NotifyAutoConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sugo-common/src/main/java/com/sugo/common/notify/config/NotifyProperties.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sugo-common/src/main/java/com/sugo/common/notify/SmsSender.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sugo-common/src/main/java/com/sugo/common/notify/TencentSmsSender.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sugo-common/src/main/java/com/sugo/common/notify/NotifyType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sugo-common/src/main/java/com/sugo/common/notify/NotifyService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sugo-common/src/main/java/com/sugo/common/storage/StorageService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="19" column="41" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#576#577#0" expanded="true" />
-            <element signature="e#605#606#0" expanded="true" />
-            <element signature="e#649#650#0" expanded="true" />
-            <element signature="e#685#686#0" expanded="true" />
-            <element signature="e#720#721#0" expanded="true" />
-            <element signature="e#750#751#0" expanded="true" />
-            <element signature="e#797#798#0" expanded="true" />
-            <element signature="e#835#836#0" expanded="true" />
-            <element signature="e#2089#2090#0" expanded="true" />
-            <element signature="e#2129#2130#0" expanded="true" />
-            <element signature="e#2169#2170#0" expanded="true" />
-            <element signature="e#2213#2214#0" expanded="true" />
-            <element signature="e#2267#2268#0" expanded="true" />
-            <element signature="e#2321#2322#0" expanded="true" />
-            <element signature="e#2363#2364#0" expanded="true" />
-            <element signature="e#2402#2403#0" expanded="true" />
-            <element signature="e#2452#2453#0" expanded="true" />
-            <element signature="e#2503#2504#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sugo-common/src/main/java/com/sugo/common/qcode/QCodeService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2218">
-          <caret line="27" column="19" lean-forward="true" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
-          <folding>
-            <element signature="e#3196#3197#0" expanded="true" />
-            <element signature="e#3250#3251#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sugo-common/src/main/java/com/sugo/common/storage/Storage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sugo-common/src/main/java/com/sugo/common/storage/TencentStorage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sugo-common/src/main/java/com/sugo/common/storage/QiniuStorage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sugo-common/src/main/java/com/sugo/common/storage/LocalStorage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sugo-common/src/main/java/com/sugo/common/storage/AliyunStorage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sugo-common/src/main/java/com/sugo/common/system/SystemConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="799">
-          <caret line="49" column="59" lean-forward="true" selection-start-line="49" selection-start-column="59" selection-end-line="49" selection-end-column="59" />
-          <folding>
-            <element signature="e#1710#1711#0" expanded="true" />
-            <element signature="e#1760#1761#0" expanded="true" />
-            <element signature="e#1819#1820#0" expanded="true" />
-            <element signature="e#1887#1888#0" expanded="true" />
-            <element signature="e#1950#1951#0" expanded="true" />
-            <element signature="e#2017#2018#0" expanded="true" />
-            <element signature="e#2082#2083#0" expanded="true" />
-            <element signature="e#2148#2149#0" expanded="true" />
-            <element signature="e#2191#2192#0" expanded="true" />
-            <element signature="e#2245#2246#0" expanded="true" />
-            <element signature="e#2288#2289#0" expanded="true" />
-            <element signature="e#2342#2343#0" expanded="true" />
-            <element signature="e#2387#2388#0" expanded="true" />
-            <element signature="e#2443#2444#0" expanded="true" />
-            <element signature="e#2488#2489#0" expanded="true" />
-            <element signature="e#2544#2545#0" expanded="true" />
-            <element signature="e#2594#2595#0" expanded="true" />
-            <element signature="e#2656#2657#0" expanded="true" />
-            <element signature="e#2706#2707#0" expanded="true" />
-            <element signature="e#2769#2770#0" expanded="true" />
-            <element signature="e#2823#2824#0" expanded="true" />
-            <element signature="e#2877#2878#0" expanded="true" />
-            <element signature="e#2922#2923#0" expanded="true" />
-            <element signature="e#2988#2989#0" expanded="true" />
-            <element signature="e#3038#3039#0" expanded="true" />
-            <element signature="e#3102#3103#0" expanded="true" />
-            <element signature="e#3148#3149#0" expanded="true" />
-            <element signature="e#3202#3203#0" expanded="true" />
-            <element signature="e#3251#3252#0" expanded="true" />
-            <element signature="e#3308#3309#0" expanded="true" />
-            <element signature="e#3355#3356#0" expanded="true" />
-            <element signature="e#3410#3411#0" expanded="true" />
-            <element signature="e#3452#3453#0" expanded="true" />
-            <element signature="e#3500#3501#0" expanded="true" />
-            <element signature="e#3545#3546#0" expanded="true" />
-            <element signature="e#3596#3597#0" expanded="true" />
-            <element signature="e#3639#3640#0" expanded="true" />
-            <element signature="e#3688#3689#0" expanded="true" />
-            <element signature="e#3728#3729#0" expanded="true" />
-            <element signature="e#3774#3775#0" expanded="true" />
-            <element signature="e#3821#3822#0" expanded="true" />
-            <element signature="e#3874#3875#0" expanded="true" />
-            <element signature="e#3920#3921#0" expanded="true" />
-            <element signature="e#3972#3973#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sugo-wx-api/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sugo-common/src/main/java/com/sugo/common/system/SystemInistService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="84" column="30" selection-start-line="84" selection-start-column="27" selection-end-line="84" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sugo-sql/src/main/resources/application-sql.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sugo-sql/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="11" lean-forward="true" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sugo-common/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sugo-common/src/main/resources/application-common.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1303" />
@@ -858,13 +598,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sugo-common/src/main/java/com/sugo/common/util/BeanUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -889,24 +622,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sugo-common/src/main/java/com/sugo/common/util/JacksonUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2204">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sugo-common/src/main/java/com/sugo/common/util/RegexUtil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-4360">
           <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sugo-common/src/main/java/com/sugo/common/util/ResponseUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-946">
-          <caret line="41" column="13" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -946,13 +665,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/util/AftersaleConstant.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/util/CouponConstant.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
@@ -1001,17 +713,298 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sugo-wx-api/src/main/java/com/sugo/wx/annotation/LoginUser.java">
+    <entry file="file://$PROJECT_DIR$/sugo-wx-api/src/main/java/com/sugo/wx/service/UserTokenManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+        <state relative-caret-position="289">
+          <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sugo-wx-api/src/main/java/com/sugo/wx/annotation/support/LoginUserHandlerMethodArgumentResolver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
+        <state relative-caret-position="374">
+          <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sugo-wx-api/src/main/java/com/sugo/wx/task/OrderUnpaidTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-274">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sugo-wx-api/src/main/java/com/sugo/wx/task/TaskStartupRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sugo-wx-api/src/main/java/com/sugo/wx/util/WxResponseCode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-70">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sugo-wx-api/src/main/java/com/sugo/wx/util/JwtHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-563">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sugo-wx-api/src/main/java/com/sugo/wx/service/GetRegionService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="25" column="28" lean-forward="true" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sugo-wx-api/src/main/java/com/sugo/wx/entity/UserInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.1.7.RELEASE/spring-core-5.1.7.RELEASE.jar!/org/springframework/util/Assert.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sugo-wx-api/src/main/java/com/sugo/wx/service/UserInfoService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="24" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sugo-wx-api/src/main/java/com/sugo/wx/service/HomeCacheManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="474">
+          <caret line="74" column="16" lean-forward="true" selection-start-line="74" selection-start-column="16" selection-end-line="74" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1751#1752#0" expanded="true" />
+            <element signature="e#1808#1809#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sugo-common/src/main/java/com/sugo/common/util/BeanUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/github/pagehelper/pagehelper/5.1.4/pagehelper-5.1.4.jar!/com/github/pagehelper/Page.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/jakarta/validation/jakarta.validation-api/2.0.2/jakarta.validation-api-2.0.2.jar!/javax/validation/constraints/NotNull.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sugo-wx-api/src/main/java/com/sugo/wx/annotation/LoginUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sugo-common/src/main/java/com/sugo/common/annotator/Validator/SortValidator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sugo-common/src/main/java/com/sugo/common/annotator/Validator/OrderValidator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sugo-common/src/main/java/com/sugo/common/util/ResponseUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1836">
+          <caret line="116" column="25" lean-forward="true" selection-start-line="116" selection-start-column="25" selection-end-line="116" selection-end-column="25" />
+          <folding>
+            <element signature="e#2995#2996#0" expanded="true" />
+            <element signature="e#3035#3036#0" expanded="true" />
+            <element signature="e#3082#3083#0" expanded="true" />
+            <element signature="e#3123#3124#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sugo-common/src/main/java/com/sugo/common/annotator/Validator/AddressVaildator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/service/user/AddressService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="59" column="21" selection-start-line="59" selection-start-column="21" selection-end-line="59" selection-end-column="21" />
+          <folding>
+            <element signature="e#1668#1669#0" expanded="true" />
+            <element signature="e#1727#1728#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sugo-wx-api/src/main/java/com/sugo/wx/controller/AddressController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="25" column="4" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="74" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="docComment;method#List#0;class#AddressController#0" />
+            <element signature="docComment;method#detail#0;class#AddressController#0" />
+            <element signature="docComment;method#save#0;class#AddressController#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/entity/SugoCart.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="e#8121#8122#0" expanded="true" />
+            <element signature="e#8150#8151#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/Java/JavaJDK/src.zip!/java/lang/Short.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="345" column="15" selection-start-line="345" selection-start-column="15" selection-end-line="345" selection-end-column="15" />
+          <folding>
+            <element signature="e#12432#12433#0" expanded="true" />
+            <element signature="e#12465#12466#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sugo-common/src/main/java/com/sugo/common/util/JacksonUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="62" column="60" lean-forward="true" selection-start-line="62" selection-start-column="60" selection-end-line="62" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/service/user/CartService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="46" column="35" selection-start-line="46" selection-start-column="35" selection-end-line="46" selection-end-column="35" />
+          <folding>
+            <element signature="e#3862#3863#0" expanded="true" />
+            <element signature="e#3918#3919#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/entity/SugoCouponUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/util/CouponConstant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="45" selection-start-line="9" selection-start-column="45" selection-end-line="9" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/Java/JavaJDK/src.zip!/java/math/BigDecimal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="413">
+          <caret line="2635" column="21" lean-forward="true" selection-start-line="2635" selection-start-column="21" selection-end-line="2635" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/service/coupon/CouponUserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="32" column="20" lean-forward="true" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
+          <folding>
+            <element signature="e#3490#3491#0" expanded="true" />
+            <element signature="e#3552#3553#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/service/coupon/CouponAssignService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="20" column="15" selection-start-line="20" selection-start-column="15" selection-end-line="20" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/service/coupon/CouponService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="596">
+          <caret line="90" column="24" selection-start-line="90" selection-start-column="24" selection-end-line="90" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/service/coupon/CouponVerifyService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="25" column="22" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sugo-wx-api/src/main/java/com/sugo/wx/controller/CartController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-311">
+          <caret line="454" column="38" lean-forward="true" selection-start-line="454" selection-start-column="38" selection-end-line="454" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="docComment;method#add#0;class#CartController#0" />
+            <element signature="docComment;method#fastadd#0;class#CartController#0" />
+            <element signature="docComment;method#update#0;class#CartController#0" />
+          </folding>
         </state>
       </provider>
     </entry>

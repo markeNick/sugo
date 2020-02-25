@@ -34,9 +34,9 @@ import java.util.Map;
  * <li> 505，更新数据失败，即后端数据库更新失败（正常情况应该更新成功）。
  * </ul>
  * <li> 6xx，小商城后端业务错误码，
- * 具体见litemall-admin-api模块的AdminResponseCode。
+ * 具体见sugo-admin-api模块的AdminResponseCode。
  * <li> 7xx，管理后台后端业务错误码，
- * 具体见litemall-wx-api模块的WxResponseCode。
+ * 具体见sugo-wx-api模块的WxResponseCode。
  * </ul>
  */
 public class ResponseUtil {

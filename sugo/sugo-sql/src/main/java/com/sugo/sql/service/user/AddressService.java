@@ -11,7 +11,7 @@ import javax.annotation.Resource;
 import java.time.LocalDateTime;
 import java.util.List;
 @Service
-public class AdressService {
+public class AddressService {
     @Resource
     private SugoAddressMapper addressMapper;
 
@@ -73,7 +73,7 @@ public class AdressService {
     }
 
     /**
-     * 修改默认地址
+     * 重置默认地址
      * @param userId
      */
     public void resetDefault(Integer userId) {
