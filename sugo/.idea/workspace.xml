@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8c1edc3f-f626-4e1d-9ac5-dfacb8436d1e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/sugo-wx-api/src/main/java/com/sugo/wx/controller/CommentController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../sugo-wx/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/../sugo-wx/app.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/service/user/CommentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/service/user/CommentService.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -477,7 +474,7 @@
       <workItem from="1582438977986" duration="5974000" />
       <workItem from="1582514090510" duration="29804000" />
       <workItem from="1582602803713" duration="18315000" />
-      <workItem from="1582686878935" duration="12793000" />
+      <workItem from="1582686878935" duration="12984000" />
     </task>
     <servers />
   </component>
@@ -496,7 +493,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="73817000" />
+    <option name="totallyTimeSpent" value="74008000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="916" extended-state="0" />
