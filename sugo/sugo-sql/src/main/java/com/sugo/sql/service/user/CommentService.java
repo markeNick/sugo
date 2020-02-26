@@ -38,6 +38,14 @@ public class CommentService {
         return commentMapper.selectByExample(example);
     }
 
+    /**
+     * 统计总记录数
+     *
+     * @param type
+     * @param valueId
+     * @param showType  0表示全部评论数， 1表示含有图片的评论数
+     * @return
+     */
     public int count(Byte type, Integer valueId, Integer showType) {
         SugoCommentExample example = new SugoCommentExample();
         if (showType == 0) {
