@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8c1edc3f-f626-4e1d-9ac5-dfacb8436d1e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/sugo-wx-api/src/main/java/com/sugo/wx/controller/FeedbackController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sugo-wx-api/src/main/java/com/sugo/wx/controller/FootprintController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../sugo-wx/config/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/../sugo-wx/config/api.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -39,10 +38,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/sugo-wx-api/src/main/java/com/sugo/wx/controller/FeedbackController.java">
+        <entry file="file://$PROJECT_DIR$/sugo-wx-api/src/main/java/com/sugo/wx/controller/FootprintController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="151">
-              <caret line="36" column="7" selection-start-line="36" selection-start-column="7" selection-end-line="36" selection-end-column="7" />
+            <state relative-caret-position="185">
+              <caret line="69" column="7" selection-start-line="69" selection-start-column="7" selection-end-line="69" selection-end-column="7" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -133,7 +132,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/service/RoleService.java" />
         <option value="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/service/SearchHistoryService.java" />
         <option value="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/service/StorageService.java" />
         <option value="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/service/SystemConfigService.java" />
@@ -184,6 +182,7 @@
         <option value="$PROJECT_DIR$/sugo-common/src/main/java/com/sugo/common/util/JacksonUtil.java" />
         <option value="$PROJECT_DIR$/sugo-wx-api/src/main/java/com/sugo/wx/controller/CollectController.java" />
         <option value="$PROJECT_DIR$/sugo-wx-api/src/main/java/com/sugo/wx/controller/FeedbackController.java" />
+        <option value="$PROJECT_DIR$/sugo-wx-api/src/main/java/com/sugo/wx/controller/FootprintController.java" />
       </list>
     </option>
   </component>
@@ -459,7 +458,7 @@
       <workItem from="1582438977986" duration="5974000" />
       <workItem from="1582514090510" duration="29804000" />
       <workItem from="1582602803713" duration="18315000" />
-      <workItem from="1582686878935" duration="8930000" />
+      <workItem from="1582686878935" duration="9606000" />
     </task>
     <servers />
   </component>
@@ -478,7 +477,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69954000" />
+    <option name="totallyTimeSpent" value="70630000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="916" extended-state="0" />
@@ -564,13 +563,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/mybatis/JsonIntegerArrayTypeHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/mybatis/JsonNodeTypeHandler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -959,19 +951,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sugo-common/src/main/java/com/sugo/common/util/ResponseUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-259">
-          <caret line="41" column="13" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
-          <folding>
-            <element signature="e#2995#2996#0" expanded="true" />
-            <element signature="e#3035#3036#0" expanded="true" />
-            <element signature="e#3082#3083#0" expanded="true" />
-            <element signature="e#3123#3124#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sugo-common/src/main/java/com/sugo/common/util/JacksonUtil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="358">
@@ -998,8 +977,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sugo-wx-api/src/main/java/com/sugo/wx/controller/FeedbackController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="36" column="7" selection-start-line="36" selection-start-column="7" selection-end-line="36" selection-end-column="7" />
+        <state relative-caret-position="-104">
+          <caret line="39" column="14" lean-forward="true" selection-start-line="39" selection-start-column="14" selection-end-line="39" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sugo-common/src/main/java/com/sugo/common/util/ResponseUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="77" column="25" selection-start-line="77" selection-start-column="25" selection-end-line="77" selection-end-column="25" />
+          <folding>
+            <element signature="e#2995#2996#0" expanded="true" />
+            <element signature="e#3035#3036#0" expanded="true" />
+            <element signature="e#3082#3083#0" expanded="true" />
+            <element signature="e#3123#3124#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sugo-wx-api/src/main/java/com/sugo/wx/controller/FootprintController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="69" column="7" selection-start-line="69" selection-start-column="7" selection-end-line="69" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
