@@ -76,6 +76,10 @@ public class HomeCacheManager {
             cacheDataList.remove(cacheKey);
         }
     }
+
+    public static Map<String, Object> getCacheData(String cacheKey) {
+        return cacheDataList.get(cacheKey);
+    }
 }
 
 

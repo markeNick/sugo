@@ -1,11 +1,16 @@
 spring:
   profiles:
-    active: sql, public, admin, wx
+    active: sql, common, wx
   messages:
     encoding: UTF-8
 
 server:
-  port: 8080
+  port: 8082
 
 logging:
-  config: classpath:logback-spring.xml
+  level:
+    root:  ERROR
+    org.springframework:  ERROR
+    org.mybatis:  ERROR
+    com.sugo.wx:  DEBUG
+    com.sugo:  ERROR

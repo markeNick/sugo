@@ -59,7 +59,7 @@ public class CategoryService {
     }
 
     /**
-     * 查询父类目ID的类目
+     * 查询父类目ID下的所有子类目
      * @param pid
      * @return
      */

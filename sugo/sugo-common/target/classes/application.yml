@@ -1,6 +1,6 @@
 spring:
   profiles:
-    active: core, db
+    active: common, sql
   messages:
     encoding: UTF-8
 
@@ -9,4 +9,4 @@ logging:
     root:  ERROR
     org.springframework:  ERROR
     org.mybatis:  ERROR
-    org.linlinjava.litemall.core:  DEBUG
+    com.sugo.common:  DEBUG
