@@ -28,6 +28,16 @@ public class CollectService {
         return (int) collectMapper.countByExample(example);
     }
 
+    /**
+     * 根据类型查找用户收藏
+     * @param userId
+     * @param type
+     * @param page
+     * @param limit
+     * @param sort
+     * @param order
+     * @return
+     */
     public List<SugoCollect> queryByType(Integer userId, Byte type, Integer page, Integer limit, String sort, String order) {
         SugoCollectExample example = new SugoCollectExample();
         SugoCollectExample.Criteria criteria = example.createCriteria();
