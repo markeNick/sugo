@@ -16,18 +16,33 @@ public class KeywordService {
     @Resource
     private SugoKeywordMapper keywordMapper;
 
+    /**
+     * 查询默认关键词
+     * @return
+     */
     public SugoKeyword queryDefault() {
         SugoKeywordExample example = new SugoKeywordExample();
         example.or().andDeletedEqualTo(false).andIsDefaultEqualTo(true);
         return keywordMapper.selectOneByExample(example);
     }
 
+    /**
+     * 查询热搜关键词
+     * @return
+     */
     public List<SugoKeyword> queryHots() {
         SugoKeywordExample example = new SugoKeywordExample();
         example.or().andIsHotEqualTo(true).andDeletedEqualTo(false);
         return keywordMapper.selectByExample(example);
     }
 
+    /**
+     * 通过部分关键字查询出关键词
+     * @param keyword
+     * @param page
+     * @param limit
+     * @return
+     */
     public List<SugoKeyword> queryByKeyword(String keyword, Integer page, Integer limit) {
         SugoKeywordExample example = new SugoKeywordExample();
         example.setDistinct(true);
