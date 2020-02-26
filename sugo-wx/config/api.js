@@ -2,11 +2,9 @@
 // 本机开发时使用
 var WxApiRoot = 'http://localhost:8080/wx/';
 // 局域网测试使用
-// var WxApiRoot = 'http://192.168.1.101:8080/wx/';
-// 云平台部署时使用
-// var WxApiRoot = 'http://122.51.199.160:8080/wx/';
+// var WxApiRoot = 'http://192.168.17.128:8080/wx/';
 // 云平台上线时使用
-// var WxApiRoot = 'https://www.menethil.com.cn/wx/';
+// var WxApiRoot = 'https://www.yxxcloud.cn/wx/';
 
 module.exports = {
   IndexUrl: WxApiRoot + 'home/index', //首页数据接口
@@ -29,8 +27,8 @@ module.exports = {
   GoodsDetail: WxApiRoot + 'goods/detail', //获得商品的详情
   GoodsRelated: WxApiRoot + 'goods/related', //商品详情页的关联商品（大家都在看）
 
-  BrandList: WxApiRoot + 'brand/list', //品牌列表
-  BrandDetail: WxApiRoot + 'brand/detail', //品牌详情
+  // BrandList: WxApiRoot + 'brand/list', //品牌列表
+  // BrandDetail: WxApiRoot + 'brand/detail', //品牌详情
 
   CartList: WxApiRoot + 'cart/index', //获取购物车的数据
   CartAdd: WxApiRoot + 'cart/add', // 添加商品到购物车
@@ -48,9 +46,9 @@ module.exports = {
   CommentCount: WxApiRoot + 'comment/count', //评论总数
   CommentPost: WxApiRoot + 'comment/post', //发表评论
 
-  TopicList: WxApiRoot + 'topic/list', //专题列表
-  TopicDetail: WxApiRoot + 'topic/detail', //专题详情
-  TopicRelated: WxApiRoot + 'topic/related', //相关专题
+  // TopicList: WxApiRoot + 'topic/list', //专题列表
+  // TopicDetail: WxApiRoot + 'topic/detail', //专题详情
+  // TopicRelated: WxApiRoot + 'topic/related', //相关专题
 
   SearchIndex: WxApiRoot + 'search/index', //搜索关键字
   SearchResult: WxApiRoot + 'search/result', //搜索结果
@@ -85,10 +83,10 @@ module.exports = {
   FootprintList: WxApiRoot + 'footprint/list', //足迹列表
   FootprintDelete: WxApiRoot + 'footprint/delete', //删除足迹
 
-  GroupOnList: WxApiRoot + 'groupon/list', //团购列表
-  GroupOnMy: WxApiRoot + 'groupon/my', //团购API-我的团购
-  GroupOnDetail: WxApiRoot + 'groupon/detail', //团购API-详情
-  GroupOnJoin: WxApiRoot + 'groupon/join', //团购API-详情
+  // GroupOnList: WxApiRoot + 'groupon/list', //团购列表
+  // GroupOnMy: WxApiRoot + 'groupon/my', //团购API-我的团购
+  // GroupOnDetail: WxApiRoot + 'groupon/detail', //团购API-详情
+  // GroupOnJoin: WxApiRoot + 'groupon/join', //团购API-详情
 
   CouponList: WxApiRoot + 'coupon/list', //优惠券列表
   CouponMyList: WxApiRoot + 'coupon/mylist', //我的优惠券列表

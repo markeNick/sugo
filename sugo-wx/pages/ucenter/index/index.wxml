@@ -52,24 +52,35 @@
     <van-icon class='user_service_right' name="arrow" />      
   </view>
   <view class='separate'></view>
+
   <view class='user_service' bindtap='goFootprint'>
     <van-icon class="user_service_icon" name="records" size="20px"/>
     <view class='user_service_left'>浏览足迹</view>
     <van-icon class='user_service_right' name="arrow" />      
   </view>
   <view class='separate'></view>
+
   <view class='user_service' bindtap='goAddress'>
     <van-icon class="user_service_icon" name="location-o" size="20px"/>
     <view class='user_service_left'>地址管理</view>
     <van-icon class='user_service_right' name="arrow" />      
   </view>
   <view class='separate'></view>
+
+  <view class='user_service' bindtap='goCoupon'>
+    <van-icon class="user_service_icon" name="gift-card-o" size="20px"/>
+    <view class='user_service_left'>优惠券管理</view>
+    <van-icon class='user_service_right' name="arrow" />      
+  </view>
+  <view class='separate'></view>
+
   <view class='user_service' bindtap='goFeedback'>
     <van-icon class="user_service_icon" name="bulb-o" size="20px"/>
     <view class='user_service_left'>意见反馈</view>
     <van-icon class='user_service_right' name="arrow" />      
   </view>
   <view class='separate'></view>
+  
   <view class='user_service' bindtap='aboutUs'>
     <van-icon class="user_service_icon" name="friends-o" size="20px"/>
     <view class='user_service_left'>关于我们</view>
