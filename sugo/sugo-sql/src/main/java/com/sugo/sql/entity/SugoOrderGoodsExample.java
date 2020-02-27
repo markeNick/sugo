@@ -244,7 +244,7 @@ public class SugoOrderGoodsExample {
             if (value == null) {
                 throw new RuntimeException("Value for " + property + " cannot be null");
             }
-            specificationsCriteria.add(new Criterion(condition, value, "ocom.sugo.sql.mybatis.JsonStringArrayTypeHandler"));
+            specificationsCriteria.add(new Criterion(condition, value, "com.sugo.sql.mybatis.JsonStringArrayTypeHandler"));
             allCriteria = null;
         }
 
@@ -252,7 +252,7 @@ public class SugoOrderGoodsExample {
             if (value1 == null || value2 == null) {
                 throw new RuntimeException("Between values for " + property + " cannot be null");
             }
-            specificationsCriteria.add(new Criterion(condition, value1, value2, "ocom.sugo.sql.mybatis.JsonStringArrayTypeHandler"));
+            specificationsCriteria.add(new Criterion(condition, value1, value2, "com.sugo.sql.mybatis.JsonStringArrayTypeHandler"));
             allCriteria = null;
         }
 

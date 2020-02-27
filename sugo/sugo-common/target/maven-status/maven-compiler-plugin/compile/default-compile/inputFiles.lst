@@ -7,7 +7,7 @@ E:\sugo\sugo\sugo-common\src\main\java\com\sugo\common\notify\SmsSender.java
 E:\sugo\sugo\sugo-common\src\main\java\com\sugo\common\storage\LocalStorage.java
 E:\sugo\sugo\sugo-common\src\main\java\com\sugo\common\config\WxDetails.java
 E:\sugo\sugo\sugo-common\src\main\java\com\sugo\common\notify\config\NotifyAutoConfiguration.java
-E:\sugo\sugo\sugo-common\src\main\java\com\sugo\common\qcode\QCodeService.java
+E:\sugo\sugo\sugo-common\src\main\java\com\sugo\common\annotator\Validator\AddressVaildator.java
 E:\sugo\sugo\sugo-common\src\main\java\com\sugo\common\config\ValidatorConfiguration.java
 E:\sugo\sugo\sugo-common\src\main\java\com\sugo\common\storage\Storage.java
 E:\sugo\sugo\sugo-common\src\main\java\com\sugo\common\util\ResponseUtil.java

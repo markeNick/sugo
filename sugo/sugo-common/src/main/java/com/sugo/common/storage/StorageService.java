@@ -2,9 +2,10 @@ package com.sugo.common.storage;
 
 import com.sugo.common.util.CharUtil;
 import com.sugo.sql.entity.SugoStorage;
-import com.sugo.sql.service.other.SugoStorageService;
+import com.sugo.sql.service.SugoStorageService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.io.Resource;
+
 
 import java.io.InputStream;
 import java.nio.file.Path;
@@ -13,6 +14,7 @@ import java.util.stream.Stream;
 /**
  * 提供存储服务类，所有存储服务均由该类对外提供
  */
+
 public class StorageService {
     private String active;
     private Storage storage;

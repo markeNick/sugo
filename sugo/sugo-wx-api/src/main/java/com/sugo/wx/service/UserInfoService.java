@@ -1,7 +1,7 @@
 package com.sugo.wx.service;
 
 import com.sugo.sql.entity.SugoUser;
-import com.sugo.sql.service.user.UserService;
+import com.sugo.sql.service.UserService;
 import com.sugo.wx.entity.UserInfo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

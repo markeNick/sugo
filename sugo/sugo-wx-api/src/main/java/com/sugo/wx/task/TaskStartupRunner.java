@@ -3,7 +3,7 @@ package com.sugo.wx.task;
 import com.sugo.common.system.SystemConfig;
 import com.sugo.common.task.TaskService;
 import com.sugo.sql.entity.SugoOrder;
-import com.sugo.sql.service.order.OrderService;
+import com.sugo.sql.service.OrderService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.ApplicationArguments;
 import org.springframework.boot.ApplicationRunner;

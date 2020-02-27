@@ -23,7 +23,6 @@ com\sugo\common\util\JacksonUtil$3.class
 com\sugo\common\system\SystemConfig.class
 com\sugo\common\annotator\Validator\OrderValidator.class
 com\sugo\common\notify\config\NotifyProperties.class
-com\sugo\common\qcode\QCodeService.class
 com\sugo\common\annotator\Validator\SortValidator.class
 com\sugo\common\express\dao\ExpressInfo.class
 com\sugo\common\config\CorsConfig.class
@@ -33,6 +32,7 @@ com\sugo\common\notify\config\NotifyProperties$Mail.class
 com\sugo\common\util\BeanUtil.class
 com\sugo\common\express\ExpressService.class
 com\sugo\common\notify\SmsSender.class
+com\sugo\common\annotator\Validator\AddressVaildator.class
 com\sugo\common\storage\config\StorageProperties$Aliyun.class
 com\sugo\common\config\AsyncConfig.class
 com\sugo\common\storage\StorageService.class

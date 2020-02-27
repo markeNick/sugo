@@ -2,10 +2,10 @@ package com.sugo.wx.controller;
 
 import com.sugo.common.util.ResponseUtil;
 import com.sugo.sql.entity.SugoComment;
-import com.sugo.sql.service.goods.GoodsService;
-import com.sugo.sql.service.other.TopicService;
-import com.sugo.sql.service.user.CommentService;
-import com.sugo.sql.service.user.UserService;
+import com.sugo.sql.service.GoodsService;
+import com.sugo.sql.service.TopicService;
+import com.sugo.sql.service.CommentService;
+import com.sugo.sql.service.UserService;
 import com.sugo.wx.annotation.LoginUser;
 import com.sugo.wx.entity.UserInfo;
 import com.sugo.wx.service.UserInfoService;

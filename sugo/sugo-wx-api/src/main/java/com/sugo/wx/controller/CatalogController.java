@@ -2,7 +2,7 @@ package com.sugo.wx.controller;
 
 import com.sugo.common.util.ResponseUtil;
 import com.sugo.sql.entity.SugoCategory;
-import com.sugo.sql.service.other.CategoryService;
+import com.sugo.sql.service.CategoryService;
 import com.sugo.wx.service.HomeCacheManager;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;

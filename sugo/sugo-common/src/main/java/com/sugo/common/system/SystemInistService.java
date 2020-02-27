@@ -1,7 +1,7 @@
 package com.sugo.common.system;
 
 import com.sugo.common.util.SystemInfoPrinter;
-import com.sugo.sql.service.admin.SystemConfigService;
+import com.sugo.sql.service.SystemConfigService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.env.Environment;
 import org.springframework.stereotype.Component;

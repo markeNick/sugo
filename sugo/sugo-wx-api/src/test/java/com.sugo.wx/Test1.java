@@ -1,7 +1,7 @@
 package com.sugo.wx;
 
 import com.sugo.sql.entity.SugoCategory;
-import com.sugo.sql.service.other.CategoryService;
+import com.sugo.sql.service.CategoryService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.junit.Test;

@@ -3,21 +3,17 @@ package com.sugo.wx.task;
 import com.sugo.common.system.SystemConfig;
 import com.sugo.common.task.Task;
 import com.sugo.common.util.BeanUtil;
-import com.sugo.sql.dao.SugoOrderMapper;
 import com.sugo.sql.entity.SugoOrder;
 import com.sugo.sql.entity.SugoOrderGoods;
-import com.sugo.sql.service.goods.GoodsProductService;
-import com.sugo.sql.service.order.OrderGoodsService;
-import com.sugo.sql.service.order.OrderService;
+import com.sugo.sql.service.GoodsProductService;
+import com.sugo.sql.service.OrderGoodsService;
+import com.sugo.sql.service.OrderService;
 import com.sugo.sql.util.OrderUtil;
-import io.swagger.models.auth.In;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 
 import java.time.LocalDateTime;
 import java.util.List;
-import java.util.concurrent.Delayed;
-import java.util.concurrent.TimeUnit;
 
 public class OrderUnpaidTask extends Task {
     private final Log logger = LogFactory.getLog(OrderUnpaidTask.class);

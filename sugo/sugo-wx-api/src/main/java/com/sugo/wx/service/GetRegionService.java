@@ -3,7 +3,7 @@ package com.sugo.wx.service;
 import com.sugo.sql.entity.SugoRegion;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
-import com.sugo.sql.service.admin.RegionService;
+import com.sugo.sql.service.RegionService;
 
 import java.util.List;
 

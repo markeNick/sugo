@@ -4,13 +4,13 @@ import com.sugo.common.system.SystemConfig;
 import com.sugo.common.util.JacksonUtil;
 import com.sugo.common.util.ResponseUtil;
 import com.sugo.sql.entity.*;
-import com.sugo.sql.service.coupon.CouponVerifyService;
-import com.sugo.sql.service.goods.GoodsProductService;
-import com.sugo.sql.service.goods.GoodsService;
-import com.sugo.sql.service.user.AddressService;
-import com.sugo.sql.service.coupon.CouponService;
-import com.sugo.sql.service.coupon.CouponUserService;
-import com.sugo.sql.service.user.CartService;
+import com.sugo.sql.service.CouponVerifyService;
+import com.sugo.sql.service.GoodsProductService;
+import com.sugo.sql.service.GoodsService;
+import com.sugo.sql.service.AddressService;
+import com.sugo.sql.service.CouponService;
+import com.sugo.sql.service.CouponUserService;
+import com.sugo.sql.service.CartService;
 import com.sugo.wx.annotation.LoginUser;
 import org.apache.commons.lang3.ObjectUtils;
 import org.apache.commons.lang3.StringUtils;
@@ -421,7 +421,7 @@ public class CartController {
             tmpUserCouponId = couponUser.getId();
 
             // 检查优惠券是否可用
-            SugoCoupon coupon = couponVerifyService.checkCouponcheckCoupon(userId, couponUser.getCouponId(), tmpUserCouponId, goodsPrice);
+            SugoCoupon coupon = couponVerifyService.checkCoupon(userId, couponUser.getCouponId(), tmpUserCouponId, goodsPrice);
             if (coupon == null) {
                 continue;
             }
@@ -451,7 +451,7 @@ public class CartController {
             couponId = tmpCouponId;
             userCouponId = tmpUserCouponId;
         } else {
-            SugoCoupon coupon = couponVerifyService.checkCouponcheckCoupon(userId, couponId, userCouponId, goodsPrice);
+            SugoCoupon coupon = couponVerifyService.checkCoupon(userId, couponId, userCouponId, goodsPrice);
             if(coupon == null) {    // 用户选择的优惠券有问题，则选择合适优惠券，否则使用用户选择的优惠券
                 couponPrice = tmpCouponPrice;
                 couponId = tmpCouponId;

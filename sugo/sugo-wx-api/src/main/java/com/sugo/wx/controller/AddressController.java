@@ -4,7 +4,7 @@ package com.sugo.wx.controller;
 import com.sugo.common.annotator.Validator.AddressVaildator;
 import com.sugo.common.util.ResponseUtil;
 import com.sugo.sql.entity.SugoAddress;
-import com.sugo.sql.service.admin.RegionService;
+import com.sugo.sql.service.RegionService;
 import com.sugo.wx.annotation.LoginUser;
 import com.sugo.wx.service.GetRegionService;
 
@@ -13,7 +13,7 @@ import org.apache.commons.logging.LogFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
-import com.sugo.sql.service.user.AddressService;
+import com.sugo.sql.service.AddressService;
 
 import javax.validation.constraints.NotNull;
 import java.util.List;

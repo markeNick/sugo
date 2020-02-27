@@ -52,7 +52,7 @@
         </javaTypeResolver>
 
         <javaModelGenerator targetPackage="com.sugo.sql.entity" targetProject="src/main/java"/>
-        <sqlMapGenerator targetPackage="com.sugo.sql.dao.mapper" targetProject="src/main/java"/>
+        <sqlMapGenerator targetPackage="com.sugo.sql.dao" targetProject="src/main/resources"/>
         <javaClientGenerator type="XMLMAPPER" targetPackage="com.sugo.sql.dao" targetProject="src/main/java"/>
         <!--表名-->
         <table tableName="sugo_ad">
@@ -123,7 +123,7 @@
         <table tableName="sugo_order_goods">
             <generatedKey column="id" sqlStatement="MySql" identity="true"/>
             <columnOverride column="specifications" javaType="java.lang.String[]"
-                            typeHandler="ocom.sugo.sql.mybatis.JsonStringArrayTypeHandler"/>
+                            typeHandler="com.sugo.sql.mybatis.JsonStringArrayTypeHandler"/>
             <columnOverride column="comments" javaType="java.lang.Integer[]"
                             typeHandler="com.sugo.sql.mybatis.JsonIntegerArrayTypeHandler"/>
 

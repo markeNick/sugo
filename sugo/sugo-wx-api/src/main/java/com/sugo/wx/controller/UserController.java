@@ -1,7 +1,7 @@
 package com.sugo.wx.controller;
 
 import com.sugo.common.util.ResponseUtil;
-import com.sugo.sql.service.order.OrderService;
+import com.sugo.sql.service.OrderService;
 import com.sugo.wx.annotation.LoginUser;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
