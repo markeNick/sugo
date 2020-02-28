@@ -55,7 +55,7 @@ public class HomeController {
 
     @GetMapping("/cache")
     public Object cache(@NotNull String key) {
-        if (!key.equals("litemall_cache")) {
+        if (!key.equals("sugo_cache")) {
             return ResponseUtil.fail();
         }
 

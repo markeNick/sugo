@@ -71,7 +71,7 @@ public class CatalogController {
         }
 
         List<SugoCategory> currentSubCategory = null;
-        if (currentSubCategory != null) {
+        if (currentCategory != null) {
             currentSubCategory = categoryService.queryByPid(currentCategory.getId());
         }
 

@@ -31,6 +31,7 @@ public class UserController {
      */
     @GetMapping("index")
     public Object index(@LoginUser Integer userId) {
+        System.out.println(userId);
         if (userId == null) {
             return ResponseUtil.unlogin();
         }

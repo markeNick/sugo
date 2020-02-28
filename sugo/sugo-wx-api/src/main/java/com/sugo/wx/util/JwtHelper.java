@@ -16,7 +16,7 @@ import com.auth0.jwt.interfaces.DecodedJWT;
 
 public class JwtHelper {
     // 秘钥
-    static final String SECRET = "X-SUGO-Token";
+    static final String SECRET = "X-Sugo-Token";
     // 签名是有谁生成
     static final String ISSUSER = "SUGO";
     // 签名的主题
@@ -26,6 +26,7 @@ public class JwtHelper {
 
 
     public String createToken(Integer userId){
+        System.out.println(userId);
         try {
             Algorithm algorithm = Algorithm.HMAC256(SECRET);
             Map<String, Object> map = new HashMap<String, Object>();
@@ -48,6 +49,7 @@ public class JwtHelper {
                     .withExpiresAt(expireDate)
                     // 签名 Signature
                     .sign(algorithm);
+            System.out.println("token1:" + token);
             return token;
         } catch (JWTCreationException exception){
             exception.printStackTrace();
@@ -56,6 +58,7 @@ public class JwtHelper {
     }
 
     public Integer verifyTokenAndGetUserId(String token) {
+        System.out.println("token2:" + token);
         try {
             Algorithm algorithm = Algorithm.HMAC256(SECRET);
             JWTVerifier verifier = JWT.require(algorithm)

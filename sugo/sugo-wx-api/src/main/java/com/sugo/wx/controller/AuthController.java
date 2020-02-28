@@ -44,6 +44,13 @@ public class AuthController {
     @Autowired
     private CouponAssignService couponAssignService;
 
+    /**
+     * 微信登录
+     *
+     * @param wxLoginInfo
+     * @param request
+     * @return
+     */
     @PostMapping("login_by_weixin")
     public Object loginByWeixin(@RequestBody WxLoginInfo wxLoginInfo, HttpServletRequest request) {
         String code = wxLoginInfo.getCode();
@@ -97,6 +104,7 @@ public class AuthController {
 
         // 生成token
         String token = UserTokenManager.generateToken(user.getId());
+        System.out.println("token1:" + token);
 
         Map<Object, Object> result = new HashMap<Object, Object>();
         result.put("token", token);
