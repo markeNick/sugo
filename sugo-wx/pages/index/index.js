@@ -112,6 +112,7 @@ Page({
     }
 
     this.getIndexData();
+    this.toStorage();
   },
   onReady: function() {
     // 页面渲染完成
@@ -146,18 +147,78 @@ Page({
       }
     })
   },
-  getLocation: function() {
-    var page = this
+
+  // 重新获取定位
+  getNewLocation: function() {
+    wx.showLoading({
+      title: '获取定位中...',
+    })
+    let that = this;
+    try {
+      wx.removeStorageSync('currentCity')
+    } catch (e) {
+
+    }
     wx.getLocation({
       type: 'wgs84',
       success: function(res) {
         var longitude = res.longitude
         var latitude = res.latitude
-        page.loadCity(longitude, latitude)
+        that.loadCity(longitude, latitude)
       }
     })
+    wx.hideLoading({
+      complete: (res) => {
+        wx.showToast({
+          title: '定位成功',
+        })
+      },
+    })
+  },
+
+  getLocation: function() {
+    
+    console.log('点击了1次')
+    var page = this;
+    let that = this;
+    wx.getSetting({
+      success(res) {
+        if(!res.authSetting['scope.userLocation']) {
+          wx.authorize({
+            scope: 'scope.userLocation',
+            success() {
+              wx.getLocation({
+                type: 'wgs84',
+                success: function(res) {
+                  var longitude = res.longitude
+                  var latitude = res.latitude
+                  that.loadCity(longitude, latitude)
+                }
+              })
+              console.log("用户已经同意位置授权");
+            },
+            fail() {
+              console.log("用户已经拒绝位置授权");
+              that.openConfirm();
+            }
+            
+          })
+        }
+      }
+    })
+    // wx.getLocation({
+    //   type: 'wgs84',
+    //   success: function(res) {
+    //     var longitude = res.longitude
+    //     var latitude = res.latitude
+    //     page.loadCity(longitude, latitude)
+    //   }
+    // })
   },
   loadCity: function(longitude, latitude) {
+    wx.showLoading({
+      title: '获取定位中...',
+    })
     var page = this
     var ak = '6WTg9vFdq7nDcNPh3vEhvwklRjcpy7gh'
     wx.request({
@@ -176,11 +237,71 @@ Page({
         page.setData(
           {currentCity: newCity}
         );
+        wx.showToast({
+          title: '定位成功',
+        })
+        try {
+          console.log('缓存数据：' + newCity)
+          wx.setStorageSync('currentCity', newCity)
+        } catch(e) {
+          console.log('缓存失败')
+        }
       },
       fail: function() {
-        util.showErrorToast('定位当前位置失败');
+        that.setData({
+          currentCity: '广东省 广州市 白云区'
+        })
+        util.showErrorToast('定位当前位置失败，使用默认值！');
       }
-    })
+    });
+    wx.hideLoading();
+  },
+  openConfirm: function() {
+    let that = this;
+    wx.showModal({
+      content: '检测到您没打开此小程序的定位权限，是否去设置打开？',
+      confirmText: "确认",
+      cancelText: "取消",
+      success: function (res) {
+        console.log(res);
+        //点击“确认”时打开设置页面
+        if (res.confirm) {
+          console.log('用户点击确认')
+          wx.openSetting({
+            success: (res) => { 
+              wx.getLocation({
+                  type: 'wgs84',
+                  success: function(res) {
+                    var longitude = res.longitude
+                    var latitude = res.latitude
+                    that.loadCity(longitude, latitude)
+                  }
+                })
+            }
+          })
+        } else {
+          console.log('用户点击取消')
+        }
+      }
+    });
+  },
+  // 获取缓存数据，没有缓存就尝试让用户获取地理位置
+  toStorage: function() {
+    let that = this;
+    try {
+      var value = wx.getStorageSync('currentCity')
+      if(value) {
+        console.log('获取到缓存' + value)
+        that.setData({
+          currentCity: value
+        })
+      } else {
+        console.log('没有缓存')
+        that.getLocation();
+      }
+    } catch (e) {
+      console.log(e)
+    }
   }
 
 })

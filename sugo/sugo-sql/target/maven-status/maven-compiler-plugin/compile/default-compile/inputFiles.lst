@@ -11,7 +11,6 @@ E:\sugo\sugo\sugo-sql\src\main\java\com\sugo\sql\entity\SugoOrderExample.java
 E:\sugo\sugo\sugo-sql\src\main\java\com\sugo\sql\dao\SugoOrderMapper.java
 E:\sugo\sugo\sugo-sql\src\main\java\com\sugo\sql\entity\SugoRole.java
 E:\sugo\sugo\sugo-sql\src\main\java\com\sugo\sql\service\StatService.java
-E:\sugo\sugo\sugo-sql\src\main\java\com\sugo\sql\service\StorageService.java
 E:\sugo\sugo\sugo-sql\src\main\java\com\sugo\sql\entity\SugoOrderGoods.java
 E:\sugo\sugo\sugo-sql\src\main\java\com\sugo\sql\dao\SugoKeywordMapper.java
 E:\sugo\sugo\sugo-sql\src\main\java\com\sugo\sql\util\MyRandom.java

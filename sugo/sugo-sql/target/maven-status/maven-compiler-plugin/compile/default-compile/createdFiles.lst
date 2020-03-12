@@ -257,7 +257,6 @@ com\sugo\sql\entity\SugoNoticeExample$Criteria$ICriteriaAdd.class
 com\sugo\sql\dao\SugoCouponMapper.class
 com\sugo\sql\entity\SugoAftersale$Deleted.class
 com\sugo\sql\entity\SugoRole$Deleted.class
-com\sugo\sql\service\StorageService.class
 com\sugo\sql\entity\SugoBrandExample$Criteria.class
 com\sugo\sql\entity\SugoBrandExample.class
 com\sugo\sql\entity\SugoLogExample$IExampleWhen.class

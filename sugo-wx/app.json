@@ -15,7 +15,6 @@
     "pages/ucenter/couponSelect/couponSelect",
     "pages/ucenter/collect/collect",
     "pages/auth/login/login",
-    "pages/auth/reset/reset",
     "pages/payResult/payResult",
     "pages/comment/comment",
     "pages/commentPost/commentPost",
@@ -42,7 +41,7 @@
   ],
   "window": {
     "navigationBarBackgroundColor": "#FFFFFF",
-    "navigationBarTitleText": "速购小程序商城",
+    "navigationBarTitleText": "速购商城小程序",
     "enablePullDownRefresh": false,
     "navigationBarTextStyle": "black",
     "backgroundColor": "#FFFFFF",

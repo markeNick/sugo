@@ -45,9 +45,9 @@ Page({
 
     });
   },
-  accountLogin: function() {
-    wx.navigateTo({
-      url: "/pages/auth/accountLogin/accountLogin"
-    });
-  }
+  // accountLogin: function() {
+  //   wx.navigateTo({
+  //     url: "/pages/auth/accountLogin/accountLogin"
+  //   });
+  // }
 })
