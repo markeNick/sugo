@@ -269,9 +269,9 @@
     <option name="runMavenInBackground" value="false" />
     <option name="vmOptions" value="-DarchetypeCatalog=internal" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-1374" />
-    <option name="y" value="74" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-3" />
+    <option name="y" value="51" />
     <option name="width" value="1382" />
     <option name="height" value="784" />
   </component>
