@@ -20,7 +20,7 @@ module.exports = {
   // AuthReset: WxApiRoot + 'auth/reset', //账号密码重置
   // AuthRegisterCaptcha: WxApiRoot + 'auth/regCaptcha', //验证码
   // AuthBindPhone: WxApiRoot + 'auth/bindPhone', //绑定微信手机号
-
+  NewGoodsList: WxApiRoot + 'home/newGoodsList',//获取新的分页商品数据
   GoodsCount: WxApiRoot + 'goods/count', //统计商品总数
   GoodsList: WxApiRoot + 'goods/list', //获得商品列表
   GoodsCategory: WxApiRoot + 'goods/category', //获得分类数据

@@ -69,7 +69,8 @@ public class CollectController {
             c.put("type", collect.getType());
             c.put("valueId", collect.getValueId());
 
-            SugoGoods goods = goodsService.findById(collect.getId());
+            SugoGoods goods = goodsService.findById(collect.getValueId());
+
             c.put("name", goods.getName());
             c.put("brief", goods.getBrief());
             c.put("picUrl", goods.getPicUrl());
@@ -88,7 +89,7 @@ public class CollectController {
      * @param body
      * @return
      */
-    @GetMapping("addordelete")
+    @PostMapping("addordelete")
     public Object addordelete(@LoginUser Integer userId, @RequestBody String body) {
         if (userId == null) {
             return ResponseUtil.unlogin();

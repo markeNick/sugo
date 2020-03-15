@@ -1,9 +1,11 @@
 package com.sugo.sql.service;
 
 import com.github.pagehelper.PageHelper;
+import com.sugo.sql.dao.GoodsMapper;
 import com.sugo.sql.dao.SugoGoodsMapper;
 import com.sugo.sql.entity.SugoGoods;
 import com.sugo.sql.entity.SugoGoodsExample;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import com.sugo.sql.entity.SugoGoods.Column;
 import org.springframework.util.StringUtils;
@@ -22,7 +24,10 @@ public class GoodsService {
     };
 
     @Resource
-    private SugoGoodsMapper goodsMapper;
+    private SugoGoodsMapper sugoGoodsMapper;
+
+    @Resource
+    private GoodsMapper goodsMapper;
 
     /**
      * 查询热卖商品
@@ -36,22 +41,22 @@ public class GoodsService {
         example.setOrderByClause("add_time desc");
         PageHelper.startPage(offset, limit);
 
-        return goodsMapper.selectByExampleSelective(example, columns);
+        return sugoGoodsMapper.selectByExampleSelective(example, columns);
     }
 
     /**
-     * 查询新品
+     * 查询新品F
      * @param offset
      * @param limit
      * @return
      */
-    public List<SugoGoods> queryByNew(int offset, int limit) {
+    public List<SugoGoods> queryByNew(int offset, int limit, int adcode) {
         SugoGoodsExample example = new SugoGoodsExample();
-        example.or().andIsNewEqualTo(true).andIsOnSaleEqualTo(true).andDeletedEqualTo(false);
+        example.or().andIsNewEqualTo(true).andIsOnSaleEqualTo(true).andAdcodeEqualTo(adcode).andDeletedEqualTo(false);
         example.setOrderByClause("add_time desc");
         PageHelper.startPage(offset, limit);
 
-        return goodsMapper.selectByExampleSelective(example, columns);
+        return sugoGoodsMapper.selectByExampleSelective(example, columns);
     }
 
     /**
@@ -67,7 +72,7 @@ public class GoodsService {
         example.setOrderByClause("add_time desc");
         PageHelper.startPage(offset, limit);
 
-        return goodsMapper.selectByExampleSelective(example, columns);
+        return sugoGoodsMapper.selectByExampleSelective(example, columns);
     }
 
     /**
@@ -78,9 +83,23 @@ public class GoodsService {
     public Integer queryOnSale() {
         SugoGoodsExample example = new SugoGoodsExample();
         example.or().andIsOnSaleEqualTo(true).andDeletedEqualTo(false);
-        return (int) goodsMapper.countByExample(example);
+        return (int) sugoGoodsMapper.countByExample(example);
     }
 
+    /**
+     * 统计用户附近的商品数量
+     * @param adcode
+     * @return
+     */
+    public Long countGoodsByAdCode(String adcode) {
+
+        return goodsMapper.countGoodsByAdCode(adcode);
+    }
+
+//    public List<SugoGoods> selsectByNew(int offset, int limit, String adcode) {
+//
+//
+//    }
 
     public List<SugoGoods> queryByCategory(Integer catId, int offset, int limit) {
         SugoGoodsExample example = new SugoGoodsExample();
@@ -88,7 +107,7 @@ public class GoodsService {
         example.setOrderByClause("add_time desc");
         PageHelper.startPage(offset, limit);
 
-        return goodsMapper.selectByExampleSelective(example, columns);
+        return sugoGoodsMapper.selectByExampleSelective(example, columns);
     }
 
     public List<SugoGoods> querySelective(Integer catId, Integer brandId, String keywords, Boolean isHot, Boolean isNew, Integer offset, Integer limit, String sort, String order) {
@@ -127,7 +146,7 @@ public class GoodsService {
 
         PageHelper.startPage(offset, limit);
 
-        return goodsMapper.selectByExampleSelective(example, columns);
+        return sugoGoodsMapper.selectByExampleSelective(example, columns);
     }
 
     public List<SugoGoods> querySelective(Integer goodsId, String goodsSn, String name, Integer page, Integer size, String sort, String order) {
@@ -150,7 +169,7 @@ public class GoodsService {
         }
 
         PageHelper.startPage(page, size);
-        return goodsMapper.selectByExampleWithBLOBs(example);
+        return sugoGoodsMapper.selectByExampleWithBLOBs(example);
     }
 
     /**
@@ -161,13 +180,13 @@ public class GoodsService {
     public SugoGoods findById(Integer id) {
         SugoGoodsExample example = new SugoGoodsExample();
         example.or().andIdEqualTo(id).andDeletedEqualTo(false);
-        return goodsMapper.selectOneByExampleWithBLOBs(example);
+        return sugoGoodsMapper.selectOneByExampleWithBLOBs(example);
     }
 
     public SugoGoods findByIdVO(Integer id) {
         SugoGoodsExample example = new SugoGoodsExample();
         example.or().andIdEqualTo(id).andDeletedEqualTo(false).andIsOnSaleEqualTo(true);
-        return goodsMapper.selectOneByExampleSelective(example, columns);
+        return sugoGoodsMapper.selectOneByExampleSelective(example, columns);
     }
 
     /**
@@ -177,7 +196,7 @@ public class GoodsService {
     public Integer countOnSale() {
         SugoGoodsExample example = new SugoGoodsExample();
         example.or().andIsOnSaleEqualTo(true).andDeletedEqualTo(false);
-        return (int) goodsMapper.countByExample(example);
+        return (int) sugoGoodsMapper.countByExample(example);
     }
 
     /**
@@ -187,7 +206,7 @@ public class GoodsService {
      */
     public int updateById(SugoGoods goods) {
         goods.setUpdateTime(LocalDateTime.now());
-        return goodsMapper.updateByPrimaryKeySelective(goods);
+        return sugoGoodsMapper.updateByPrimaryKeySelective(goods);
     }
 
     /**
@@ -195,7 +214,7 @@ public class GoodsService {
      * @param id
      */
     public void deleteById(Integer id) {
-        goodsMapper.logicalDeleteByPrimaryKey(id);
+        sugoGoodsMapper.logicalDeleteByPrimaryKey(id);
     }
 
     /**
@@ -205,7 +224,7 @@ public class GoodsService {
     public void add(SugoGoods goods) {
         goods.setAddTime(LocalDateTime.now());
         goods.setUpdateTime(LocalDateTime.now());
-        goodsMapper.insertSelective(goods);
+        sugoGoodsMapper.insertSelective(goods);
     }
 
     /**
@@ -215,7 +234,7 @@ public class GoodsService {
     public int countGoods() {
         SugoGoodsExample example = new SugoGoodsExample();
         example.or().andDeletedEqualTo(false);
-        return (int) goodsMapper.countByExample(example);
+        return (int) sugoGoodsMapper.countByExample(example);
     }
 
     public List<Integer> getCatIds(Integer brandId, String keywords, Boolean isHot, Boolean isNew) {
@@ -244,7 +263,7 @@ public class GoodsService {
         criteria1.andDeletedEqualTo(false);
         criteria2.andDeletedEqualTo(false);
 
-        List<SugoGoods> goodsList = goodsMapper.selectByExampleSelective(example, Column.categoryId);
+        List<SugoGoods> goodsList = sugoGoodsMapper.selectByExampleSelective(example, Column.categoryId);
         List<Integer> cats = new ArrayList<Integer>();
         for (SugoGoods goods : goodsList) {
             cats.add(goods.getCategoryId());
@@ -255,13 +274,13 @@ public class GoodsService {
     public boolean checkExistByName(String name) {
         SugoGoodsExample example = new SugoGoodsExample();
         example.or().andNameEqualTo(name).andIsOnSaleEqualTo(true).andDeletedEqualTo(false);
-        return goodsMapper.countByExample(example) != 0;
+        return sugoGoodsMapper.countByExample(example) != 0;
     }
 
     public List<SugoGoods> queryByIds(Integer[] ids) {
         SugoGoodsExample example = new SugoGoodsExample();
         example.or().andIdIn(Arrays.asList(ids)).andIsOnSaleEqualTo(true).andDeletedEqualTo(false);
-        return goodsMapper.selectByExampleSelective(example, columns);
+        return sugoGoodsMapper.selectByExampleSelective(example, columns);
     }
 }
 

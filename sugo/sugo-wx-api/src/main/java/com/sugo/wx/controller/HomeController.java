@@ -39,13 +39,7 @@ public class HomeController {
     private GoodsService goodsService;
 
     @Autowired
-    private TopicService topicService;
-
-    @Autowired
     private CategoryService categoryService;
-
-    @Autowired
-    private CouponService couponService;
 
     private final static ArrayBlockingQueue<Runnable> WORK_QUEUE = new ArrayBlockingQueue<>(9);
 
@@ -70,7 +64,9 @@ public class HomeController {
      * @return 首页数据
      */
     @GetMapping("/index")
-    public Object index(@LoginUser Integer userId) {
+    public Object index(@LoginUser Integer userId, String adcode) {
+
+        int code = Integer.parseInt(adcode);
         //优先从缓存中读取
         if (HomeCacheManager.hasData(HomeCacheManager.INDEX)) {
             return ResponseUtil.ok(HomeCacheManager.getCacheData(HomeCacheManager.INDEX));
@@ -81,56 +77,37 @@ public class HomeController {
 
         Callable<List> channelListCallable = () -> categoryService.queryChannel();
 
-        Callable<List> couponListCallable;
-        if(userId == null){
-            couponListCallable = () -> couponService.queryList(0, 3);
-        } else {
-            couponListCallable = () -> couponService.queryAvailableList(userId,0, 3);
-        }
+        // 修改行政编码后2位为00，即去掉县区，保留市级 如：440111 -> 440100
+        int code_01 = code / 100 * 100;
 
-
-        Callable<List> newGoodsListCallable = () -> goodsService.queryByNew(0, SystemConfig.getNewLimit());
-
-        Callable<List> hotGoodsListCallable = () -> goodsService.queryByHot(0, SystemConfig.getHotLimit());
-
-
-        Callable<List> topicListCallable = () -> topicService.queryList(0, SystemConfig.getTopicLimit());
-
-
-        Callable<List> floorGoodsListCallable = this::getCategoryList;
+        Callable<List> newGoodsListCallable = () -> goodsService.queryByNew(0, SystemConfig.getNewLimit() / 2, code);
+        Callable<List> newGoodsListCallable_01 = () -> goodsService.queryByNew(0, SystemConfig.getNewLimit() / 2, code_01);
 
         FutureTask<List> bannerTask = new FutureTask<>(bannerListCallable);
         FutureTask<List> channelTask = new FutureTask<>(channelListCallable);
-        FutureTask<List> couponListTask = new FutureTask<>(couponListCallable);
         FutureTask<List> newGoodsListTask = new FutureTask<>(newGoodsListCallable);
-        FutureTask<List> hotGoodsListTask = new FutureTask<>(hotGoodsListCallable);
-        FutureTask<List> topicListTask = new FutureTask<>(topicListCallable);
-        FutureTask<List> floorGoodsListTask = new FutureTask<>(floorGoodsListCallable);
+        FutureTask<List> newGoodsListTask_01 = new FutureTask<>(newGoodsListCallable_01);
+
 
         executorService.submit(bannerTask);
         executorService.submit(channelTask);
-        executorService.submit(couponListTask);
+
         executorService.submit(newGoodsListTask);
-        executorService.submit(hotGoodsListTask);
-        executorService.submit(topicListTask);
-        executorService.submit(floorGoodsListTask);
+        executorService.submit(newGoodsListTask_01);
 
         Map<String, Object> entity = new HashMap<>();
+        List<SugoGoods> goodsList = null;
         try {
+            goodsList = newGoodsListTask.get();
+            goodsList.addAll(newGoodsListTask_01.get());
             entity.put("banner", bannerTask.get());
             entity.put("channel", channelTask.get());
-            entity.put("couponList", couponListTask.get());
-            entity.put("newGoodsList", newGoodsListTask.get());
-            entity.put("hotGoodsList", hotGoodsListTask.get());
+            entity.put("newGoodsList", goodsList);
             entity.put("brandList", "");
-            entity.put("topicList", topicListTask.get());
-            entity.put("grouponList", "");
-            entity.put("floorGoodsList", floorGoodsListTask.get());
             //缓存数据
             HomeCacheManager.loadData(HomeCacheManager.INDEX, entity);
-        }
-        catch (Exception e) {
-            e.printStackTrace();
+        } catch (Exception e) {
+            logger.debug(this.getClass().getName() + " error: ", e);
         }finally {
             executorService.shutdown();
         }
@@ -177,5 +154,42 @@ public class HomeController {
         about.put("longitude", SystemConfig.getMallLongitude());
         about.put("latitude", SystemConfig.getMallLatitude());
         return ResponseUtil.ok(about);
+    }
+
+    /**
+     * 获取新分页商品数据
+     * @return
+     */
+    @GetMapping("newGoodsList")
+    public Object newGoodsList(String adcode, Integer currentPage) {
+        int adcode_ = Integer.parseInt(adcode);
+        int code = adcode_ / 100 * 100;
+
+        ExecutorService executorService = Executors.newFixedThreadPool(10);
+
+        Callable<List> goodsListCallable_01 = () -> goodsService.queryByNew(currentPage, SystemConfig.getNewLimit() / 2, code);
+        Callable<List> goodsListCallable_02 = () -> goodsService.queryByNew(currentPage, SystemConfig.getNewLimit() / 2, adcode_);
+
+        FutureTask<List> goodsListTask_01 = new FutureTask<>(goodsListCallable_01);
+        FutureTask<List> goodsListTask_02 = new FutureTask<>(goodsListCallable_02);
+
+        executorService.submit(goodsListTask_01);
+        executorService.submit(goodsListTask_02);
+
+        Map<String, Object> entity = new HashMap<>();
+        List<SugoGoods> goodsList = null;
+        try {
+            goodsList = goodsListTask_01.get();
+            goodsList.addAll(goodsListTask_02.get());
+            entity.put("newGoodsList", goodsList);
+        } catch (Exception e) {
+            logger.debug(this.getClass().getName() + " error: ", e);
+        } finally {
+            executorService.shutdown();
+        }
+
+        entity.put("newGoodsList", goodsList);
+
+        return ResponseUtil.ok(entity);
     }
 }

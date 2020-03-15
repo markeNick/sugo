@@ -8,7 +8,7 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 
 @SpringBootApplication(scanBasePackages = {"com.sugo"})
 @MapperScan("com.sugo.sql.dao")
-@EnableTransactionManagement
+@EnableTransactionManagement(proxyTargetClass = true)
 @EnableScheduling
 public class Application {
 

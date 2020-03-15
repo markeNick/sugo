@@ -104,7 +104,6 @@ public class AuthController {
 
         // 生成token
         String token = UserTokenManager.generateToken(user.getId());
-        System.out.println("token1:" + token);
 
         Map<Object, Object> result = new HashMap<Object, Object>();
         result.put("token", token);

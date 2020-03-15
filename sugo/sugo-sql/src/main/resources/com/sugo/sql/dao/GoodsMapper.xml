@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.sugo.sql.dao.GoodsMapper">
+
+    <select id="countGoodsByAdCode" parameterType="java.lang.String" resultType="java.lang.Long">
+        select count(1) from sugo_goods
+        where adcode like #{adcode}
+        and is_on_sale = 1
+        and deleted = 0
+    </select>
+</mapper>

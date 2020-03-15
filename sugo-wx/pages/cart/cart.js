@@ -48,8 +48,33 @@ Page({
     // 页面关闭
   },
   goLogin() {
-    wx.navigateTo({
-      url: "/pages/auth/login/login"
+    let that = this;
+    if (!this.data.hasLogin) {
+      that.wxLogin()      
+    }
+  },
+  wxLogin: function(e) {
+    let that = this;
+    if (e.detail.userInfo == undefined) {
+      app.globalData.hasLogin = false;
+      util.showErrorToast('微信登录失败');
+      return;
+    }
+
+    user.checkLogin().catch(() => {
+
+      user.loginByWeixin(e.detail.userInfo).then(res => {
+        app.globalData.hasLogin = true;
+        that.setData({
+          hasLogin: app.globalData.hasLogin
+        })
+        wx.navigateBack({
+          delta: 1
+        })
+      }).catch((err) => {
+        app.globalData.hasLogin = false;
+        util.showErrorToast('微信登录失败');
+      });
     });
   },
   getCartList: function() {

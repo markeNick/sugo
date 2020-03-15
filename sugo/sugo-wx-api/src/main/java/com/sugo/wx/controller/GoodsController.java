@@ -290,13 +290,14 @@ public class GoodsController {
     }
 
     /**
-     * 在售的商品总数
+     * 统计用户附近的商品数量
      *
      * @return 在售的商品总数
      */
     @GetMapping("count")
-    public Object count() {
-        Integer goodsCount = goodsService.queryOnSale();
+    public Object count(String adcode) {
+        String code = adcode.substring(0, 4);
+        Long goodsCount = goodsService.countGoodsByAdCode(code + "%");
         return ResponseUtil.ok(goodsCount);
     }
 

@@ -461,26 +461,41 @@ Page({
 
   //添加或是取消收藏
   addCollectOrNot: function() {
+    wx.showLoading({
+      title: '收藏中...',
+    })
     let that = this;
     util.request(api.CollectAddOrDelete, {
         type: 0,
         valueId: this.data.id
-      }, "POST")
-      .then(function(res) {
+      }, "POST").then(function(res) {
         if (that.data.userHasCollect == 1) {
           that.setData({
             collect: false,
             userHasCollect: 0
           });
+          wx.hideLoading({
+            complete: (res) => {
+              wx.showToast({
+                title: '取消收藏',
+              })
+            },
+          })
         } else {
           that.setData({
             collect: true,
             userHasCollect: 1
           });
+          wx.hideLoading({
+            complete: (res) => {
+              wx.showToast({
+                title: '收藏成功',
+              })
+            },
+          })
         }
-
-      });
-
+        
+    });
   },
 
   //立即购买（先自动加入购物车）

@@ -26,6 +26,7 @@
     <result column="add_time" jdbcType="TIMESTAMP" property="addTime" />
     <result column="update_time" jdbcType="TIMESTAMP" property="updateTime" />
     <result column="deleted" jdbcType="BIT" property="deleted" />
+    <result column="adcode" jdbcType="INTEGER" property="adcode" />
   </resultMap>
   <resultMap extends="BaseResultMap" id="ResultMapWithBLOBs" type="com.sugo.sql.entity.SugoGoods">
     <!--
@@ -145,7 +146,7 @@
     -->
     id, goods_sn, `name`, category_id, brand_id, gallery, keywords, brief, is_on_sale, 
     sort_order, pic_url, share_url, is_new, is_hot, unit, counter_price, retail_price, 
-    add_time, update_time, deleted
+    add_time, update_time, deleted, adcode
   </sql>
   <sql id="Blob_Column_List">
     <!--
@@ -307,14 +308,16 @@
       sort_order, pic_url, share_url, 
       is_new, is_hot, unit, counter_price, 
       retail_price, add_time, update_time, 
-      deleted, detail)
+      deleted, adcode, detail
+      )
     values (#{goodsSn,jdbcType=VARCHAR}, #{name,jdbcType=VARCHAR}, #{categoryId,jdbcType=INTEGER}, 
       #{brandId,jdbcType=INTEGER}, #{gallery,jdbcType=VARCHAR,typeHandler=com.sugo.sql.mybatis.JsonStringArrayTypeHandler}, 
       #{keywords,jdbcType=VARCHAR}, #{brief,jdbcType=VARCHAR}, #{isOnSale,jdbcType=BIT}, 
       #{sortOrder,jdbcType=SMALLINT}, #{picUrl,jdbcType=VARCHAR}, #{shareUrl,jdbcType=VARCHAR}, 
       #{isNew,jdbcType=BIT}, #{isHot,jdbcType=BIT}, #{unit,jdbcType=VARCHAR}, #{counterPrice,jdbcType=DECIMAL}, 
       #{retailPrice,jdbcType=DECIMAL}, #{addTime,jdbcType=TIMESTAMP}, #{updateTime,jdbcType=TIMESTAMP}, 
-      #{deleted,jdbcType=BIT}, #{detail,jdbcType=LONGVARCHAR})
+      #{deleted,jdbcType=BIT}, #{adcode,jdbcType=INTEGER}, #{detail,jdbcType=LONGVARCHAR}
+      )
   </insert>
   <insert id="insertSelective" parameterType="com.sugo.sql.entity.SugoGoods">
     <!--
@@ -383,6 +386,9 @@
       <if test="deleted != null">
         deleted,
       </if>
+      <if test="adcode != null">
+        adcode,
+      </if>
       <if test="detail != null">
         detail,
       </if>
@@ -444,6 +450,9 @@
       </if>
       <if test="deleted != null">
         #{deleted,jdbcType=BIT},
+      </if>
+      <if test="adcode != null">
+        #{adcode,jdbcType=INTEGER},
       </if>
       <if test="detail != null">
         #{detail,jdbcType=LONGVARCHAR},
@@ -527,6 +536,9 @@
       <if test="record.deleted != null">
         deleted = #{record.deleted,jdbcType=BIT},
       </if>
+      <if test="record.adcode != null">
+        adcode = #{record.adcode,jdbcType=INTEGER},
+      </if>
       <if test="record.detail != null">
         detail = #{record.detail,jdbcType=LONGVARCHAR},
       </if>
@@ -561,6 +573,7 @@
       add_time = #{record.addTime,jdbcType=TIMESTAMP},
       update_time = #{record.updateTime,jdbcType=TIMESTAMP},
       deleted = #{record.deleted,jdbcType=BIT},
+      adcode = #{record.adcode,jdbcType=INTEGER},
       detail = #{record.detail,jdbcType=LONGVARCHAR}
     <if test="_parameter != null">
       <include refid="Update_By_Example_Where_Clause" />
@@ -591,7 +604,8 @@
       retail_price = #{record.retailPrice,jdbcType=DECIMAL},
       add_time = #{record.addTime,jdbcType=TIMESTAMP},
       update_time = #{record.updateTime,jdbcType=TIMESTAMP},
-      deleted = #{record.deleted,jdbcType=BIT}
+      deleted = #{record.deleted,jdbcType=BIT},
+      adcode = #{record.adcode,jdbcType=INTEGER}
     <if test="_parameter != null">
       <include refid="Update_By_Example_Where_Clause" />
     </if>
@@ -660,6 +674,9 @@
       <if test="deleted != null">
         deleted = #{deleted,jdbcType=BIT},
       </if>
+      <if test="adcode != null">
+        adcode = #{adcode,jdbcType=INTEGER},
+      </if>
       <if test="detail != null">
         detail = #{detail,jdbcType=LONGVARCHAR},
       </if>
@@ -691,6 +708,7 @@
       add_time = #{addTime,jdbcType=TIMESTAMP},
       update_time = #{updateTime,jdbcType=TIMESTAMP},
       deleted = #{deleted,jdbcType=BIT},
+      adcode = #{adcode,jdbcType=INTEGER},
       detail = #{detail,jdbcType=LONGVARCHAR}
     where id = #{id,jdbcType=INTEGER}
   </update>
@@ -718,7 +736,8 @@
       retail_price = #{retailPrice,jdbcType=DECIMAL},
       add_time = #{addTime,jdbcType=TIMESTAMP},
       update_time = #{updateTime,jdbcType=TIMESTAMP},
-      deleted = #{deleted,jdbcType=BIT}
+      deleted = #{deleted,jdbcType=BIT},
+      adcode = #{adcode,jdbcType=INTEGER}
     where id = #{id,jdbcType=INTEGER}
   </update>
   <select id="selectOneByExample" parameterType="com.sugo.sql.entity.SugoGoodsExample" resultMap="BaseResultMap">
