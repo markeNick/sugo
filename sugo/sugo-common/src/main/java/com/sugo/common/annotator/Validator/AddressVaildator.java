@@ -9,21 +9,21 @@ public class AddressVaildator {
 
     public static Object validateAddress(SugoAddress address) {
         String name = address.getName();
-        if(!StringUtils.isEmpty(name)) {
+        if (StringUtils.isEmpty(name)) {
             return ResponseUtil.badArgument();
         }
 
         // 测试收货手机号码是否正确
         String mobile = address.getTel();
-        if(!StringUtils.isEmpty(mobile)) {
+        if (StringUtils.isEmpty(mobile)) {
             return ResponseUtil.badArgument();
         }
-        if(!RegexUtil.isMobileExact(mobile)) {
+        if (!RegexUtil.isMobileExact(mobile)) {
             return ResponseUtil.badArgument();
         }
 
         String province = address.getProvince();
-        if(!StringUtils.isEmpty(province)) {
+        if (StringUtils.isEmpty(province)) {
             return ResponseUtil.badArgument();
         }
 

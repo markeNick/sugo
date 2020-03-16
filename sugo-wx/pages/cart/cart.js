@@ -71,6 +71,9 @@ Page({
         wx.navigateBack({
           delta: 1
         })
+        wx.showToast({
+          title: '登录成功',
+        })
       }).catch((err) => {
         app.globalData.hasLogin = false;
         util.showErrorToast('微信登录失败');

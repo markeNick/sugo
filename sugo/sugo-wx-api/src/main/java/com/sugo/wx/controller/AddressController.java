@@ -2,6 +2,7 @@ package com.sugo.wx.controller;
 
 
 import com.sugo.common.annotator.Validator.AddressVaildator;
+import com.sugo.common.util.RegexUtil;
 import com.sugo.common.util.ResponseUtil;
 import com.sugo.sql.entity.SugoAddress;
 import com.sugo.sql.service.RegionService;
@@ -11,6 +12,7 @@ import com.sugo.wx.service.GetRegionService;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.util.StringUtils;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
 import com.sugo.sql.service.AddressService;
@@ -86,6 +88,7 @@ public class AddressController extends GetRegionService {
         // 如果不存则添加，否则更新
         if(address.getId() == null || address.getId().equals(0)) {
             if(address.getIsDefault()) {
+                // 将其他收货地址的默认选项重置为否
                 addressService.resetDefault(userId);
             }
             address.setId(null);
