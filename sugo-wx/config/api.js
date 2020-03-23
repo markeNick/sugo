@@ -1,10 +1,10 @@
 // 以下是业务服务器API地址
 // 本机开发时使用
-var WxApiRoot = 'http://localhost:8088/wx/';
+// var WxApiRoot = 'http://localhost:8088/wx/';
 // 局域网测试使用
 // var WxApiRoot = 'http://192.168.17.128:8080/wx/';
 // 云平台上线时使用
-// var WxApiRoot = 'https://www.yxxcloud.cn/wx/';
+var WxApiRoot = 'https://www.yxxcloud.cn/sugo/wx/';
 
 module.exports = {
   IndexUrl: WxApiRoot + 'home/index', //首页数据接口

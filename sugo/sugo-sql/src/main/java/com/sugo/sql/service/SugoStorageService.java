@@ -14,7 +14,7 @@ import java.util.List;
 @Service
 public class SugoStorageService {
     @Resource
-    private SugoStorageMapper storageMapper;
+    private SugoStorageMapper sugoStorageMapper;
 
     /**
      * 通过文件索引删除存储
@@ -23,7 +23,7 @@ public class SugoStorageService {
     public void deleteByKey(String key) {
         SugoStorageExample example = new SugoStorageExample();
         example.or().andKeyEqualTo(key);
-        storageMapper.logicalDeleteByExample(example);
+        sugoStorageMapper.logicalDeleteByExample(example);
     }
 
     /**
@@ -33,7 +33,7 @@ public class SugoStorageService {
     public void add(SugoStorage sugoStorage) {
         sugoStorage.setAddTime(LocalDateTime.now());
         sugoStorage.setUpdateTime(LocalDateTime.now());
-        storageMapper.insertSelective(sugoStorage);
+        sugoStorageMapper.insertSelective(sugoStorage);
     }
 
     /**
@@ -44,7 +44,7 @@ public class SugoStorageService {
     public SugoStorage findByKey(String key) {
         SugoStorageExample example = new SugoStorageExample();
         example.or().andKeyEqualTo(key).andDeletedEqualTo(false);
-        return storageMapper.selectOneByExample(example);
+        return sugoStorageMapper.selectOneByExample(example);
     }
 
     /**
@@ -54,7 +54,7 @@ public class SugoStorageService {
      */
     public int update(SugoStorage storageInfo) {
         storageInfo.setUpdateTime(LocalDateTime.now());
-        return storageMapper.updateByPrimaryKeySelective(storageInfo);
+        return sugoStorageMapper.updateByPrimaryKeySelective(storageInfo);
     }
 
     /**
@@ -63,7 +63,7 @@ public class SugoStorageService {
      * @return
      */
     public SugoStorage findById(Integer id) {
-        return storageMapper.selectByPrimaryKey(id);
+        return sugoStorageMapper.selectByPrimaryKey(id);
     }
 
     public List<SugoStorage> querySelective(String key, String name, Integer page, Integer limit, String sort, String order) {
@@ -83,6 +83,6 @@ public class SugoStorageService {
         }
 
         PageHelper.startPage(page, limit);
-        return storageMapper.selectByExample(example);
+        return sugoStorageMapper.selectByExample(example);
     }
 }
