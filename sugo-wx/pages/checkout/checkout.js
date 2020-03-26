@@ -135,72 +135,76 @@ Page({
       util.showErrorToast('请选择收货地址');
       return false;
     }
-    util.request(api.OrderSubmit, {
-      cartId: this.data.cartId,
-      addressId: this.data.addressId,
-      couponId: this.data.couponId,
-      userCouponId: this.data.userCouponId,
-      message: this.data.message,
-      grouponRulesId: this.data.grouponRulesId,
-      grouponLinkId: this.data.grouponLinkId
-    }, 'POST').then(res => {
-      if (res.errno === 0) {
+    wx.showToast({
+      title: '无法支付',
+      icon: 'none'
+    })
+    // util.request(api.OrderSubmit, {
+    //   cartId: this.data.cartId,
+    //   addressId: this.data.addressId,
+    //   couponId: this.data.couponId,
+    //   userCouponId: this.data.userCouponId,
+    //   message: this.data.message,
+    //   grouponRulesId: this.data.grouponRulesId,
+    //   grouponLinkId: this.data.grouponLinkId
+    // }, 'POST').then(res => {
+    //   if (res.errno === 0) {
 
-        // 下单成功，重置couponId
-        try {
-          wx.setStorageSync('couponId', 0);
-        } catch (error) {
+    //     // 下单成功，重置couponId
+    //     try {
+    //       wx.setStorageSync('couponId', 0);
+    //     } catch (error) {
 
-        }
+    //     }
 
-        const orderId = res.data.orderId;
-        const grouponLinkId = res.data.grouponLinkId;
-        util.request(api.OrderPrepay, {
-          orderId: orderId
-        }, 'POST').then(function(res) {
-          if (res.errno === 0) {
-            const payParam = res.data;
-            console.log("支付过程开始");
-            wx.requestPayment({
-              'timeStamp': payParam.timeStamp,
-              'nonceStr': payParam.nonceStr,
-              'package': payParam.packageValue,
-              'signType': payParam.signType,
-              'paySign': payParam.paySign,
-              'success': function(res) {
-                console.log("支付过程成功");
-                if (grouponLinkId) {
-                  setTimeout(() => {
-                    wx.redirectTo({
-                      url: '/pages/groupon/grouponDetail/grouponDetail?id=' + grouponLinkId
-                    })
-                  }, 1000);
-                } else {
-                  wx.redirectTo({
-                    url: '/pages/payResult/payResult?status=1&orderId=' + orderId
-                  });
-                }
-              },
-              'fail': function(res) {
-                console.log("支付过程失败");
-                wx.redirectTo({
-                  url: '/pages/payResult/payResult?status=0&orderId=' + orderId
-                });
-              },
-              'complete': function(res) {
-                console.log("支付过程结束")
-              }
-            });
-          } else {
-            wx.redirectTo({
-              url: '/pages/payResult/payResult?status=0&orderId=' + orderId
-            });
-          }
-        });
+    //     const orderId = res.data.orderId;
+    //     const grouponLinkId = res.data.grouponLinkId;
+    //     util.request(api.OrderPrepay, {
+    //       orderId: orderId
+    //     }, 'POST').then(function(res) {
+    //       if (res.errno === 0) {
+    //         const payParam = res.data;
+    //         console.log("支付过程开始");
+    //         wx.requestPayment({
+    //           'timeStamp': payParam.timeStamp,
+    //           'nonceStr': payParam.nonceStr,
+    //           'package': payParam.packageValue,
+    //           'signType': payParam.signType,
+    //           'paySign': payParam.paySign,
+    //           'success': function(res) {
+    //             console.log("支付过程成功");
+    //             if (grouponLinkId) {
+    //               setTimeout(() => {
+    //                 wx.redirectTo({
+    //                   url: '/pages/groupon/grouponDetail/grouponDetail?id=' + grouponLinkId
+    //                 })
+    //               }, 1000);
+    //             } else {
+    //               wx.redirectTo({
+    //                 url: '/pages/payResult/payResult?status=1&orderId=' + orderId
+    //               });
+    //             }
+    //           },
+    //           'fail': function(res) {
+    //             console.log("支付过程失败");
+    //             wx.redirectTo({
+    //               url: '/pages/payResult/payResult?status=0&orderId=' + orderId
+    //             });
+    //           },
+    //           'complete': function(res) {
+    //             console.log("支付过程结束")
+    //           }
+    //         });
+    //       } else {
+    //         wx.redirectTo({
+    //           url: '/pages/payResult/payResult?status=0&orderId=' + orderId
+    //         });
+    //       }
+    //     });
 
-      } else {
-        util.showErrorToast(res.errmsg);
-      }
-    });
+    //   } else {
+    //     util.showErrorToast(res.errmsg);
+    //   }
+    // });
   }
 });

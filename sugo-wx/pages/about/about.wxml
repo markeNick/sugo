@@ -27,7 +27,7 @@
     </view>
   </view>
 
-  <view class="label">QQ交流群: </view>
+  <view class="label">QQ: </view>
   <view class="about-item">
     <view class="item-left">
       <text>{{qq}}</text> 

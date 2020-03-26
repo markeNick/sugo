@@ -421,31 +421,31 @@ Page({
       this.getGrouponInfo(options.grouponId);
     }
     let that = this;
-    wx.getSetting({
-        success: function (res) {
-            console.log(res)
-            //不存在相册授权
-            if (!res.authSetting['scope.writePhotosAlbum']) {
-                wx.authorize({
-                    scope: 'scope.writePhotosAlbum',
-                    success: function () {
-                        that.setData({
-                            canWrite: true
-                        })
-                    },
-                    fail: function (err) {
-                        that.setData({
-                            canWrite: false
-                        })
-                    }
-                })
-            } else {
-                that.setData({
-                    canWrite: true
-                });
-            }
-        }
-    })
+    // wx.getSetting({
+    //     success: function (res) {
+    //         console.log(res)
+    //         //不存在相册授权
+    //         if (!res.authSetting['scope.writePhotosAlbum']) {
+    //             wx.authorize({
+    //                 scope: 'scope.writePhotosAlbum',
+    //                 success: function () {
+    //                     that.setData({
+    //                         canWrite: true
+    //                     })
+    //                 },
+    //                 fail: function (err) {
+    //                     that.setData({
+    //                         canWrite: false
+    //                     })
+    //                 }
+    //             })
+    //         } else {
+    //             that.setData({
+    //                 canWrite: true
+    //             });
+    //         }
+    //     }
+    // })
   },
   onShow: function() {
     // 页面显示

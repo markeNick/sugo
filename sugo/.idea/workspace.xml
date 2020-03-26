@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8c1edc3f-f626-4e1d-9ac5-dfacb8436d1e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/sugo-wx-api/src/main/java/com/sugo/wx/controller/MyController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../sugo-wx/config/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/../sugo-wx/config/api.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/error.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/error.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/log.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/log.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sugo-admin-api/target/classes/com/sugo/admin/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-admin-api/target/classes/com/sugo/admin/Application.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sugo-admin-api/target/classes/com/sugo/admin/config/ShiroConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-admin-api/target/classes/com/sugo/admin/config/ShiroConfig.class" afterDir="false" />
@@ -48,11 +46,7 @@
       <change beforePath="$PROJECT_DIR$/sugo-admin-api/target/classes/com/sugo/admin/vo/PermVo.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-admin-api/target/classes/com/sugo/admin/vo/PermVo.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sugo-admin-api/target/classes/com/sugo/admin/vo/RegionVo.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-admin-api/target/classes/com/sugo/admin/vo/RegionVo.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sugo-admin-api/target/classes/com/sugo/admin/vo/StatVo.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-admin-api/target/classes/com/sugo/admin/vo/StatVo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sugo-admin-api/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sugo-admin-api/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sugo-admin-api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sugo-admin-api/target/sugo-admin-api-1.0.0-exec.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sugo-admin-api/target/sugo-admin-api-1.0.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-common/target/classes/com/sugo/common/annotator/Validator/AddressVaildator.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-common/target/classes/com/sugo/common/annotator/Validator/AddressVaildator.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sugo-common/target/classes/com/sugo/common/annotator/Validator/OrderValidator.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-common/target/classes/com/sugo/common/annotator/Validator/OrderValidator.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sugo-common/target/classes/com/sugo/common/annotator/Validator/SortValidator.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-common/target/classes/com/sugo/common/annotator/Validator/SortValidator.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sugo-common/target/classes/com/sugo/common/config/GlobalExceptionHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-common/target/classes/com/sugo/common/config/GlobalExceptionHandler.class" afterDir="false" />
@@ -103,21 +97,385 @@
       <change beforePath="$PROJECT_DIR$/sugo-common/target/classes/com/sugo/common/util/SystemInfoPrinter.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-common/target/classes/com/sugo/common/util/SystemInfoPrinter.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sugo-common/target/classes/com/sugo/common/util/bcypt/BCrypt.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-common/target/classes/com/sugo/common/util/bcypt/BCrypt.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sugo-common/target/classes/com/sugo/common/util/bcypt/BCryptPasswordEncoder.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-common/target/classes/com/sugo/common/util/bcypt/BCryptPasswordEncoder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sugo-common/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sugo-common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sugo-common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sugo-common/target/sugo-common-1.0.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sugo-main/src/main/java/com/sugo/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-main/src/main/java/com/sugo/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sugo-main/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-main/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sugo-main/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-main/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sugo-main/target/classes/com/sugo/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-main/target/classes/com/sugo/Application.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sugo-main/target/logs/log.log" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-main/target/logs/log.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-main/target/logs/error.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-main/target/logs/log.log" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/sugo-main/target/sugo-main-1.0.0-exec.jar" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-main/target/sugo-main-1.0.0-exec.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sugo-main/target/sugo-main-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-main/target/sugo-main-1.0.0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/service/SugoStorageService.java" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/service/SugoStorageService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/META-INF/sugo-sql.kotlin_module" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/dao/GoodsProductMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/dao/GoodsProductMapper.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/dao/OrderMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/dao/OrderMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/dao/SugoAdMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/dao/SugoAdMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/dao/SugoAddressMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/dao/SugoAddressMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/dao/SugoAdminMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/dao/SugoAdminMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/dao/SugoAftersaleMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/dao/SugoAftersaleMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/dao/SugoBrandMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/dao/SugoBrandMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/dao/SugoCartMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/dao/SugoCartMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/dao/SugoCategoryMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/dao/SugoCategoryMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/dao/SugoCollectMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/dao/SugoCollectMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/dao/SugoCommentMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/dao/SugoCommentMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/dao/SugoCouponMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/dao/SugoCouponMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/dao/SugoCouponUserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/dao/SugoCouponUserMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/dao/SugoFeedbackMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/dao/SugoFeedbackMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/dao/SugoFootprintMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/dao/SugoFootprintMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/dao/SugoGoodsAttributeMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/dao/SugoGoodsAttributeMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/dao/SugoGoodsMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/dao/SugoGoodsMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/dao/SugoGoodsProductMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/dao/SugoGoodsProductMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/dao/SugoGoodsSpecificationMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/dao/SugoGoodsSpecificationMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/dao/SugoGrouponMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/dao/SugoGrouponMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/dao/SugoGrouponRulesMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/dao/SugoGrouponRulesMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/dao/SugoIssueMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/dao/SugoIssueMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/dao/SugoKeywordMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/dao/SugoKeywordMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/dao/SugoLogMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/dao/SugoLogMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/dao/SugoNoticeAdminMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/dao/SugoNoticeAdminMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/dao/SugoNoticeMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/dao/SugoNoticeMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/dao/SugoOrderGoodsMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/dao/SugoOrderGoodsMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/dao/SugoOrderMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/dao/SugoOrderMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/dao/SugoPermissionMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/dao/SugoPermissionMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/dao/SugoRegionMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/dao/SugoRegionMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/dao/SugoRoleMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/dao/SugoRoleMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/dao/SugoSearchHistoryMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/dao/SugoSearchHistoryMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/dao/SugoStorageMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/dao/SugoStorageMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/dao/SugoSystemMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/dao/SugoSystemMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/dao/SugoTopicMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/dao/SugoTopicMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/dao/SugoUserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/dao/SugoUserMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoAd$Column.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoAd$Column.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoAd$Deleted.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoAd$Deleted.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoAd.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoAd.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoAdExample$Criteria$ICriteriaAdd.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoAdExample$Criteria$ICriteriaAdd.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoAdExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoAdExample$Criteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoAdExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoAdExample$Criterion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoAdExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoAdExample$GeneratedCriteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoAdExample$ICriteriaWhen.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoAdExample$ICriteriaWhen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoAdExample$IExampleWhen.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoAdExample$IExampleWhen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoAdExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoAdExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoAddress$Column.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoAddress$Column.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoAddress$Deleted.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoAddress$Deleted.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoAddress.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoAddress.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoAddressExample$Criteria$ICriteriaAdd.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoAddressExample$Criteria$ICriteriaAdd.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoAddressExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoAddressExample$Criteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoAddressExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoAddressExample$Criterion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoAddressExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoAddressExample$GeneratedCriteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoAddressExample$ICriteriaWhen.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoAddressExample$ICriteriaWhen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoAddressExample$IExampleWhen.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoAddressExample$IExampleWhen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoAddressExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoAddressExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoAdmin$Column.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoAdmin$Column.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoAdmin$Deleted.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoAdmin$Deleted.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoAdmin.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoAdmin.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoAdminExample$Criteria$ICriteriaAdd.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoAdminExample$Criteria$ICriteriaAdd.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoAdminExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoAdminExample$Criteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoAdminExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoAdminExample$Criterion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoAdminExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoAdminExample$GeneratedCriteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoAdminExample$ICriteriaWhen.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoAdminExample$ICriteriaWhen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoAdminExample$IExampleWhen.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoAdminExample$IExampleWhen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoAdminExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoAdminExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoAftersale$Column.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoAftersale$Column.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoAftersale$Deleted.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoAftersale$Deleted.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoAftersale.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoAftersale.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoAftersaleExample$Criteria$ICriteriaAdd.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoAftersaleExample$Criteria$ICriteriaAdd.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoAftersaleExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoAftersaleExample$Criteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoAftersaleExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoAftersaleExample$Criterion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoAftersaleExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoAftersaleExample$GeneratedCriteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoAftersaleExample$ICriteriaWhen.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoAftersaleExample$ICriteriaWhen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoAftersaleExample$IExampleWhen.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoAftersaleExample$IExampleWhen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoAftersaleExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoAftersaleExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoBrand$Column.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoBrand$Column.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoBrand$Deleted.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoBrand$Deleted.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoBrand.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoBrand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoBrandExample$Criteria$ICriteriaAdd.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoBrandExample$Criteria$ICriteriaAdd.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoBrandExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoBrandExample$Criteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoBrandExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoBrandExample$Criterion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoBrandExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoBrandExample$GeneratedCriteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoBrandExample$ICriteriaWhen.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoBrandExample$ICriteriaWhen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoBrandExample$IExampleWhen.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoBrandExample$IExampleWhen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoBrandExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoBrandExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoCart$Column.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoCart$Column.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoCart$Deleted.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoCart$Deleted.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoCart.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoCart.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoCartExample$Criteria$ICriteriaAdd.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoCartExample$Criteria$ICriteriaAdd.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoCartExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoCartExample$Criteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoCartExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoCartExample$Criterion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoCartExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoCartExample$GeneratedCriteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoCartExample$ICriteriaWhen.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoCartExample$ICriteriaWhen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoCartExample$IExampleWhen.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoCartExample$IExampleWhen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoCartExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoCartExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoCategory$Column.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoCategory$Column.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoCategory$Deleted.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoCategory$Deleted.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoCategory.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoCategory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoCategoryExample$Criteria$ICriteriaAdd.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoCategoryExample$Criteria$ICriteriaAdd.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoCategoryExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoCategoryExample$Criteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoCategoryExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoCategoryExample$Criterion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoCategoryExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoCategoryExample$GeneratedCriteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoCategoryExample$ICriteriaWhen.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoCategoryExample$ICriteriaWhen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoCategoryExample$IExampleWhen.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoCategoryExample$IExampleWhen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoCategoryExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoCategoryExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoCollect$Column.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoCollect$Column.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoCollect$Deleted.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoCollect$Deleted.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoCollect.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoCollect.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoCollectExample$Criteria$ICriteriaAdd.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoCollectExample$Criteria$ICriteriaAdd.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoCollectExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoCollectExample$Criteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoCollectExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoCollectExample$Criterion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoCollectExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoCollectExample$GeneratedCriteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoCollectExample$ICriteriaWhen.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoCollectExample$ICriteriaWhen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoCollectExample$IExampleWhen.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoCollectExample$IExampleWhen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoCollectExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoCollectExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoComment$Column.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoComment$Column.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoComment$Deleted.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoComment$Deleted.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoComment.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoComment.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoCommentExample$Criteria$ICriteriaAdd.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoCommentExample$Criteria$ICriteriaAdd.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoCommentExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoCommentExample$Criteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoCommentExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoCommentExample$Criterion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoCommentExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoCommentExample$GeneratedCriteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoCommentExample$ICriteriaWhen.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoCommentExample$ICriteriaWhen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoCommentExample$IExampleWhen.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoCommentExample$IExampleWhen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoCommentExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoCommentExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoCoupon$Column.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoCoupon$Column.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoCoupon$Deleted.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoCoupon$Deleted.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoCoupon.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoCoupon.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoCouponExample$Criteria$ICriteriaAdd.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoCouponExample$Criteria$ICriteriaAdd.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoCouponExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoCouponExample$Criteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoCouponExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoCouponExample$Criterion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoCouponExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoCouponExample$GeneratedCriteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoCouponExample$ICriteriaWhen.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoCouponExample$ICriteriaWhen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoCouponExample$IExampleWhen.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoCouponExample$IExampleWhen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoCouponExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoCouponExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoCouponUser$Column.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoCouponUser$Column.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoCouponUser$Deleted.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoCouponUser$Deleted.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoCouponUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoCouponUser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoCouponUserExample$Criteria$ICriteriaAdd.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoCouponUserExample$Criteria$ICriteriaAdd.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoCouponUserExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoCouponUserExample$Criteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoCouponUserExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoCouponUserExample$Criterion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoCouponUserExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoCouponUserExample$GeneratedCriteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoCouponUserExample$ICriteriaWhen.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoCouponUserExample$ICriteriaWhen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoCouponUserExample$IExampleWhen.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoCouponUserExample$IExampleWhen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoCouponUserExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoCouponUserExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoFeedback$Column.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoFeedback$Column.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoFeedback$Deleted.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoFeedback$Deleted.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoFeedback.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoFeedback.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoFeedbackExample$Criteria$ICriteriaAdd.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoFeedbackExample$Criteria$ICriteriaAdd.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoFeedbackExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoFeedbackExample$Criteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoFeedbackExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoFeedbackExample$Criterion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoFeedbackExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoFeedbackExample$GeneratedCriteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoFeedbackExample$ICriteriaWhen.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoFeedbackExample$ICriteriaWhen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoFeedbackExample$IExampleWhen.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoFeedbackExample$IExampleWhen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoFeedbackExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoFeedbackExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoFootprint$Column.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoFootprint$Column.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoFootprint$Deleted.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoFootprint$Deleted.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoFootprint.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoFootprint.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoFootprintExample$Criteria$ICriteriaAdd.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoFootprintExample$Criteria$ICriteriaAdd.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoFootprintExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoFootprintExample$Criteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoFootprintExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoFootprintExample$Criterion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoFootprintExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoFootprintExample$GeneratedCriteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoFootprintExample$ICriteriaWhen.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoFootprintExample$ICriteriaWhen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoFootprintExample$IExampleWhen.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoFootprintExample$IExampleWhen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoFootprintExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoFootprintExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoGoods$Column.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoGoods$Column.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoGoods$Deleted.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoGoods$Deleted.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoGoods.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoGoods.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoGoodsAttribute$Column.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoGoodsAttribute$Column.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoGoodsAttribute$Deleted.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoGoodsAttribute$Deleted.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoGoodsAttribute.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoGoodsAttribute.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoGoodsAttributeExample$Criteria$ICriteriaAdd.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoGoodsAttributeExample$Criteria$ICriteriaAdd.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoGoodsAttributeExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoGoodsAttributeExample$Criteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoGoodsAttributeExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoGoodsAttributeExample$Criterion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoGoodsAttributeExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoGoodsAttributeExample$GeneratedCriteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoGoodsAttributeExample$ICriteriaWhen.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoGoodsAttributeExample$ICriteriaWhen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoGoodsAttributeExample$IExampleWhen.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoGoodsAttributeExample$IExampleWhen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoGoodsAttributeExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoGoodsAttributeExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoGoodsExample$Criteria$ICriteriaAdd.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoGoodsExample$Criteria$ICriteriaAdd.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoGoodsExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoGoodsExample$Criteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoGoodsExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoGoodsExample$Criterion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoGoodsExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoGoodsExample$GeneratedCriteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoGoodsExample$ICriteriaWhen.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoGoodsExample$ICriteriaWhen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoGoodsExample$IExampleWhen.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoGoodsExample$IExampleWhen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoGoodsExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoGoodsExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoGoodsProduct$Column.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoGoodsProduct$Column.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoGoodsProduct$Deleted.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoGoodsProduct$Deleted.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoGoodsProduct.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoGoodsProduct.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoGoodsProductExample$Criteria$ICriteriaAdd.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoGoodsProductExample$Criteria$ICriteriaAdd.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoGoodsProductExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoGoodsProductExample$Criteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoGoodsProductExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoGoodsProductExample$Criterion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoGoodsProductExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoGoodsProductExample$GeneratedCriteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoGoodsProductExample$ICriteriaWhen.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoGoodsProductExample$ICriteriaWhen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoGoodsProductExample$IExampleWhen.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoGoodsProductExample$IExampleWhen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoGoodsProductExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoGoodsProductExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoGoodsSpecification$Column.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoGoodsSpecification$Column.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoGoodsSpecification$Deleted.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoGoodsSpecification$Deleted.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoGoodsSpecification.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoGoodsSpecification.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoGoodsSpecificationExample$Criteria$ICriteriaAdd.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoGoodsSpecificationExample$Criteria$ICriteriaAdd.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoGoodsSpecificationExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoGoodsSpecificationExample$Criteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoGoodsSpecificationExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoGoodsSpecificationExample$Criterion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoGoodsSpecificationExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoGoodsSpecificationExample$GeneratedCriteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoGoodsSpecificationExample$ICriteriaWhen.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoGoodsSpecificationExample$ICriteriaWhen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoGoodsSpecificationExample$IExampleWhen.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoGoodsSpecificationExample$IExampleWhen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoGoodsSpecificationExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoGoodsSpecificationExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoGroupon$Column.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoGroupon$Column.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoGroupon$Deleted.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoGroupon$Deleted.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoGroupon.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoGroupon.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoGrouponExample$Criteria$ICriteriaAdd.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoGrouponExample$Criteria$ICriteriaAdd.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoGrouponExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoGrouponExample$Criteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoGrouponExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoGrouponExample$Criterion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoGrouponExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoGrouponExample$GeneratedCriteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoGrouponExample$ICriteriaWhen.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoGrouponExample$ICriteriaWhen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoGrouponExample$IExampleWhen.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoGrouponExample$IExampleWhen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoGrouponExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoGrouponExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoGrouponRules$Column.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoGrouponRules$Column.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoGrouponRules$Deleted.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoGrouponRules$Deleted.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoGrouponRules.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoGrouponRules.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoGrouponRulesExample$Criteria$ICriteriaAdd.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoGrouponRulesExample$Criteria$ICriteriaAdd.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoGrouponRulesExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoGrouponRulesExample$Criteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoGrouponRulesExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoGrouponRulesExample$Criterion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoGrouponRulesExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoGrouponRulesExample$GeneratedCriteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoGrouponRulesExample$ICriteriaWhen.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoGrouponRulesExample$ICriteriaWhen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoGrouponRulesExample$IExampleWhen.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoGrouponRulesExample$IExampleWhen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoGrouponRulesExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoGrouponRulesExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoIssue$Column.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoIssue$Column.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoIssue$Deleted.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoIssue$Deleted.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoIssue.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoIssue.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoIssueExample$Criteria$ICriteriaAdd.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoIssueExample$Criteria$ICriteriaAdd.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoIssueExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoIssueExample$Criteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoIssueExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoIssueExample$Criterion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoIssueExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoIssueExample$GeneratedCriteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoIssueExample$ICriteriaWhen.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoIssueExample$ICriteriaWhen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoIssueExample$IExampleWhen.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoIssueExample$IExampleWhen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoIssueExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoIssueExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoKeyword$Column.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoKeyword$Column.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoKeyword$Deleted.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoKeyword$Deleted.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoKeyword.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoKeyword.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoKeywordExample$Criteria$ICriteriaAdd.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoKeywordExample$Criteria$ICriteriaAdd.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoKeywordExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoKeywordExample$Criteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoKeywordExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoKeywordExample$Criterion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoKeywordExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoKeywordExample$GeneratedCriteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoKeywordExample$ICriteriaWhen.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoKeywordExample$ICriteriaWhen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoKeywordExample$IExampleWhen.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoKeywordExample$IExampleWhen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoKeywordExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoKeywordExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoLog$Column.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoLog$Column.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoLog$Deleted.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoLog$Deleted.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoLog.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoLog.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoLogExample$Criteria$ICriteriaAdd.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoLogExample$Criteria$ICriteriaAdd.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoLogExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoLogExample$Criteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoLogExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoLogExample$Criterion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoLogExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoLogExample$GeneratedCriteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoLogExample$ICriteriaWhen.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoLogExample$ICriteriaWhen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoLogExample$IExampleWhen.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoLogExample$IExampleWhen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoLogExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoLogExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoNotice$Column.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoNotice$Column.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoNotice$Deleted.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoNotice$Deleted.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoNotice.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoNotice.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoNoticeAdmin$Column.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoNoticeAdmin$Column.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoNoticeAdmin$Deleted.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoNoticeAdmin$Deleted.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoNoticeAdmin.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoNoticeAdmin.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoNoticeAdminExample$Criteria$ICriteriaAdd.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoNoticeAdminExample$Criteria$ICriteriaAdd.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoNoticeAdminExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoNoticeAdminExample$Criteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoNoticeAdminExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoNoticeAdminExample$Criterion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoNoticeAdminExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoNoticeAdminExample$GeneratedCriteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoNoticeAdminExample$ICriteriaWhen.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoNoticeAdminExample$ICriteriaWhen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoNoticeAdminExample$IExampleWhen.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoNoticeAdminExample$IExampleWhen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoNoticeAdminExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoNoticeAdminExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoNoticeExample$Criteria$ICriteriaAdd.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoNoticeExample$Criteria$ICriteriaAdd.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoNoticeExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoNoticeExample$Criteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoNoticeExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoNoticeExample$Criterion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoNoticeExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoNoticeExample$GeneratedCriteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoNoticeExample$ICriteriaWhen.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoNoticeExample$ICriteriaWhen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoNoticeExample$IExampleWhen.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoNoticeExample$IExampleWhen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoNoticeExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoNoticeExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoOrder$Column.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoOrder$Column.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoOrder$Deleted.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoOrder$Deleted.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoOrder.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoOrder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoOrderExample$Criteria$ICriteriaAdd.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoOrderExample$Criteria$ICriteriaAdd.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoOrderExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoOrderExample$Criteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoOrderExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoOrderExample$Criterion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoOrderExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoOrderExample$GeneratedCriteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoOrderExample$ICriteriaWhen.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoOrderExample$ICriteriaWhen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoOrderExample$IExampleWhen.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoOrderExample$IExampleWhen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoOrderExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoOrderExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoOrderGoods$Column.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoOrderGoods$Column.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoOrderGoods$Deleted.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoOrderGoods$Deleted.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoOrderGoods.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoOrderGoods.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoOrderGoodsExample$Criteria$ICriteriaAdd.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoOrderGoodsExample$Criteria$ICriteriaAdd.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoOrderGoodsExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoOrderGoodsExample$Criteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoOrderGoodsExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoOrderGoodsExample$Criterion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoOrderGoodsExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoOrderGoodsExample$GeneratedCriteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoOrderGoodsExample$ICriteriaWhen.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoOrderGoodsExample$ICriteriaWhen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoOrderGoodsExample$IExampleWhen.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoOrderGoodsExample$IExampleWhen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoOrderGoodsExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoOrderGoodsExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoPermission$Column.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoPermission$Column.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoPermission$Deleted.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoPermission$Deleted.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoPermission.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoPermission.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoPermissionExample$Criteria$ICriteriaAdd.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoPermissionExample$Criteria$ICriteriaAdd.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoPermissionExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoPermissionExample$Criteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoPermissionExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoPermissionExample$Criterion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoPermissionExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoPermissionExample$GeneratedCriteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoPermissionExample$ICriteriaWhen.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoPermissionExample$ICriteriaWhen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoPermissionExample$IExampleWhen.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoPermissionExample$IExampleWhen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoPermissionExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoPermissionExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoRegion$Column.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoRegion$Column.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoRegion.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoRegion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoRegionExample$Criteria$ICriteriaAdd.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoRegionExample$Criteria$ICriteriaAdd.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoRegionExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoRegionExample$Criteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoRegionExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoRegionExample$Criterion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoRegionExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoRegionExample$GeneratedCriteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoRegionExample$ICriteriaWhen.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoRegionExample$ICriteriaWhen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoRegionExample$IExampleWhen.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoRegionExample$IExampleWhen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoRegionExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoRegionExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoRole$Column.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoRole$Column.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoRole$Deleted.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoRole$Deleted.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoRole.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoRole.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoRoleExample$Criteria$ICriteriaAdd.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoRoleExample$Criteria$ICriteriaAdd.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoRoleExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoRoleExample$Criteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoRoleExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoRoleExample$Criterion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoRoleExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoRoleExample$GeneratedCriteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoRoleExample$ICriteriaWhen.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoRoleExample$ICriteriaWhen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoRoleExample$IExampleWhen.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoRoleExample$IExampleWhen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoRoleExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoRoleExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoSearchHistory$Column.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoSearchHistory$Column.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoSearchHistory$Deleted.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoSearchHistory$Deleted.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoSearchHistory.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoSearchHistory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoSearchHistoryExample$Criteria$ICriteriaAdd.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoSearchHistoryExample$Criteria$ICriteriaAdd.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoSearchHistoryExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoSearchHistoryExample$Criteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoSearchHistoryExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoSearchHistoryExample$Criterion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoSearchHistoryExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoSearchHistoryExample$GeneratedCriteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoSearchHistoryExample$ICriteriaWhen.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoSearchHistoryExample$ICriteriaWhen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoSearchHistoryExample$IExampleWhen.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoSearchHistoryExample$IExampleWhen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoSearchHistoryExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoSearchHistoryExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoStorage$Column.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoStorage$Column.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoStorage$Deleted.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoStorage$Deleted.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoStorage.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoStorage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoStorageExample$Criteria$ICriteriaAdd.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoStorageExample$Criteria$ICriteriaAdd.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoStorageExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoStorageExample$Criteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoStorageExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoStorageExample$Criterion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoStorageExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoStorageExample$GeneratedCriteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoStorageExample$ICriteriaWhen.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoStorageExample$ICriteriaWhen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoStorageExample$IExampleWhen.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoStorageExample$IExampleWhen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoStorageExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoStorageExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoSystem$Column.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoSystem$Column.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoSystem$Deleted.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoSystem$Deleted.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoSystem.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoSystem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoSystemExample$Criteria$ICriteriaAdd.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoSystemExample$Criteria$ICriteriaAdd.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoSystemExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoSystemExample$Criteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoSystemExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoSystemExample$Criterion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoSystemExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoSystemExample$GeneratedCriteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoSystemExample$ICriteriaWhen.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoSystemExample$ICriteriaWhen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoSystemExample$IExampleWhen.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoSystemExample$IExampleWhen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoSystemExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoSystemExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoTopic$Column.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoTopic$Column.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoTopic$Deleted.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoTopic$Deleted.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoTopic.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoTopic.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoTopicExample$Criteria$ICriteriaAdd.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoTopicExample$Criteria$ICriteriaAdd.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoTopicExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoTopicExample$Criteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoTopicExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoTopicExample$Criterion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoTopicExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoTopicExample$GeneratedCriteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoTopicExample$ICriteriaWhen.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoTopicExample$ICriteriaWhen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoTopicExample$IExampleWhen.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoTopicExample$IExampleWhen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoTopicExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoTopicExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoUser$Column.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoUser$Column.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoUser$Deleted.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoUser$Deleted.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoUser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoUserExample$Criteria$ICriteriaAdd.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoUserExample$Criteria$ICriteriaAdd.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoUserExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoUserExample$Criteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoUserExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoUserExample$Criterion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoUserExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoUserExample$GeneratedCriteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoUserExample$ICriteriaWhen.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoUserExample$ICriteriaWhen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoUserExample$IExampleWhen.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoUserExample$IExampleWhen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoUserExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/SugoUserExample.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/UserVo.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/entity/UserVo.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/mybatis/JsonIntegerArrayTypeHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/mybatis/JsonIntegerArrayTypeHandler.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/mybatis/JsonNodeTypeHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/mybatis/JsonNodeTypeHandler.class" afterDir="false" />
@@ -138,6 +496,7 @@
       <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/service/FootprintService.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/service/FootprintService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/service/GoodsAttributeService.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/service/GoodsAttributeService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/service/GoodsProductService.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/service/GoodsProductService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/service/GoodsService.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/service/GoodsService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/service/GoodsSpecificationService$VO.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/service/GoodsSpecificationService$VO.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/service/GoodsSpecificationService.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/service/GoodsSpecificationService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/service/IssueService.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/service/IssueService.class" afterDir="false" />
@@ -159,21 +518,26 @@
       <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/util/MyRandom.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/util/MyRandom.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/util/OrderHandleOption.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/util/OrderHandleOption.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/util/OrderUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-sql/target/classes/com/sugo/sql/util/OrderUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sugo-sql/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sugo-sql/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sugo-sql/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sugo-sql/target/sugo-sql-1.0.0.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/sugo-wx-api/target/classes/com/sugo/wx/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-wx-api/target/classes/com/sugo/wx/Application.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-wx-api/target/classes/com/sugo/wx/annotation/support/LoginUserHandlerMethodArgumentResolver.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-wx-api/target/classes/com/sugo/wx/annotation/support/LoginUserHandlerMethodArgumentResolver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-wx-api/target/classes/com/sugo/wx/config/WxWebMvcConfiguration.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-wx-api/target/classes/com/sugo/wx/config/WxWebMvcConfiguration.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-wx-api/target/classes/com/sugo/wx/controller/AddressController.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-wx-api/target/classes/com/sugo/wx/controller/AddressController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sugo-wx-api/target/classes/com/sugo/wx/controller/AftersaleController.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-wx-api/target/classes/com/sugo/wx/controller/AftersaleController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-wx-api/target/classes/com/sugo/wx/controller/AuthController.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-wx-api/target/classes/com/sugo/wx/controller/AuthController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sugo-wx-api/target/classes/com/sugo/wx/controller/CartController.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-wx-api/target/classes/com/sugo/wx/controller/CartController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-wx-api/target/classes/com/sugo/wx/controller/CatalogController.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-wx-api/target/classes/com/sugo/wx/controller/CatalogController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-wx-api/target/classes/com/sugo/wx/controller/CollectController.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-wx-api/target/classes/com/sugo/wx/controller/CollectController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sugo-wx-api/target/classes/com/sugo/wx/controller/CommentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-wx-api/target/classes/com/sugo/wx/controller/CommentController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sugo-wx-api/target/classes/com/sugo/wx/controller/CouponController.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-wx-api/target/classes/com/sugo/wx/controller/CouponController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sugo-wx-api/target/classes/com/sugo/wx/controller/FeedbackController.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-wx-api/target/classes/com/sugo/wx/controller/FeedbackController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sugo-wx-api/target/classes/com/sugo/wx/controller/FootprintController.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-wx-api/target/classes/com/sugo/wx/controller/FootprintController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-wx-api/target/classes/com/sugo/wx/controller/GoodsController.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-wx-api/target/classes/com/sugo/wx/controller/GoodsController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-wx-api/target/classes/com/sugo/wx/controller/HomeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-wx-api/target/classes/com/sugo/wx/controller/HomeController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sugo-wx-api/target/classes/com/sugo/wx/controller/OrderController.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-wx-api/target/classes/com/sugo/wx/controller/OrderController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sugo-wx-api/target/classes/com/sugo/wx/controller/SearchController.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-wx-api/target/classes/com/sugo/wx/controller/SearchController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sugo-wx-api/target/classes/com/sugo/wx/controller/StorageController.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-wx-api/target/classes/com/sugo/wx/controller/StorageController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sugo-wx-api/target/classes/com/sugo/wx/controller/TopicController.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-wx-api/target/classes/com/sugo/wx/controller/TopicController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-wx-api/target/classes/com/sugo/wx/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-wx-api/target/classes/com/sugo/wx/controller/UserController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sugo-wx-api/target/classes/com/sugo/wx/entity/CaptchaItem.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-wx-api/target/classes/com/sugo/wx/entity/CaptchaItem.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sugo-wx-api/target/classes/com/sugo/wx/entity/CouponVo.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-wx-api/target/classes/com/sugo/wx/entity/CouponVo.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sugo-wx-api/target/classes/com/sugo/wx/entity/UserInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-wx-api/target/classes/com/sugo/wx/entity/UserInfo.class" afterDir="false" />
@@ -185,12 +549,7 @@
       <change beforePath="$PROJECT_DIR$/sugo-wx-api/target/classes/com/sugo/wx/service/WxOrderService.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-wx-api/target/classes/com/sugo/wx/service/WxOrderService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sugo-wx-api/target/classes/com/sugo/wx/task/OrderUnpaidTask.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-wx-api/target/classes/com/sugo/wx/task/OrderUnpaidTask.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sugo-wx-api/target/classes/com/sugo/wx/task/TaskStartupRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-wx-api/target/classes/com/sugo/wx/task/TaskStartupRunner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sugo-wx-api/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sugo-wx-api/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sugo-wx-api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sugo-wx-api/target/sugo-wx-api-1.0.0-exec.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sugo-wx-api/target/sugo-wx-api-1.0.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sugo-wx-api/target/test-classes/META-INF/sugo-wx-api.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-wx-api/target/classes/com/sugo/wx/util/JwtHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-wx-api/target/classes/com/sugo/wx/util/JwtHelper.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -224,14 +583,100 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sugo-wx-api/src/main/java/com/sugo/wx/controller/MyController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+            <state relative-caret-position="119">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sugo-sql/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sugo-sql/src/main/resources/application-sql.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sugo-sql/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-510" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sugo-wx-api/src/main/java/com/sugo/wx/controller/HomeController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="100" column="45" lean-forward="true" selection-start-line="100" selection-start-column="45" selection-end-line="100" selection-end-column="45" />
+              <folding>
+                <element signature="method#getCategoryList#0;class#HomeController#0" />
+                <element signature="method#about#0;class#HomeController#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sugo-admin-api/src/main/java/com/sugo/admin/controller/AdminStatController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sugo-admin-api/src/main/java/com/sugo/admin/controller/AdminStorageController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-476">
+              <caret line="30" column="26" selection-start-line="30" selection-start-column="12" selection-end-line="30" selection-end-column="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sugo-admin-api/src/main/java/com/sugo/admin/controller/AdminAdController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sugo-admin-api/src/main/java/com/sugo/admin/controller/AdminConfigController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="462">
+              <caret line="91" column="35" lean-forward="true" selection-start-line="91" selection-start-column="35" selection-end-line="91" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/service/SystemConfigService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="250">
+              <caret line="101" column="36" selection-start-line="101" selection-start-column="36" selection-end-line="101" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -355,7 +800,6 @@
         <option value="$PROJECT_DIR$/sugo-sql/src/main/resources/com/sugo/sql/dao/GoodsMapper.xml" />
         <option value="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/service/GoodsService.java" />
         <option value="$PROJECT_DIR$/sugo-common/src/main/java/com/sugo/common/system/SystemInistService.java" />
-        <option value="$PROJECT_DIR$/sugo-wx-api/src/main/java/com/sugo/wx/controller/HomeController.java" />
         <option value="$PROJECT_DIR$/sugo-wx-api/src/main/java/com/sugo/wx/controller/AuthController.java" />
         <option value="$PROJECT_DIR$/sugo-wx-api/src/main/java/com/sugo/wx/controller/CollectController.java" />
         <option value="$PROJECT_DIR$/sugo-wx-api/src/main/java/com/sugo/wx/util/JwtHelper.java" />
@@ -370,6 +814,7 @@
         <option value="$PROJECT_DIR$/sugo-sql/src/main/resources/application-sql.yml" />
         <option value="$PROJECT_DIR$/sugo-wx-api/src/main/java/com/sugo/wx/controller/TestController.java" />
         <option value="$PROJECT_DIR$/sugo-wx-api/src/main/java/com/sugo/wx/controller/MyController.java" />
+        <option value="$PROJECT_DIR$/sugo-wx-api/src/main/java/com/sugo/wx/controller/HomeController.java" />
       </list>
     </option>
   </component>
@@ -407,20 +852,17 @@
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="sugo-main" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="sugo" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+          <item name="install" type="36feed69:MavenProjectsStructure$PluginNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="sugo-main" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="sugo-sql" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="sugo-sql" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="sugo-main" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
         </path>
       </expand>
@@ -487,6 +929,16 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="admin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sugo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sugo" type="462c0819:PsiDirectoryNode" />
+              <item name="sugo-admin-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="sugo" type="b2602c69:ProjectViewProjectNode" />
@@ -772,6 +1224,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Application (2)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="sugo-admin-api" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sugo.admin.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="sugo-main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.sugo.Application" />
@@ -811,7 +1270,8 @@
       <workItem from="1584436270142" duration="30000" />
       <workItem from="1584505290846" duration="1787000" />
       <workItem from="1584850114866" duration="189000" />
-      <workItem from="1584937911075" duration="8736000" />
+      <workItem from="1584937911075" duration="11755000" />
+      <workItem from="1584952860862" duration="2625000" />
     </task>
     <servers />
   </component>
@@ -830,13 +1290,12 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="174597000" />
+    <option name="totallyTimeSpent" value="180241000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="916" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23567335" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23925501" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -846,13 +1305,13 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.6253197" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.10230179" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Spring" order="7" weight="0.32992327" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.6189258" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32992327" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32992327" />
@@ -860,12 +1319,12 @@
       <window_info anchor="bottom" id="Version Control" order="13" weight="0.32992327" />
       <window_info anchor="bottom" id="Database Changes" order="14" weight="0.32992327" />
       <window_info anchor="bottom" id="MyBatis Log" order="15" />
-      <window_info anchor="bottom" id="Run Dashboard" order="16" visible="true" weight="0.2595908" />
+      <window_info anchor="bottom" id="Run Dashboard" order="16" weight="0.2647059" />
       <window_info anchor="bottom" id="Database Console" order="17" weight="0.32992327" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" visible="true" weight="0.23638968" />
+      <window_info anchor="right" id="Maven" order="3" visible="true" weight="0.06805158" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Mybatis datasource" order="6" side_tool="true" />
@@ -918,38 +1377,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/dao/SugoGoodsMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sugo-wx-api/src/main/java/com/sugo/wx/controller/SearchController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="388">
-          <caret line="77" column="66" selection-start-line="77" selection-start-column="66" selection-end-line="77" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/Java/JavaJDK/src.zip!/java/lang/ThreadLocal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="198" column="16" selection-start-line="198" selection-start-column="16" selection-end-line="198" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/github/pagehelper/pagehelper/5.1.4/pagehelper-5.1.4.jar!/com/github/pagehelper/page/PageMethod.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="20" column="20" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
-          <folding>
-            <element signature="e#543#544#0" expanded="true" />
-            <element signature="e#579#580#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/service/KeywordService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
@@ -969,11 +1396,6 @@
         <state relative-caret-position="306">
           <caret line="104" column="58" selection-start-line="104" selection-start-column="58" selection-end-line="104" selection-end-column="58" />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sugo-sql/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-459" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sugo-wx-api/pom.xml">
@@ -1185,16 +1607,6 @@
         <state relative-caret-position="-714" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sugo-admin-api/src/main/java/com/sugo/admin/controller/AdminStorageController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="508">
-          <caret line="30" column="26" selection-start-line="30" selection-start-column="12" selection-end-line="30" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sugo-common/src/main/java/com/sugo/common/storage/StorageService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -1233,35 +1645,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sugo-sql/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sugo-sql/src/main/resources/application-sql.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sugo-wx-api/src/main/java/com/sugo/wx/controller/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="16" selection-start-line="16" selection-end-line="18" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sugo-wx-api/src/main/java/com/sugo/wx/controller/HomeController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="37" column="14" selection-start-line="37" selection-start-column="14" selection-end-line="37" selection-end-column="14" />
-          <folding>
-            <element signature="method#getCategoryList#0;class#HomeController#0" />
-            <element signature="method#about#0;class#HomeController#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1288,11 +1675,79 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sugo-wx-api/src/main/java/com/sugo/wx/controller/MyController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+        <state relative-caret-position="119">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sugo-sql/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sugo-sql/src/main/resources/application-sql.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sugo-sql/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-510" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sugo-wx-api/src/main/java/com/sugo/wx/controller/HomeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="100" column="45" lean-forward="true" selection-start-line="100" selection-start-column="45" selection-end-line="100" selection-end-column="45" />
+          <folding>
+            <element signature="method#getCategoryList#0;class#HomeController#0" />
+            <element signature="method#about#0;class#HomeController#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sugo-admin-api/src/main/java/com/sugo/admin/controller/AdminStatController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sugo-admin-api/src/main/java/com/sugo/admin/controller/AdminStorageController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-476">
+          <caret line="30" column="26" selection-start-line="30" selection-start-column="12" selection-end-line="30" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sugo-admin-api/src/main/java/com/sugo/admin/controller/AdminAdController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sugo-admin-api/src/main/java/com/sugo/admin/controller/AdminConfigController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="91" column="35" lean-forward="true" selection-start-line="91" selection-start-column="35" selection-end-line="91" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/service/SystemConfigService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="101" column="36" selection-start-line="101" selection-start-column="36" selection-end-line="101" selection-end-column="36" />
         </state>
       </provider>
     </entry>
@@ -1384,7 +1839,7 @@
   </component>
   <component name="mavenExecuteGoalHistory">
     <option value="$PROJECT_DIR$" />
-    <option value="clean" />
     <option value="clean install" />
+    <option value="clean" />
   </component>
 </project>

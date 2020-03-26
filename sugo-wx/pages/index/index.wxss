@@ -15,10 +15,11 @@
   flex-wrap: wrap;
   padding-bottom: 0rpx;
   padding-top: 25rpx;
+  padding-left: 30rpx;
 }
 
 .m-menu .item {
-  width: 150rpx;
+  width: 165rpx;
   height: 126rpx;
 }
 
