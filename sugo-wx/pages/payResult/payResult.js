@@ -1,6 +1,6 @@
 var util = require('../../utils/util.js');
 var api = require('../../config/api.js');
-
+import Dialog from '../../lib/vant-weapp/dialog/dialog';
 
 var app = getApp();
 Page({

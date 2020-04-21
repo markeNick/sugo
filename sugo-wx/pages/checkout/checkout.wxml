@@ -43,9 +43,7 @@
     </view>
   </view>
 
-  <view class="message-box">
-    <input class="message-item" bindinput="bindMessageInput" placeholder="如需要，请输入留言" value="{{message}}" />
-  </view>
+  
 
   <view class="order-box">
     <view class="order-item">
@@ -89,7 +87,9 @@
       </view>
     </view>
   </view>
-
+  <view class="message-box">
+    <input class="message-item" bindinput="bindMessageInput" placeholder="如需要，请输入留言" value="{{message}}" />
+  </view>
   <view class="order-total">
     <view class="l">实付：￥{{actualPrice}}</view>
     <view class="r" bindtap="trySubmitOrder">去付款</view>

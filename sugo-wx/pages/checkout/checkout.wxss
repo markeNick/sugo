@@ -147,7 +147,7 @@ page {
 }
 
 .message-box .message-item {
-  height: 52.078rpx;
+  height: 85rpx;
   overflow: hidden;
   background: #fff;
   display: flex;

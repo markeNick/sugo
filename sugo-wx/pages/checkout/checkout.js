@@ -1,6 +1,6 @@
 var util = require('../../utils/util.js');
 var api = require('../../config/api.js');
-
+import Dialog from '../../lib/vant-weapp/dialog/dialog';
 
 var app = getApp();
 
@@ -138,17 +138,15 @@ Page({
       title: '请确认付款',
       // message: '弹窗内容',
       asyncClose: true
-    })
-      .then(() => {
-        setTimeout(() => {
-          // 调用提交订单方法
-          that.submitOrder();
-          Dialog.close();
-        }, 1000);
-      })
-      .catch(() => {
+    }).then(() => {
+      setTimeout(() => {
+        // 调用提交订单方法
+        that.submitOrder();
         Dialog.close();
-      })
+      }, 1000);
+    }).catch(() => {
+      Dialog.close();
+    })
   },
   submitOrder: function() {
     
@@ -192,12 +190,12 @@ Page({
             console.log("支付过程开始");
 
             util.request(api.OrderPayTest, {
-              orderId:that.data.orderId
+              orderId: orderId
             }, 'POST').then(function(res) { 
               
               // 跳转至付款结果页面
               wx.redirectTo({
-                url: '/pages/payResult/payResult?status=1&orderId=' + that.data.orderId
+                url: '/pages/payResult/payResult?status=1&orderId=' + orderId
               });
             })
             // wx.requestPayment({
