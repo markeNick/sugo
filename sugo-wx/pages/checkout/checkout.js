@@ -1,6 +1,7 @@
 var util = require('../../utils/util.js');
 var api = require('../../config/api.js');
 
+
 var app = getApp();
 
 Page({
@@ -130,81 +131,115 @@ Page({
     // 页面关闭
 
   },
+  trySubmitOrder: function() {
+    const that = this;
+    
+    Dialog.confirm({
+      title: '请确认付款',
+      // message: '弹窗内容',
+      asyncClose: true
+    })
+      .then(() => {
+        setTimeout(() => {
+          // 调用提交订单方法
+          that.submitOrder();
+          Dialog.close();
+        }, 1000);
+      })
+      .catch(() => {
+        Dialog.close();
+      })
+  },
   submitOrder: function() {
+    
     if (this.data.addressId <= 0) {
       util.showErrorToast('请选择收货地址');
       return false;
     }
-    wx.showToast({
-      title: '无法支付',
-      icon: 'none'
-    })
-    // util.request(api.OrderSubmit, {
-    //   cartId: this.data.cartId,
-    //   addressId: this.data.addressId,
-    //   couponId: this.data.couponId,
-    //   userCouponId: this.data.userCouponId,
-    //   message: this.data.message,
-    //   grouponRulesId: this.data.grouponRulesId,
-    //   grouponLinkId: this.data.grouponLinkId
-    // }, 'POST').then(res => {
-    //   if (res.errno === 0) {
+    // wx.showToast({
+    //   title: '无法支付',
+    //   icon: 'none'
+    // })
+    
+    // 提交订单，获取订单编号，成功就进行支付
+    util.request(api.OrderSubmit, {
+      cartId: this.data.cartId,
+      addressId: this.data.addressId,
+      couponId: this.data.couponId,
+      userCouponId: this.data.userCouponId,
+      message: this.data.message,
+      grouponRulesId: this.data.grouponRulesId,
+      grouponLinkId: this.data.grouponLinkId
+    }, 'POST').then(res => {
+      if (res.errno === 0) {
 
-    //     // 下单成功，重置couponId
-    //     try {
-    //       wx.setStorageSync('couponId', 0);
-    //     } catch (error) {
+        // 下单成功，重置couponId
+        try {
+          wx.setStorageSync('couponId', 0);
+        } catch (error) {
 
-    //     }
+        }
 
-    //     const orderId = res.data.orderId;
-    //     const grouponLinkId = res.data.grouponLinkId;
-    //     util.request(api.OrderPrepay, {
-    //       orderId: orderId
-    //     }, 'POST').then(function(res) {
-    //       if (res.errno === 0) {
-    //         const payParam = res.data;
-    //         console.log("支付过程开始");
-    //         wx.requestPayment({
-    //           'timeStamp': payParam.timeStamp,
-    //           'nonceStr': payParam.nonceStr,
-    //           'package': payParam.packageValue,
-    //           'signType': payParam.signType,
-    //           'paySign': payParam.paySign,
-    //           'success': function(res) {
-    //             console.log("支付过程成功");
-    //             if (grouponLinkId) {
-    //               setTimeout(() => {
-    //                 wx.redirectTo({
-    //                   url: '/pages/groupon/grouponDetail/grouponDetail?id=' + grouponLinkId
-    //                 })
-    //               }, 1000);
-    //             } else {
-    //               wx.redirectTo({
-    //                 url: '/pages/payResult/payResult?status=1&orderId=' + orderId
-    //               });
-    //             }
-    //           },
-    //           'fail': function(res) {
-    //             console.log("支付过程失败");
-    //             wx.redirectTo({
-    //               url: '/pages/payResult/payResult?status=0&orderId=' + orderId
-    //             });
-    //           },
-    //           'complete': function(res) {
-    //             console.log("支付过程结束")
-    //           }
-    //         });
-    //       } else {
-    //         wx.redirectTo({
-    //           url: '/pages/payResult/payResult?status=0&orderId=' + orderId
-    //         });
-    //       }
-    //     });
+        // 预支付
+        const orderId = res.data.orderId;
+        const grouponLinkId = res.data.grouponLinkId;
+        util.request(api.OrderPrepayTest, {
+          orderId: orderId
+        }, 'POST').then(function(res) {
+          if (res.errno === 0) {
+            // 开始支付
+            const payParam = res.data;
+            console.log("支付过程开始");
 
-    //   } else {
-    //     util.showErrorToast(res.errmsg);
-    //   }
-    // });
+            util.request(api.OrderPayTest, {
+              orderId:that.data.orderId
+            }, 'POST').then(function(res) { 
+              
+              // 跳转至付款结果页面
+              wx.redirectTo({
+                url: '/pages/payResult/payResult?status=1&orderId=' + that.data.orderId
+              });
+            })
+            // wx.requestPayment({
+            //   'timeStamp': payParam.timeStamp,
+            //   'nonceStr': payParam.nonceStr,
+            //   'package': payParam.packageValue,
+            //   'signType': payParam.signType,
+            //   'paySign': payParam.paySign,
+            //   'success': function(res) {
+            //     console.log("支付过程成功");
+            //     if (grouponLinkId) {
+            //       setTimeout(() => {
+            //         wx.redirectTo({
+            //           url: '/pages/groupon/grouponDetail/grouponDetail?id=' + grouponLinkId
+            //         })
+            //       }, 1000);
+            //     } else {
+            //       wx.redirectTo({
+            //         url: '/pages/payResult/payResult?status=1&orderId=' + orderId
+            //       });
+            //     }
+            //   },
+            //   'fail': function(res) {
+            //     console.log("支付过程失败");
+            //     wx.redirectTo({
+            //       url: '/pages/payResult/payResult?status=0&orderId=' + orderId
+            //     });
+            //   },
+            //   'complete': function(res) {
+            //     console.log("支付过程结束")
+            //   }
+            // });
+          } else {
+            wx.redirectTo({
+              url: '/pages/payResult/payResult?status=0&orderId=' + orderId
+            });
+          }
+        });
+
+      } else {
+        util.showErrorToast(res.errmsg);
+      }
+    });
   }
 });

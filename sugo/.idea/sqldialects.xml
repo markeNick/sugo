@@ -3,5 +3,6 @@
   <component name="SqlDialectMappings">
     <file url="file://$PROJECT_DIR$/sugo-sql/src/main/resources/com/sugo/sql/dao/GoodsMapper.xml" dialect="GenericSQL" />
     <file url="file://$PROJECT_DIR$/sugo-sql/src/main/resources/com/sugo/sql/dao/GoodsProductMapper.xml" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/sugo-sql/src/main/resources/com/sugo/sql/dao/OrderMapper.xml" dialect="MySQL" />
   </component>
 </project>

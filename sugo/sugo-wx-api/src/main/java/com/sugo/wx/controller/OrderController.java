@@ -96,6 +96,23 @@ public class OrderController {
     }
 
     /**
+     * 付款订单的预支付测试会话标识
+     *
+     * @param userId 用户ID
+     * @param body   订单信息，{ orderId：xxx }
+     * @return 支付订单ID
+     */
+    @PostMapping("prepay_test")
+    public Object prepay_test(@LoginUser Integer userId, @RequestBody String body, HttpServletRequest request) {
+        return wxOrderService.prepay_test(userId, body, request);
+    }
+
+    @PostMapping("pay_test")
+    public Object pay_test(@LoginUser Integer userId, @RequestBody String body) {
+        return wxOrderService.pay_test(userId, body);
+    }
+
+    /**
      * 微信H5支付
      * @param userId
      * @param body

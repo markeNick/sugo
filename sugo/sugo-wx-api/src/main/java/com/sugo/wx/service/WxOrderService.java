@@ -512,6 +512,79 @@ public class WxOrderService {
     }
 
     /**
+     * 预支付测试
+     *
+     * @param userId
+     * @param body
+     * @param request
+     * @return
+     */
+    @Transactional
+    public Object prepay_test(Integer userId, String body, HttpServletRequest request) {
+        if (userId == null) {
+            return ResponseUtil.unlogin();
+        }
+        Integer orderId = JacksonUtil.parseInteger(body, "orderId");
+        if (orderId == null) {
+            return ResponseUtil.badArgument();
+        }
+
+        SugoOrder order = orderService.findById(userId, orderId);
+        System.out.println("=====================");
+        System.out.println(order.toString());
+
+        if (order == null) {
+            return ResponseUtil.badArgumentValue();
+        }
+        if (!order.getUserId().equals(userId)) {
+            return ResponseUtil.badArgumentValue();
+        }
+
+        // 检测是否能够取消
+        OrderHandleOption handleOption = OrderUtil.build(order);
+        if (!handleOption.isPay()) {
+            return ResponseUtil.fail(ORDER_INVALID_OPERATION, "订单不能支付");
+        }
+
+        SugoUser user = userService.findById(userId);
+        String openid = user.getWeixinOpenid();
+        if (openid == null) {
+            return ResponseUtil.fail(AUTH_OPENID_UNACCESS, "订单不能支付");
+        }
+        WxPayMpOrderResult result = null;
+
+
+        if (orderService.updateWithOptimisticLocker(order) == 0) {
+            return ResponseUtil.updatedDateExpired();
+        }
+        return ResponseUtil.ok(result);
+    }
+
+    public Object pay_test(Integer userId, String body) {
+        if (userId == null) {
+            return ResponseUtil.unlogin();
+        }
+        Integer orderId = JacksonUtil.parseInteger(body, "orderId");
+        if (orderId == null) {
+            return ResponseUtil.badArgument();
+        }
+
+        SugoOrder order = orderService.findById(userId, orderId);
+
+        if (order == null) {
+            return ResponseUtil.badArgumentValue();
+        }
+        if (!order.getUserId().equals(userId)) {
+            return ResponseUtil.badArgumentValue();
+        }
+
+        if (orderService.updateOrderPayStatus(order.getId(), (short) 201, LocalDateTime.now()) == 0) {
+            return ResponseUtil.updatedDateExpired();
+        }
+        return ResponseUtil.ok("支付成功");
+    }
+
+    /**
      * 微信H5支付
      *
      * @param userId

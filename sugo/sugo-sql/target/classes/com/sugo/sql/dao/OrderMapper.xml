@@ -100,4 +100,17 @@
         </set>
         where id = #{order.id,jdbcType=INTEGER} and update_time = #{lastUpdateTime,jdbcType=INTEGER}
     </update>
+
+    <update id="updateOrderPayStatus" parameterType="map">
+        update sugo_order
+        <set>
+            <if test="orderStatus != null">
+                order_status = #{orderStatus,jdbcType=SMALLINT},
+            </if>
+            <if test="updateTime != null">
+                update_time = #{updateTime,jdbcType=TIMESTAMP},
+            </if>
+        </set>
+        where id = #{id,jdbcType=INTEGER}
+    </update>
 </mapper>

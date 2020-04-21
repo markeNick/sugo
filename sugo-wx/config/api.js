@@ -1,10 +1,10 @@
 // 以下是业务服务器API地址
 // 本机开发时使用
-// var WxApiRoot = 'http://localhost:8088/wx/';
+var WxApiRoot = 'http://localhost:8088/wx/';
 // 局域网测试使用
 // var WxApiRoot = 'http://192.168.17.128:8080/wx/';
 // 云平台上线时使用
-var WxApiRoot = 'https://www.yxxcloud.cn/wx/';
+// var WxApiRoot = 'https://www.yxxcloud.cn/wx/';
 
 module.exports = {
   IndexUrl: WxApiRoot + 'home/index', //首页数据接口
@@ -66,6 +66,8 @@ module.exports = {
 
   OrderSubmit: WxApiRoot + 'order/submit', // 提交订单
   OrderPrepay: WxApiRoot + 'order/prepay', // 订单的预支付会话
+  OrderPrepayTest: WxApiRoot + 'order/prepay_test', // 订单的预支付测试会话
+  OrderPayTest: WxApiRoot + 'order/pay_test', // 订单状态修改为已支付
   OrderList: WxApiRoot + 'order/list', //订单列表
   OrderDetail: WxApiRoot + 'order/detail', //订单详情
   OrderCancel: WxApiRoot + 'order/cancel', //取消订单

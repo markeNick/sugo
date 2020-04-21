@@ -101,7 +101,8 @@
     "van-steps": "./lib/vant-weapp/steps/index",
     "van-goods-action": "./lib/vant-weapp/goods-action/index",
     "van-goods-action-icon": "./lib/vant-weapp/goods-action-icon/index",
-    "van-goods-action-button": "./lib/vant-weapp/goods-action-button/index"
+    "van-goods-action-button": "./lib/vant-weapp/goods-action-button/index",
+    "van-dialog": "./lib/vant-weapp/dialog/index"
   },
   "sitemapLocation": "sitemap.json",
   "permission": {

@@ -160,6 +160,7 @@ public class OrderService {
     public int updateWithOptimisticLocker(SugoOrder order) {
         LocalDateTime preUpdateTime = order.getUpdateTime();
         order.setUpdateTime(LocalDateTime.now());
+
         return orderMapper.updateWithOptimisticLocker(preUpdateTime, order);
     }
 
@@ -279,4 +280,12 @@ public class OrderService {
         sugoOrderMapper.updateByPrimaryKeySelective(order);
     }
 
+    /**
+     * 修改订单支付状态
+     */
+    public int updateOrderPayStatus(Integer id, Short orderStatus, LocalDateTime updateTime) {
+
+
+        return orderMapper.updateOrderPayStatus(id, orderStatus, updateTime);
+    }
 }

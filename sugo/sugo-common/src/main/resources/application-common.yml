@@ -49,8 +49,8 @@ sugo:
   # 快鸟物流查询配置
   express:
     enable: false
-    appId: "XXXXXXXXX"
-    appKey: "XXXXXXXXXXXXXXXXXXXXXXXXX"
+    appId: "test1635794"
+    appKey: "af07e542-226e-4855-b284-f950c66f092d"
     vendors:
     - code: "ZTO"
       name: "中通快递"
