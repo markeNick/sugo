@@ -186,7 +186,7 @@ Page({
         }, 'POST').then(function(res) {
           if (res.errno === 0) {
             // 开始支付
-            const payParam = res.data;
+            // const payParam = res.data;
             console.log("支付过程开始");
 
             util.request(api.OrderPayTest, {

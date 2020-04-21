@@ -107,6 +107,12 @@ public class OrderController {
         return wxOrderService.prepay_test(userId, body, request);
     }
 
+    /**
+     * 模拟微信支付成功——修改订单付款状态
+     * @param userId
+     * @param body
+     * @return
+     */
     @PostMapping("pay_test")
     public Object pay_test(@LoginUser Integer userId, @RequestBody String body) {
         return wxOrderService.pay_test(userId, body);
