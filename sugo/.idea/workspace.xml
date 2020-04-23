@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8c1edc3f-f626-4e1d-9ac5-dfacb8436d1e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/sugo-wx-api/src/main/java/com/sugo/wx/controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-wx-api/src/main/java/com/sugo/wx/controller/OrderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/log.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/log.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sugo-admin-api/src/main/java/com/sugo/admin/shiro/AdminWebSessionManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/sugo-admin-api/src/main/java/com/sugo/admin/shiro/AdminWebSessionManager.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -51,44 +52,7 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/sugo-wx-api/src/main/java/com/sugo/wx/controller/OrderController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="99" column="6" lean-forward="true" selection-start-line="99" selection-start-column="6" selection-end-line="99" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/service/OrderService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="285" column="30" selection-start-line="285" selection-start-column="30" selection-end-line="285" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/dao/OrderMapper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="11" column="52" lean-forward="true" selection-start-line="11" selection-start-column="52" selection-end-line="11" selection-end-column="52" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sugo-sql/src/main/resources/com/sugo/sql/dao/OrderMapper.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="131">
-              <caret line="104" column="25" selection-start-line="104" selection-start-column="25" selection-end-line="104" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -190,7 +154,6 @@
         <option value="$PROJECT_DIR$/sugo-wx-api/src/main/resources/logback-spring.xml" />
         <option value="$PROJECT_DIR$/sugo-wx-api/src/main/java/com/sugo/wx/annotation/support/LoginUserHandlerMethodArgumentResolver.java" />
         <option value="$PROJECT_DIR$/sugo-wx-api/src/main/java/com/sugo/wx/controller/CatalogController.java" />
-        <option value="$PROJECT_DIR$/sugo-admin-api/src/main/java/com/sugo/admin/shiro/AdminWebSessionManager.java" />
         <option value="$PROJECT_DIR$/sugo-wx-api/src/main/java/com/sugo/wx/controller/CommentController.java" />
         <option value="$PROJECT_DIR$/sugo-wx-api/src/main/java/com/sugo/wx/config/WxWebMvcConfiguration.java" />
         <option value="$PROJECT_DIR$/sugo-admin-api/src/main/java/com/sugo/admin/controller/TestController.java" />
@@ -222,6 +185,7 @@
         <option value="$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/service/OrderService.java" />
         <option value="$PROJECT_DIR$/sugo-sql/src/main/resources/com/sugo/sql/dao/OrderMapper.xml" />
         <option value="$PROJECT_DIR$/sugo-wx-api/src/main/java/com/sugo/wx/controller/OrderController.java" />
+        <option value="$PROJECT_DIR$/sugo-admin-api/src/main/java/com/sugo/admin/shiro/AdminWebSessionManager.java" />
       </list>
     </option>
   </component>
@@ -241,7 +205,17 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand />
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="sugo-sql" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="sugo-sql" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+        </path>
+      </expand>
       <select />
     </treeState>
   </component>
@@ -271,6 +245,86 @@
             <path>
               <item name="sugo" type="b2602c69:ProjectViewProjectNode" />
               <item name="sugo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sugo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sugo" type="462c0819:PsiDirectoryNode" />
+              <item name="sugo-admin-api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sugo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sugo" type="462c0819:PsiDirectoryNode" />
+              <item name="sugo-admin-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sugo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sugo" type="462c0819:PsiDirectoryNode" />
+              <item name="sugo-admin-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sugo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sugo" type="462c0819:PsiDirectoryNode" />
+              <item name="sugo-admin-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sugo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sugo" type="462c0819:PsiDirectoryNode" />
+              <item name="sugo-admin-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sugo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sugo" type="462c0819:PsiDirectoryNode" />
+              <item name="sugo-admin-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sugo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sugo" type="462c0819:PsiDirectoryNode" />
+              <item name="sugo-sql" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sugo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sugo" type="462c0819:PsiDirectoryNode" />
+              <item name="sugo-sql" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sugo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sugo" type="462c0819:PsiDirectoryNode" />
+              <item name="sugo-sql" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sugo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sugo" type="462c0819:PsiDirectoryNode" />
+              <item name="sugo-sql" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sugo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sugo" type="462c0819:PsiDirectoryNode" />
+              <item name="sugo-sql" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="sql" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="sugo" type="b2602c69:ProjectViewProjectNode" />
@@ -476,7 +530,7 @@
       <workItem from="1585666169398" duration="1247000" />
       <workItem from="1585734754877" duration="9603000" />
       <workItem from="1585816127780" duration="1921000" />
-      <workItem from="1587451326485" duration="12035000" />
+      <workItem from="1587451326485" duration="16082000" />
     </task>
     <servers />
   </component>
@@ -495,11 +549,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="205298000" />
+    <option name="totallyTimeSpent" value="209345000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="916" extended-state="7" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23638968" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -525,12 +578,12 @@
       <window_info anchor="bottom" id="Version Control" order="13" weight="0.32992327" />
       <window_info anchor="bottom" id="Database Changes" order="14" weight="0.32992327" />
       <window_info anchor="bottom" id="MyBatis Log" order="15" />
-      <window_info active="true" anchor="bottom" id="Run Dashboard" order="16" visible="true" weight="0.39514068" />
+      <window_info active="true" anchor="bottom" id="Run Dashboard" order="16" visible="true" weight="0.3887468" />
       <window_info anchor="bottom" id="Database Console" order="17" weight="0.32992327" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" weight="0.11043873" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.33166188" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Mybatis datasource" order="6" side_tool="true" />
@@ -583,99 +636,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/sugo-main/src/main/java/com/sugo/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sugo-sql/src/main/resources/application-sql.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="21" lean-forward="true" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-tx/5.1.7.RELEASE/spring-tx-5.1.7.RELEASE.jar!/org/springframework/transaction/annotation/Transactional.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/Java/JavaJDK/src.zip!/java/util/concurrent/DelayQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1139">
-          <caret line="103" column="11" selection-start-line="103" selection-start-column="11" selection-end-line="103" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sugo-common/src/main/java/com/sugo/common/task/TaskService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="10" column="52" selection-start-line="10" selection-start-column="52" selection-end-line="10" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/util/OrderHandleOption.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/github/binarywang/weixin-java-pay/3.3.0/weixin-java-pay-3.3.0.jar!/com/github/binarywang/wxpay/bean/request/WxPayUnifiedOrderRequest.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="182" column="16" selection-start-line="182" selection-start-column="16" selection-end-line="182" selection-end-column="16" />
-          <folding>
-            <element signature="e#4558#4559#0" expanded="true" />
-            <element signature="e#4590#4591#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sugo-wx-api/src/main/resources/application-wx.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sugo-wx-api/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sugo-main/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sugo-common/src/main/java/com/sugo/common/notify/AliyunSmsSender.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-187">
-          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sugo-common/src/main/resources/application-common.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="55" column="18" lean-forward="true" selection-start-line="55" selection-start-column="18" selection-end-line="55" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sugo-wx-api/src/main/java/com/sugo/wx/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sugo-wx-api/src/main/java/com/sugo/wx/controller/TopicController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sugo-wx-api/src/main/java/com/sugo/wx/controller/StorageController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-781">
@@ -926,7 +886,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sugo-sql/src/main/resources/com/sugo/sql/dao/OrderMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
+        <state relative-caret-position="1768">
           <caret line="104" column="25" selection-start-line="104" selection-start-column="25" selection-end-line="104" selection-end-column="25" />
         </state>
       </provider>
@@ -934,7 +894,7 @@
     <entry file="file://$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/dao/OrderMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
-          <caret line="11" column="52" lean-forward="true" selection-start-line="11" selection-start-column="52" selection-end-line="11" selection-end-column="52" />
+          <caret line="11" column="52" selection-start-line="11" selection-start-column="52" selection-end-line="11" selection-end-column="52" />
         </state>
       </provider>
     </entry>
@@ -948,7 +908,105 @@
     <entry file="file://$PROJECT_DIR$/sugo-wx-api/src/main/java/com/sugo/wx/controller/OrderController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
-          <caret line="99" column="6" lean-forward="true" selection-start-line="99" selection-start-column="6" selection-end-line="99" selection-end-column="6" />
+          <caret line="99" column="6" selection-start-line="99" selection-start-column="6" selection-end-line="99" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sugo-sql/src/main/resources/com/sugo/sql/dao/SugoCategoryMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-374">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sugo-sql/src/main/java/com/sugo/sql/dao/SugoCategoryMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sugo-admin-api/src/main/java/com/sugo/admin/config/ShiroConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-17">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sugo-admin-api/src/main/java/com/sugo/admin/config/ShiroExceptionHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-18">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sugo-admin-api/src/main/java/com/sugo/admin/config/AdminSwagger2Configuration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="40" column="53" lean-forward="true" selection-start-line="40" selection-start-column="53" selection-end-line="40" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sugo-admin-api/src/main/java/com/sugo/admin/controller/AdminUserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sugo-admin-api/src/main/java/com/sugo/admin/controller/AdminAdminController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1630">
+          <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sugo-admin-api/src/main/java/com/sugo/admin/controller/AdminIndexController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/9.0.19/tomcat-embed-core-9.0.19.jar!/javax/servlet/http/HttpServletRequest.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="28" column="11" selection-start-line="28" selection-start-column="11" selection-end-line="28" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sugo-admin-api/src/main/java/com/sugo/admin/shiro/AdminAuthorizingRealm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-498">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sugo-admin-api/src/main/java/com/sugo/admin/shiro/AdminWebSessionManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="18" column="49" lean-forward="true" selection-start-line="18" selection-start-column="49" selection-end-line="18" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sugo-admin-api/src/main/java/com/sugo/admin/util/PermissionUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sugo-admin-api/src/main/java/com/sugo/admin/util/Permission.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sugo-admin-api/src/main/java/com/sugo/admin/util/AdminResponseCode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
