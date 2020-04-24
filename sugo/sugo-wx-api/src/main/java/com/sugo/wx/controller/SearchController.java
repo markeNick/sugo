@@ -70,8 +70,8 @@ public class SearchController {
      * @param limit
      * @return
      */
-    @GetMapping("help")
-    public Object help(@NotEmpty String keyword,
+    @GetMapping("helper")
+    public Object helper(@NotEmpty String keyword,
                        @RequestParam(defaultValue = "1") Integer page,
                        @RequestParam(defaultValue = "10") Integer limit) {
 
