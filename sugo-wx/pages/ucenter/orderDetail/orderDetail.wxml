@@ -79,8 +79,10 @@
       <view class="title">
         <view class="t">快递公司：{{orderInfo.expName}}</view>
         <view class="b">物流单号：{{orderInfo.expNo}}</view>
+        <view class="t">收件地址：{{orderInfo.address}}</view>
+        <view class="t">物流状态：{{orderInfo.orderStatusText}}</view>
       </view>
-      <van-icon class="ti" name="arrow" />      
+      <!-- <van-icon class="ti" name="arrow" />       -->
     </view>
     <view class="traces" wx:for="{{expressInfo.Traces}}" wx:key="item" wx:for-item="iitem" wx:if="{{ flag }}">
       <view class="trace">

@@ -11,11 +11,11 @@ Page({
    */
   data: {
     name: 'sugo',
-    address: 'https://github.com/markeNick/sugo',
-    latitude: '31.201900',
-    longitude: '121.587839',
-    phone: '021-xxxx-xxxx',
-    qq: '705144434'
+    address: '广东白云学院',
+    latitude: '23.272355',
+    longitude: '113.207476',
+    phone: '17724221876',
+    qq: '247806462'
   },
 
   /**

@@ -65,8 +65,6 @@ Page({
     util.request(api.GoodsCount, {
       adcode: that.data.adcode
     }).then(function (res) {
-      console.log(res)
-      console.log(that.data.adcode)
       that.setData({
         goodsCount: res.data
       });

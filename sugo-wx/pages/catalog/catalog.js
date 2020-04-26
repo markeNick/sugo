@@ -9,7 +9,8 @@ Page({
     scrollLeft: 0,
     scrollTop: 0,
     goodsCount: 0,
-    scrollHeight: 0
+    scrollHeight: 0,
+    adcode: '440111'   // 行政编码
   },
   onLoad: function(options) {
     this.getCatalog();
@@ -23,6 +24,17 @@ Page({
   getCatalog: function() {
     //CatalogList
     let that = this;
+    
+    try {
+      var code = wx.getStorageSync('adcode')
+      if(code) {
+        that.setData({
+          adcode: code
+        })
+      }
+    } catch (e) {
+      console.log(e)
+    }
     wx.showLoading({
       title: '加载中...',
     });
@@ -34,7 +46,9 @@ Page({
       });
       wx.hideLoading();
     });
-    util.request(api.GoodsCount).then(function(res) {
+    util.request(api.GoodsCount, {
+      adcode: that.data.adcode
+    }).then(function (res) {
       that.setData({
         goodsCount: res.data
       });

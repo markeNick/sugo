@@ -1,42 +1,98 @@
-2020-04-23 14:54:16,965 INFO [restartedMain] com.sugo.Application [StartupInfoLogger.java : 50] Starting Application on DESKTOP-FI1NING with PID 9904 (E:\sugo\sugo\sugo-main\target\classes started by 无处安身 in E:\sugo\sugo)
-2020-04-23 14:54:16,977 DEBUG [restartedMain] com.sugo.Application [StartupInfoLogger.java : 53] Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
-2020-04-23 14:54:16,977 INFO [restartedMain] com.sugo.Application [SpringApplication.java : 679] The following profiles are active: sql,common,admin,wx
-2020-04-23 14:54:30,321 INFO [restartedMain] c.sugo.common.util.SystemInfoPrinter [SystemInfoPrinter.java : 42] ======================================================================================================================================================================================================
-2020-04-23 14:54:30,322 INFO [restartedMain] c.sugo.common.util.SystemInfoPrinter [SystemInfoPrinter.java : 43] 
-2020-04-23 14:54:30,322 INFO [restartedMain] c.sugo.common.util.SystemInfoPrinter [SystemInfoPrinter.java : 44]               Sugo 初始化信息
-2020-04-23 14:54:30,323 INFO [restartedMain] c.sugo.common.util.SystemInfoPrinter [SystemInfoPrinter.java : 45] 
-2020-04-23 14:54:30,324 INFO [restartedMain] c.sugo.common.util.SystemInfoPrinter [SystemInfoPrinter.java : 67] 
-2020-04-23 14:54:30,324 INFO [restartedMain] c.sugo.common.util.SystemInfoPrinter [SystemInfoPrinter.java : 68]     [[  系统信息  ]]
-2020-04-23 14:54:30,324 INFO [restartedMain] c.sugo.common.util.SystemInfoPrinter [SystemInfoPrinter.java : 69] 
-2020-04-23 14:54:30,325 INFO [restartedMain] c.sugo.common.util.SystemInfoPrinter [SystemInfoPrinter.java : 71]     服务器端口        ->        8088
-2020-04-23 14:54:30,326 INFO [restartedMain] c.sugo.common.util.SystemInfoPrinter [SystemInfoPrinter.java : 71]     数据库USER        ->        root
-2020-04-23 14:54:30,326 INFO [restartedMain] c.sugo.common.util.SystemInfoPrinter [SystemInfoPrinter.java : 71]     数据库地址        ->        jdbc:mysql://localhost:3306/sugo?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC&allowPublicKeyRetrieval=true&verifyServerCertificate=false&useSSL=false
-2020-04-23 14:54:30,327 INFO [restartedMain] c.sugo.common.util.SystemInfoPrinter [SystemInfoPrinter.java : 67] 
-2020-04-23 14:54:30,327 INFO [restartedMain] c.sugo.common.util.SystemInfoPrinter [SystemInfoPrinter.java : 68]     [[  模块状态  ]]
-2020-04-23 14:54:30,328 INFO [restartedMain] c.sugo.common.util.SystemInfoPrinter [SystemInfoPrinter.java : 69] 
-2020-04-23 14:54:30,328 INFO [restartedMain] c.sugo.common.util.SystemInfoPrinter [SystemInfoPrinter.java : 71]     邮件        ->        false
-2020-04-23 14:54:30,328 INFO [restartedMain] c.sugo.common.util.SystemInfoPrinter [SystemInfoPrinter.java : 71]     短信        ->        false
-2020-04-23 14:54:30,329 INFO [restartedMain] c.sugo.common.util.SystemInfoPrinter [SystemInfoPrinter.java : 71]     快递信息        ->        false
-2020-04-23 14:54:30,329 INFO [restartedMain] c.sugo.common.util.SystemInfoPrinter [SystemInfoPrinter.java : 71]     快递鸟ID        ->        test1635794
-2020-04-23 14:54:30,329 INFO [restartedMain] c.sugo.common.util.SystemInfoPrinter [SystemInfoPrinter.java : 71]     对象存储        ->        local
-2020-04-23 14:54:30,330 INFO [restartedMain] c.sugo.common.util.SystemInfoPrinter [SystemInfoPrinter.java : 71]     本地对象存储路径        ->        storage
-2020-04-23 14:54:30,330 INFO [restartedMain] c.sugo.common.util.SystemInfoPrinter [SystemInfoPrinter.java : 71]     本地对象访问地址        ->        http://localhost:8088/wx/storage/fetch/
-2020-04-23 14:54:30,330 INFO [restartedMain] c.sugo.common.util.SystemInfoPrinter [SystemInfoPrinter.java : 67] 
-2020-04-23 14:54:30,331 INFO [restartedMain] c.sugo.common.util.SystemInfoPrinter [SystemInfoPrinter.java : 68]     [[  微信相关  ]]
-2020-04-23 14:54:30,331 INFO [restartedMain] c.sugo.common.util.SystemInfoPrinter [SystemInfoPrinter.java : 69] 
-2020-04-23 14:54:30,331 INFO [restartedMain] c.sugo.common.util.SystemInfoPrinter [SystemInfoPrinter.java : 71]     微信APP KEY        ->        wx23984893846df2aa
-2020-04-23 14:54:30,332 INFO [restartedMain] c.sugo.common.util.SystemInfoPrinter [SystemInfoPrinter.java : 71]     微信APP-SECRET        ->        d4c033537d50e88f16e77bfd0a417f36
-2020-04-23 14:54:30,332 INFO [restartedMain] c.sugo.common.util.SystemInfoPrinter [SystemInfoPrinter.java : 71]     微信支付MCH-ID        ->        111111
-2020-04-23 14:54:30,333 INFO [restartedMain] c.sugo.common.util.SystemInfoPrinter [SystemInfoPrinter.java : 71]     微信支付MCH-KEY        ->        xxxxxx
-2020-04-23 14:54:30,333 INFO [restartedMain] c.sugo.common.util.SystemInfoPrinter [SystemInfoPrinter.java : 71]     微信支付通知地址        ->        http://www.example.com/wx/order/pay-notify
-2020-04-23 14:54:30,333 INFO [restartedMain] c.sugo.common.util.SystemInfoPrinter [SystemInfoPrinter.java : 67] 
-2020-04-23 14:54:30,334 INFO [restartedMain] c.sugo.common.util.SystemInfoPrinter [SystemInfoPrinter.java : 68]     [[  系统设置  ]]
-2020-04-23 14:54:30,334 INFO [restartedMain] c.sugo.common.util.SystemInfoPrinter [SystemInfoPrinter.java : 69] 
-2020-04-23 14:54:30,334 INFO [restartedMain] c.sugo.common.util.SystemInfoPrinter [SystemInfoPrinter.java : 71]     自动创建朋友圈分享图        ->        false
-2020-04-23 14:54:30,335 INFO [restartedMain] c.sugo.common.util.SystemInfoPrinter [SystemInfoPrinter.java : 71]     商场名称        ->        速购平台
-2020-04-23 14:54:30,335 INFO [restartedMain] c.sugo.common.util.SystemInfoPrinter [SystemInfoPrinter.java : 71]     首页显示记录数：NEW,HOT,BRAND,TOPIC,CatlogList,CatlogMore        ->        10,6,4,4,4,4
-2020-04-23 14:54:30,336 INFO [restartedMain] c.sugo.common.util.SystemInfoPrinter [SystemInfoPrinter.java : 49]   
-2020-04-23 14:54:30,336 INFO [restartedMain] c.sugo.common.util.SystemInfoPrinter [SystemInfoPrinter.java : 50] ======================================================================================================================================================================================================
-2020-04-23 14:54:36,363 INFO [scheduling-1] com.sugo.admin.job.CouponJob [CouponJob.java : 36] 系统开启任务检查优惠券是否已经过期
-2020-04-23 14:54:36,439 INFO [scheduling-1] com.sugo.admin.job.CouponJob [CouponJob.java : 50] 系统结束任务检查优惠券是否已经过期
-2020-04-23 14:54:38,790 INFO [restartedMain] com.sugo.Application [StartupInfoLogger.java : 59] Started Application in 24.374 seconds (JVM running for 33.01)
+2020-04-26 13:44:01,561 INFO [restartedMain] com.sugo.Application [StartupInfoLogger.java : 50] Starting Application on DESKTOP-FI1NING with PID 14612 (E:\sugo\sugo\sugo-main\target\classes started by 无处安身 in E:\sugo\sugo)
+2020-04-26 13:44:01,577 DEBUG [restartedMain] com.sugo.Application [StartupInfoLogger.java : 53] Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-04-26 13:44:01,578 INFO [restartedMain] com.sugo.Application [SpringApplication.java : 679] The following profiles are active: sql,common,admin,wx
+2020-04-26 13:44:09,368 INFO [restartedMain] c.sugo.common.util.SystemInfoPrinter [SystemInfoPrinter.java : 42] ======================================================================================================================================================================================================
+2020-04-26 13:44:09,369 INFO [restartedMain] c.sugo.common.util.SystemInfoPrinter [SystemInfoPrinter.java : 43] 
+2020-04-26 13:44:09,369 INFO [restartedMain] c.sugo.common.util.SystemInfoPrinter [SystemInfoPrinter.java : 44]               Sugo 初始化信息
+2020-04-26 13:44:09,369 INFO [restartedMain] c.sugo.common.util.SystemInfoPrinter [SystemInfoPrinter.java : 45] 
+2020-04-26 13:44:09,370 INFO [restartedMain] c.sugo.common.util.SystemInfoPrinter [SystemInfoPrinter.java : 67] 
+2020-04-26 13:44:09,370 INFO [restartedMain] c.sugo.common.util.SystemInfoPrinter [SystemInfoPrinter.java : 68]     [[  系统信息  ]]
+2020-04-26 13:44:09,370 INFO [restartedMain] c.sugo.common.util.SystemInfoPrinter [SystemInfoPrinter.java : 69] 
+2020-04-26 13:44:09,370 INFO [restartedMain] c.sugo.common.util.SystemInfoPrinter [SystemInfoPrinter.java : 71]     服务器端口        ->        8088
+2020-04-26 13:44:09,371 INFO [restartedMain] c.sugo.common.util.SystemInfoPrinter [SystemInfoPrinter.java : 71]     数据库USER        ->        root
+2020-04-26 13:44:09,371 INFO [restartedMain] c.sugo.common.util.SystemInfoPrinter [SystemInfoPrinter.java : 71]     数据库地址        ->        jdbc:mysql://localhost:3306/sugo?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC&allowPublicKeyRetrieval=true&verifyServerCertificate=false&useSSL=false
+2020-04-26 13:44:09,371 INFO [restartedMain] c.sugo.common.util.SystemInfoPrinter [SystemInfoPrinter.java : 67] 
+2020-04-26 13:44:09,372 INFO [restartedMain] c.sugo.common.util.SystemInfoPrinter [SystemInfoPrinter.java : 68]     [[  模块状态  ]]
+2020-04-26 13:44:09,372 INFO [restartedMain] c.sugo.common.util.SystemInfoPrinter [SystemInfoPrinter.java : 69] 
+2020-04-26 13:44:09,372 INFO [restartedMain] c.sugo.common.util.SystemInfoPrinter [SystemInfoPrinter.java : 71]     邮件        ->        false
+2020-04-26 13:44:09,372 INFO [restartedMain] c.sugo.common.util.SystemInfoPrinter [SystemInfoPrinter.java : 71]     短信        ->        false
+2020-04-26 13:44:09,373 INFO [restartedMain] c.sugo.common.util.SystemInfoPrinter [SystemInfoPrinter.java : 71]     快递信息        ->        false
+2020-04-26 13:44:09,373 INFO [restartedMain] c.sugo.common.util.SystemInfoPrinter [SystemInfoPrinter.java : 71]     快递鸟ID        ->        test1635794
+2020-04-26 13:44:09,373 INFO [restartedMain] c.sugo.common.util.SystemInfoPrinter [SystemInfoPrinter.java : 71]     对象存储        ->        local
+2020-04-26 13:44:09,373 INFO [restartedMain] c.sugo.common.util.SystemInfoPrinter [SystemInfoPrinter.java : 71]     本地对象存储路径        ->        storage
+2020-04-26 13:44:09,374 INFO [restartedMain] c.sugo.common.util.SystemInfoPrinter [SystemInfoPrinter.java : 71]     本地对象访问地址        ->        http://localhost:8088/wx/storage/fetch/
+2020-04-26 13:44:09,374 INFO [restartedMain] c.sugo.common.util.SystemInfoPrinter [SystemInfoPrinter.java : 67] 
+2020-04-26 13:44:09,374 INFO [restartedMain] c.sugo.common.util.SystemInfoPrinter [SystemInfoPrinter.java : 68]     [[  微信相关  ]]
+2020-04-26 13:44:09,374 INFO [restartedMain] c.sugo.common.util.SystemInfoPrinter [SystemInfoPrinter.java : 69] 
+2020-04-26 13:44:09,375 INFO [restartedMain] c.sugo.common.util.SystemInfoPrinter [SystemInfoPrinter.java : 71]     微信APP KEY        ->        wx23984893846df2aa
+2020-04-26 13:44:09,375 INFO [restartedMain] c.sugo.common.util.SystemInfoPrinter [SystemInfoPrinter.java : 71]     微信APP-SECRET        ->        d4c033537d50e88f16e77bfd0a417f36
+2020-04-26 13:44:09,375 INFO [restartedMain] c.sugo.common.util.SystemInfoPrinter [SystemInfoPrinter.java : 71]     微信支付MCH-ID        ->        111111
+2020-04-26 13:44:09,376 INFO [restartedMain] c.sugo.common.util.SystemInfoPrinter [SystemInfoPrinter.java : 71]     微信支付MCH-KEY        ->        xxxxxx
+2020-04-26 13:44:09,377 INFO [restartedMain] c.sugo.common.util.SystemInfoPrinter [SystemInfoPrinter.java : 71]     微信支付通知地址        ->        http://www.example.com/wx/order/pay-notify
+2020-04-26 13:44:09,377 INFO [restartedMain] c.sugo.common.util.SystemInfoPrinter [SystemInfoPrinter.java : 67] 
+2020-04-26 13:44:09,377 INFO [restartedMain] c.sugo.common.util.SystemInfoPrinter [SystemInfoPrinter.java : 68]     [[  系统设置  ]]
+2020-04-26 13:44:09,378 INFO [restartedMain] c.sugo.common.util.SystemInfoPrinter [SystemInfoPrinter.java : 69] 
+2020-04-26 13:44:09,378 INFO [restartedMain] c.sugo.common.util.SystemInfoPrinter [SystemInfoPrinter.java : 71]     自动创建朋友圈分享图        ->        false
+2020-04-26 13:44:09,378 INFO [restartedMain] c.sugo.common.util.SystemInfoPrinter [SystemInfoPrinter.java : 71]     商场名称        ->        速购平台
+2020-04-26 13:44:09,378 INFO [restartedMain] c.sugo.common.util.SystemInfoPrinter [SystemInfoPrinter.java : 71]     首页显示记录数：NEW,HOT,BRAND,TOPIC,CatlogList,CatlogMore        ->        10,6,4,4,4,4
+2020-04-26 13:44:09,379 INFO [restartedMain] c.sugo.common.util.SystemInfoPrinter [SystemInfoPrinter.java : 49]   
+2020-04-26 13:44:09,379 INFO [restartedMain] c.sugo.common.util.SystemInfoPrinter [SystemInfoPrinter.java : 50] ======================================================================================================================================================================================================
+2020-04-26 13:44:14,689 INFO [scheduling-1] com.sugo.admin.job.CouponJob [CouponJob.java : 36] 系统开启任务检查优惠券是否已经过期
+2020-04-26 13:44:14,754 INFO [scheduling-1] com.sugo.admin.job.CouponJob [CouponJob.java : 50] 系统结束任务检查优惠券是否已经过期
+2020-04-26 13:44:16,810 INFO [restartedMain] com.sugo.Application [StartupInfoLogger.java : 59] Started Application in 17.054 seconds (JVM running for 26.545)
+2020-04-26 14:26:37,065 INFO [restartedMain] com.sugo.Application [StartupInfoLogger.java : 50] Starting Application on DESKTOP-FI1NING with PID 728 (E:\sugo\sugo\sugo-main\target\classes started by 无处安身 in E:\sugo\sugo)
+2020-04-26 14:26:37,089 DEBUG [restartedMain] com.sugo.Application [StartupInfoLogger.java : 53] Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-04-26 14:26:37,090 INFO [restartedMain] com.sugo.Application [SpringApplication.java : 679] The following profiles are active: sql,common,admin,wx
+2020-04-26 14:26:51,439 INFO [restartedMain] c.sugo.common.util.SystemInfoPrinter [SystemInfoPrinter.java : 42] ======================================================================================================================================================================================================
+2020-04-26 14:26:51,439 INFO [restartedMain] c.sugo.common.util.SystemInfoPrinter [SystemInfoPrinter.java : 43] 
+2020-04-26 14:26:51,440 INFO [restartedMain] c.sugo.common.util.SystemInfoPrinter [SystemInfoPrinter.java : 44]               Sugo 初始化信息
+2020-04-26 14:26:51,440 INFO [restartedMain] c.sugo.common.util.SystemInfoPrinter [SystemInfoPrinter.java : 45] 
+2020-04-26 14:26:51,440 INFO [restartedMain] c.sugo.common.util.SystemInfoPrinter [SystemInfoPrinter.java : 67] 
+2020-04-26 14:26:51,441 INFO [restartedMain] c.sugo.common.util.SystemInfoPrinter [SystemInfoPrinter.java : 68]     [[  系统信息  ]]
+2020-04-26 14:26:51,441 INFO [restartedMain] c.sugo.common.util.SystemInfoPrinter [SystemInfoPrinter.java : 69] 
+2020-04-26 14:26:51,441 INFO [restartedMain] c.sugo.common.util.SystemInfoPrinter [SystemInfoPrinter.java : 71]     服务器端口        ->        8088
+2020-04-26 14:26:51,442 INFO [restartedMain] c.sugo.common.util.SystemInfoPrinter [SystemInfoPrinter.java : 71]     数据库USER        ->        root
+2020-04-26 14:26:51,442 INFO [restartedMain] c.sugo.common.util.SystemInfoPrinter [SystemInfoPrinter.java : 71]     数据库地址        ->        jdbc:mysql://localhost:3306/sugo?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC&allowPublicKeyRetrieval=true&verifyServerCertificate=false&useSSL=false
+2020-04-26 14:26:51,442 INFO [restartedMain] c.sugo.common.util.SystemInfoPrinter [SystemInfoPrinter.java : 67] 
+2020-04-26 14:26:51,442 INFO [restartedMain] c.sugo.common.util.SystemInfoPrinter [SystemInfoPrinter.java : 68]     [[  模块状态  ]]
+2020-04-26 14:26:51,443 INFO [restartedMain] c.sugo.common.util.SystemInfoPrinter [SystemInfoPrinter.java : 69] 
+2020-04-26 14:26:51,443 INFO [restartedMain] c.sugo.common.util.SystemInfoPrinter [SystemInfoPrinter.java : 71]     邮件        ->        false
+2020-04-26 14:26:51,443 INFO [restartedMain] c.sugo.common.util.SystemInfoPrinter [SystemInfoPrinter.java : 71]     短信        ->        false
+2020-04-26 14:26:51,444 INFO [restartedMain] c.sugo.common.util.SystemInfoPrinter [SystemInfoPrinter.java : 71]     快递信息        ->        false
+2020-04-26 14:26:51,444 INFO [restartedMain] c.sugo.common.util.SystemInfoPrinter [SystemInfoPrinter.java : 71]     快递鸟ID        ->        test1635794
+2020-04-26 14:26:51,444 INFO [restartedMain] c.sugo.common.util.SystemInfoPrinter [SystemInfoPrinter.java : 71]     对象存储        ->        local
+2020-04-26 14:26:51,444 INFO [restartedMain] c.sugo.common.util.SystemInfoPrinter [SystemInfoPrinter.java : 71]     本地对象存储路径        ->        storage
+2020-04-26 14:26:51,445 INFO [restartedMain] c.sugo.common.util.SystemInfoPrinter [SystemInfoPrinter.java : 71]     本地对象访问地址        ->        http://localhost:8088/wx/storage/fetch/
+2020-04-26 14:26:51,445 INFO [restartedMain] c.sugo.common.util.SystemInfoPrinter [SystemInfoPrinter.java : 67] 
+2020-04-26 14:26:51,445 INFO [restartedMain] c.sugo.common.util.SystemInfoPrinter [SystemInfoPrinter.java : 68]     [[  微信相关  ]]
+2020-04-26 14:26:51,445 INFO [restartedMain] c.sugo.common.util.SystemInfoPrinter [SystemInfoPrinter.java : 69] 
+2020-04-26 14:26:51,446 INFO [restartedMain] c.sugo.common.util.SystemInfoPrinter [SystemInfoPrinter.java : 71]     微信APP KEY        ->        wx23984893846df2aa
+2020-04-26 14:26:51,446 INFO [restartedMain] c.sugo.common.util.SystemInfoPrinter [SystemInfoPrinter.java : 71]     微信APP-SECRET        ->        d4c033537d50e88f16e77bfd0a417f36
+2020-04-26 14:26:51,446 INFO [restartedMain] c.sugo.common.util.SystemInfoPrinter [SystemInfoPrinter.java : 71]     微信支付MCH-ID        ->        111111
+2020-04-26 14:26:51,446 INFO [restartedMain] c.sugo.common.util.SystemInfoPrinter [SystemInfoPrinter.java : 71]     微信支付MCH-KEY        ->        xxxxxx
+2020-04-26 14:26:51,447 INFO [restartedMain] c.sugo.common.util.SystemInfoPrinter [SystemInfoPrinter.java : 71]     微信支付通知地址        ->        http://www.example.com/wx/order/pay-notify
+2020-04-26 14:26:51,447 INFO [restartedMain] c.sugo.common.util.SystemInfoPrinter [SystemInfoPrinter.java : 67] 
+2020-04-26 14:26:51,447 INFO [restartedMain] c.sugo.common.util.SystemInfoPrinter [SystemInfoPrinter.java : 68]     [[  系统设置  ]]
+2020-04-26 14:26:51,448 INFO [restartedMain] c.sugo.common.util.SystemInfoPrinter [SystemInfoPrinter.java : 69] 
+2020-04-26 14:26:51,448 INFO [restartedMain] c.sugo.common.util.SystemInfoPrinter [SystemInfoPrinter.java : 71]     自动创建朋友圈分享图        ->        false
+2020-04-26 14:26:51,448 INFO [restartedMain] c.sugo.common.util.SystemInfoPrinter [SystemInfoPrinter.java : 71]     商场名称        ->        速购平台
+2020-04-26 14:26:51,449 INFO [restartedMain] c.sugo.common.util.SystemInfoPrinter [SystemInfoPrinter.java : 71]     首页显示记录数：NEW,HOT,BRAND,TOPIC,CatlogList,CatlogMore        ->        10,6,4,4,4,4
+2020-04-26 14:26:51,449 INFO [restartedMain] c.sugo.common.util.SystemInfoPrinter [SystemInfoPrinter.java : 49]   
+2020-04-26 14:26:51,450 INFO [restartedMain] c.sugo.common.util.SystemInfoPrinter [SystemInfoPrinter.java : 50] ======================================================================================================================================================================================================
+2020-04-26 14:26:57,281 INFO [scheduling-1] com.sugo.admin.job.CouponJob [CouponJob.java : 36] 系统开启任务检查优惠券是否已经过期
+2020-04-26 14:26:57,336 INFO [scheduling-1] com.sugo.admin.job.CouponJob [CouponJob.java : 50] 系统结束任务检查优惠券是否已经过期
+2020-04-26 14:26:59,542 INFO [restartedMain] com.sugo.Application [StartupInfoLogger.java : 59] Started Application in 24.611 seconds (JVM running for 33.156)
+2020-04-26 15:26:57,341 INFO [scheduling-1] com.sugo.admin.job.CouponJob [CouponJob.java : 36] 系统开启任务检查优惠券是否已经过期
+2020-04-26 15:26:57,391 INFO [scheduling-1] com.sugo.admin.job.CouponJob [CouponJob.java : 50] 系统结束任务检查优惠券是否已经过期
+2020-04-26 16:14:55,143 INFO [pool-1-thread-1] com.sugo.wx.task.OrderUnpaidTask [OrderUnpaidTask.java : 35] 系统开始处理延时任务-->订单超时未付款-->取消 13
+2020-04-26 16:24:04,956 INFO [pool-1-thread-1] com.sugo.wx.task.OrderUnpaidTask [OrderUnpaidTask.java : 35] 系统开始处理延时任务-->订单超时未付款-->取消 14
+2020-04-26 16:25:33,998 INFO [pool-1-thread-1] com.sugo.wx.task.OrderUnpaidTask [OrderUnpaidTask.java : 35] 系统开始处理延时任务-->订单超时未付款-->取消 15
+2020-04-26 16:26:57,400 INFO [scheduling-1] com.sugo.admin.job.CouponJob [CouponJob.java : 36] 系统开启任务检查优惠券是否已经过期
+2020-04-26 16:26:57,409 INFO [scheduling-1] com.sugo.admin.job.CouponJob [CouponJob.java : 50] 系统结束任务检查优惠券是否已经过期
+2020-04-26 17:26:57,411 INFO [scheduling-1] com.sugo.admin.job.CouponJob [CouponJob.java : 36] 系统开启任务检查优惠券是否已经过期
+2020-04-26 17:26:57,416 INFO [scheduling-1] com.sugo.admin.job.CouponJob [CouponJob.java : 50] 系统结束任务检查优惠券是否已经过期
+2020-04-26 17:27:35,281 INFO [pool-1-thread-1] com.sugo.wx.task.OrderUnpaidTask [OrderUnpaidTask.java : 35] 系统开始处理延时任务-->订单超时未付款-->取消 16
+2020-04-26 17:28:56,273 INFO [pool-1-thread-1] com.sugo.wx.task.OrderUnpaidTask [OrderUnpaidTask.java : 35] 系统开始处理延时任务-->订单超时未付款-->取消 17
+2020-04-26 17:55:34,111 INFO [pool-1-thread-1] com.sugo.wx.task.OrderUnpaidTask [OrderUnpaidTask.java : 35] 系统开始处理延时任务-->订单超时未付款-->取消 18
+2020-04-26 17:56:58,977 INFO [pool-1-thread-1] com.sugo.wx.task.OrderUnpaidTask [OrderUnpaidTask.java : 35] 系统开始处理延时任务-->订单超时未付款-->取消 19
+2020-04-26 18:06:22,198 INFO [pool-1-thread-1] com.sugo.wx.task.OrderUnpaidTask [OrderUnpaidTask.java : 35] 系统开始处理延时任务-->订单超时未付款-->取消 20

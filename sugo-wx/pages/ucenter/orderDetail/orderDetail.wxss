@@ -266,7 +266,7 @@ page {
 .order-express {
   margin-top: 20rpx;
   width: 100%;
-  height: 100rpx;
+  height: 180rpx;
   background: #fff;
 }
 
