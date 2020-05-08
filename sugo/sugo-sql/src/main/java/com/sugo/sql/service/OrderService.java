@@ -218,7 +218,7 @@ public class OrderService {
     }
 
     /**
-     * 查询用户的订单信息
+     * 查询用户的订单信息 —— 用于用户进入个人中心，显示订单icon的角标
      * @param userId
      * @return
      */
